@@ -1,5 +1,8 @@
 import pyautogui
 from time import sleep
+import ctypes
+import sys
+
 
 # no cmd digitar
 #python
@@ -9,11 +12,20 @@ from time import sleep
 
 #AUTOMATIZA NOTAS DE ENTRADA NO SISTEMA EXACTUS COM BASE EM PLANILHA EXCEL XML
 #PASSO A PASSO
-#JA ESTAR DENTRO DO SISTEMA
+#ABRIR A EXACTUS
+pyautogui.click(792,745,duration=2)
+sleep(1)
 #CLICAR EM MOVIMENTOS
+pyautogui.click(171,37,duration=2)
+sleep(1)
 #CLICAR EM REGISTRO DE ENTRADAS
+pyautogui.click(213,62,duration=1)
 #CLICAR EM DOCUMENTO
+pyautogui.click(418,63,duration=1)
+sleep(3)
 #TECLAR PAGE DOWN
+pyautogui.press('pagedown')
+
 
 #COMECAR A FUNCAO ITERANDO SOBRE AS LINHAS DO EXCEL
 
