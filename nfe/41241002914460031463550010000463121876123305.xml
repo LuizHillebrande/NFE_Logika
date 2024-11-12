@@ -1,0 +1,129 @@
+<NFeLog versao="1.00"><procNFe><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe41241002914460031463550010000463121876123305" versao="4.00"><ide><cUF>41</cUF><cNF>87612330</cNF><natOp>VENDA DE MERCAD.ADQUI.TERCEIRO</natOp><mod>55</mod><serie>1</serie><nNF>46312</nNF><dhEmi>2024-10-04T02:08:10-03:00</dhEmi><dhSaiEnt>2024-10-04T02:15:50-03:00</dhSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4103701</cMunFG><tpImp>2</tpImp><tpEmis>1</tpEmis><cDV>5</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>0</indFinal><indPres>9</indPres><indIntermed>0</indIntermed><procEmi>0</procEmi><verProc>V 1.10 N:24.2.1</verProc></ide><emit><CNPJ>02914460031463</CNPJ><xNome>SEARA ALIMENTOS LTDA</xNome><xFant>SEARA</xFant><enderEmit><xLgr>AV JOSE BONIFACIO</xLgr><nro>2550</nro><xCpl>SL S CAMARA</xCpl><xBairro>VILA ATALAIA</xBairro><cMun>4103701</cMun><xMun>CAMBE</xMun><UF>PR</UF><CEP>86181570</CEP><cPais>1058</cPais><xPais>BRASIL</xPais></enderEmit><IE>9080496831</IE><IM>000000000022177</IM><CNAE>4639701</CNAE><CRT>3</CRT></emit><dest><CNPJ>11542119000102</CNPJ><xNome>S S R CAUS ACOUGUE</xNome><enderDest><xLgr>R RIO IGUACU</xLgr><nro>334</nro><xBairro>JARDIM SANTO AMARO</xBairro><cMun>4103701</cMun><xMun>CAMBE</xMun><UF>PR</UF><CEP>86185090</CEP><cPais>1058</cPais><xPais>BRASIL</xPais></enderDest><indIEDest>1</indIEDest><IE>9051164870</IE></dest><det nItem="1"><prod><cProd>993387</cProd><cEAN>17894904993380</cEAN><xProd>FRANGO INTEIRO RF PCT</xProd><NCM>02071100</NCM><CEST>1708700</CEST><cBenef>PR820007</cBenef><CFOP>5102</CFOP><uCom>CX</uCom><qCom>2.0000</qCom><vUnCom>153.00</vUnCom><vProd>306.00</vProd><cEANTrib>7898229850222</cEANTrib><uTrib>KG</uTrib><qTrib>36.0000</qTrib><vUnTrib>8.50</vUnTrib><indTot>1</indTot></prod><imposto><vTotTrib>62.58</vTotTrib><ICMS><ICMS20><orig>0</orig><CST>20</CST><modBC>3</modBC><pRedBC>41.667</pRedBC><vBC>178.50</vBC><pICMS>12.00</pICMS><vICMS>21.42</vICMS><vICMSDeson>17.39</vICMSDeson><motDesICMS>9</motDesICMS></ICMS20></ICMS><IPI><cEnq>999</cEnq><IPINT><CST>51</CST></IPINT></IPI><PIS><PISNT><CST>06</CST></PISNT></PIS><COFINS><COFINSNT><CST>06</CST></COFINSNT></COFINS></imposto><infAdProd>Trib aprox R$: 41,16 Federal, R$: 21,42 Estadual</infAdProd></det><total><ICMSTot><vBC>178.50</vBC><vICMS>21.42</vICMS><vICMSDeson>17.39</vICMSDeson><vFCP>0</vFCP><vBCST>0</vBCST><vST>0.00</vST><vFCPST>0</vFCPST><vFCPSTRet>0</vFCPSTRet><vProd>306.00</vProd><vFrete>0</vFrete><vSeg>0</vSeg><vDesc>0</vDesc><vII>0</vII><vIPI>0</vIPI><vIPIDevol>0</vIPIDevol><vPIS>0</vPIS><vCOFINS>0</vCOFINS><vOutro>0</vOutro><vNF>306.00</vNF><vTotTrib>62.58</vTotTrib></ICMSTot></total><transp><modFrete>0</modFrete><transporta><CNPJ>32628585000185</CNPJ><xNome>MARCIO ANDRE DE CARVALHO TRANS</xNome><IE>9080320717</IE><xEnder>MUN ROLANDIA 143</xEnder><xMun>ROLANDIA</xMun><UF>PR</UF></transporta><veicTransp><placa>FZQ8I82</placa><UF>PR</UF><RNTC>52240822</RNTC></veicTransp><vol><qVol>2</qVol><pesoL>36.000</pesoL><pesoB>36.840</pesoB></vol></transp><cobr><fat><nFat>0733-000046312-3</nFat><vOrig>306.00</vOrig><vDesc>0.00</vDesc><vLiq>306.00</vLiq></fat><dup><nDup>001</nDup><dVenc>2024-10-18</dVenc><vDup>306.00</vDup></dup></cobr><pag><detPag><indPag>1</indPag><tPag>15</tPag><vPag>306.00</vPag></detPag></pag><infAdic><infCpl>Cliente: S S R CAUS ACOUGUE -FONE: 4330354343\l | LACRES: 000101889 101890 | LOCAL ENTREGA: PERUIBE | ALIQUOTA 12% CONFORME ARTIGO 17, INCISO II, ITEM 3 DO DECRETO 7.871/2017; B.C. REDUZIDA CONFORME ART. 4 E ANEXO VI, ITEM 7 DO DECRETO 7.871/2017. | VENDA COM ALIQ ZERO DE PIS E COFINS CONF. ART 1 LEI 10.925/04 | NF DEVOLUCAO ARQUIVO XML ENVIAR PARA O ENDERECO: NFESEARA@SEARA.COM.BR | PARA 2a VIA DE BOLETO ACESSE O SITE HTTPS://BOLETO.SEARA.COM.BR PARA 2a VIA DE NF, INFORMACOES DOS ULTIMOS PEDIDOS E MUITO MAIS, BASTA MANDAR PELO WHATSAPP UM OI PARA O NUMERO: (11)95617-2404 E CONHECA A SOFIA, SUA ASSISTENTE DIGITAL DA SEARA | MERCADORIAS EM PERFEITAS CONDICOES DE CONSUMO E NA PLENA VIGENCIA DO PRAZO DE VALIDADE INFORMADO NA EMBALAGEM. | Pr Alq ICMS: 12,00% Pr Red ICM: 41,6670% Vl Red: R$ 127,50 Vl Base: R$ 178,50 Vl ICMS: R$ 21,42 | Op. Fat.:702 / Pedido:0590.4177362 / Dig. NF-e:3 / 4010 / Vendedor:043.035.329-40 / Jur.Mora/Desp.Cob:Juro 1,00% Multa 8,00% ao mes | Reg Esp ICMS Ret:N / \lNo Viagem:29221486 / DIVISAO:SEARA - Trib aprox R$: 41,16 Federal, R$: 21,42 Estadual FONTE IBPT</infCpl><obsCont xCampo="CANHOTO_1_1"><xTexto>Data/hora de saida:04/10/2024 01:55 ** PED.: 05904177362 **</xTexto></obsCont><obsCont xCampo="CANHOTO_1_2"><xTexto>FIL-0733 **  NFe COM 1 BLOQ VIA MOTORISTA</xTexto></obsCont></infAdic><infRespTec><CNPJ>00447041000120</CNPJ><xContato>INVENTTI SOLUCOES EMPRESARIAIS LTDA</xContato><email>suporte@inventti.com.br</email><fone>4730387700</fone></infRespTec></infNFe><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe41241002914460031463550010000463121876123305"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>B6kqEG3hgATfiWhHIvGy8cc/OHQ=</DigestValue></Reference></SignedInfo><SignatureValue>xTH4E9UfQj2l03Q4EfZv6MOsmozzYQQ/xZeuswc2RUdU7G4XLIGQ9Tnlvynph7kZQnRPN3yyDZ4Bh+eOfTGBpODIQdOrgBZi6OSNI9497JxIhtihoU7RMAa5BqFcMPCGMk45leyCEcz8FyP5ggkk17IifMISfgnCYae3rmA1prxa1BX7AlRpwY8qqIK80RZlWClilbXoElKybpFqMdk4UOPFH0i7wOEnkS50go64FGVvDU5/TGvnoogECOc9vn0LVmoJOrJmyU7QjeBkQ0I+0e4TIOyXrP6C0rhpC6ZrD5BJGeYlfTREGIpzvp8AOD4jN7XknJ/2XyLAhiTyYFYeAg==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature></NFe><protNFe versao="4.00"><infProt Id="ID141240301676674"><tpAmb>1</tpAmb><verAplic>PR-v4_8_72</verAplic><chNFe>41241002914460031463550010000463121876123305</chNFe><dhRecbto>2024-10-04T02:09:05-03:00</dhRecbto><nProt>141240301676674</nProt><digVal>B6kqEG3hgATfiWhHIvGy8cc/OHQ=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></procNFe><eveNFe><evento xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.00">
+  <infEvento Id="ID6106144124100291446003146355001000046312187612330501">
+    <cOrgao>91</cOrgao>
+    <tpAmb>1</tpAmb>
+    <CNPJ>33683111000107</CNPJ>
+    <chNFe>41241002914460031463550010000463121876123305</chNFe>
+    <dhEvento>2024-10-04T02:53:09-03:00</dhEvento>
+    <tpEvento>610614</tpEvento>
+    <nSeqEvento>1</nSeqEvento>
+    <verEvento>1.00</verEvento>
+    <detEvento versao="1.00">
+      <descEvento>MDF-e Autorizado com CT-e</descEvento>
+      <cOrgaoAutor>91</cOrgaoAutor>
+      <tpAutor>5</tpAutor>
+      <verAplic>1.6.2</verAplic>
+      <MDFe>
+        <chMDFe>41241002914460004490580200008863531498530573</chMDFe>
+        <chCTe>41241002914460004490570100037050771498530579</chCTe>
+        <modal>01</modal>
+        <dhEmi>2024-10-04T02:13:00-03:00</dhEmi>
+        <nProt>941240025862268</nProt>
+        <dhRecbto>2024-10-04T02:13:40-03:00</dhRecbto>
+      </MDFe>
+      <emit>
+        <CNPJ>02914460004490</CNPJ>
+        <IE>5010218308</IE>
+        <xNome>SEARA ALIMENTOS LTDA</xNome>
+      </emit>
+    </detEvento>
+  </infEvento>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <Reference URI="#ID6106144124100291446003146355001000046312187612330501">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <DigestValue>zel8O3UW5RAYzhpwrsmsrPyF/s0=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>iERM3oB7frmsyqreWtbWNcbWImGEcxO/+aHTLChPBnLdCpq0Jdd4n8FExnTc2z2klpytWqGXhfGTffAl7Trq0CJZXvwgmfdDstrsFAEhxqRl5fYO0X1ZQmzhZ1W3JwRx2InO6JUgMsiPoD1mq7LxbGV11amPiyd5eP32zriX9X04jp63bsQA+LMnR2zJ9WByKjP5OrczC6a9lEt2U7jF2aSz71dDCX42VEBpogG67r2AoO8BC3N4ohrqKeEKo7OkkWBuXHWn4ZEjdzfbtMrqXwxqlTM9YT55vIO4g0m8AKq/lNZGzLMI4DTj0/9W1fQ5nFdY+Z7X6l8xluXbnrtjlQ==</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>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</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+  </Signature>
+</evento>
+<retEvento xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.00">
+  <infEvento Id="ID891248353533181">
+    <tpAmb>1</tpAmb>
+    <verAplic>AN_1.6.4</verAplic>
+    <cOrgao>91</cOrgao>
+    <cStat>135</cStat>
+    <xMotivo>Evento registrado e vinculado a NF-e</xMotivo>
+    <chNFe>41241002914460031463550010000463121876123305</chNFe>
+    <tpEvento>610614</tpEvento>
+    <nSeqEvento>1</nSeqEvento>
+    <CNPJDest>33683111000107</CNPJDest>
+    <dhRegEvento>2024-10-04T02:53:09-03:00</dhRegEvento>
+    <nProt>891248353533181</nProt>
+  </infEvento>
+</retEvento>
+</eveNFe><eveNFe><evento xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.00">
+  <infEvento Id="ID6106004124100291446003146355001000046312187612330501">
+    <cOrgao>91</cOrgao>
+    <tpAmb>1</tpAmb>
+    <CNPJ>33683111000107</CNPJ>
+    <chNFe>41241002914460031463550010000463121876123305</chNFe>
+    <dhEvento>2024-10-04T02:53:18-03:00</dhEvento>
+    <tpEvento>610600</tpEvento>
+    <nSeqEvento>1</nSeqEvento>
+    <verEvento>1.00</verEvento>
+    <detEvento versao="1.00">
+      <descEvento>CT-e Autorizado</descEvento>
+      <CTe>
+        <chCTe>41241002914460004490570100037050771498530579</chCTe>
+        <modal>01</modal>
+        <dhEmi>2024-10-04T02:10:42-03:00</dhEmi>
+        <nProt>141240163870342</nProt>
+        <dhRecbto>2024-10-04T02:10:58</dhRecbto>
+      </CTe>
+      <emit>
+        <CNPJ>02914460004490</CNPJ>
+        <IE>5010218308</IE>
+        <xNome>SEARA ALIMENTOS LTDA</xNome>
+      </emit>
+    </detEvento>
+  </infEvento>
+  <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <SignedInfo>
+      <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <Reference URI="#ID6106004124100291446003146355001000046312187612330501">
+        <Transforms>
+          <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </Transforms>
+        <DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <DigestValue>nu+C1HpyjfxceO332JpEAVZXT1A=</DigestValue>
+      </Reference>
+    </SignedInfo>
+    <SignatureValue>NwTQGbSM3pAVdnFn9xnqcdXdsyktniKohdrLfW2ZBetFVApaPZull6DuzOuxZxv+4DErL2x96kfZHuuWfrSRySJ7ZycCQrKHzrRekDx/bK0B2ZyBAuRYzvcUNCyjxu8j89jKFm2G+iDhoQIqyUD8seJY4E/JTH41lq92z68dooUmSOdghgrsFzlz6xljc0NlSaSNUtCPXMijR6eQh1QCbIMhWzCl2jjcgGh9dGtn5DuCBlexKRL+MJNcw/TOmIul0UoN84mXCx+RpF6yxo5gtqZCy8ouRa7aU3fSbl3m9TLL5VZK2oDM0rfZlpF7vFkMY94YJBMr2UKRPrCygUc6dw==</SignatureValue>
+    <KeyInfo>
+      <X509Data>
+        <X509Certificate>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</X509Certificate>
+      </X509Data>
+    </KeyInfo>
+  </Signature>
+</evento>
+<retEvento xmlns="http://www.portalfiscal.inf.br/nfe" versao="1.00">
+  <infEvento Id="ID891248353534715">
+    <tpAmb>1</tpAmb>
+    <verAplic>AN_1.6.4</verAplic>
+    <cOrgao>91</cOrgao>
+    <cStat>135</cStat>
+    <xMotivo>Evento registrado e vinculado a NF-e</xMotivo>
+    <chNFe>41241002914460031463550010000463121876123305</chNFe>
+    <tpEvento>610600</tpEvento>
+    <nSeqEvento>1</nSeqEvento>
+    <CNPJDest>33683111000107</CNPJDest>
+    <dhRegEvento>2024-10-04T02:53:18-03:00</dhRegEvento>
+    <nProt>891248353534715</nProt>
+  </infEvento>
+</retEvento>
+</eveNFe></NFeLog>

@@ -82,9 +82,17 @@ for linha in sheet_nfe.iter_rows(min_row=2, max_row=4):
         pyautogui.write(str(2101))
     elif cfop_da_nota =='5101':
         pyautogui.write(str(1101))
-    elif cfop_da_nota =='1949':
+    elif cfop_da_nota =='5949':
         pyautogui.write(str(1949))
-
+    elif cfop_da_nota =='5106':
+          cfop_da_nota =='5102'
+    elif cfop_da_nota == '5403':
+          cfop_da_nota =='1403'
+    elif cfop_da_nota =='5401':
+          cfop_da_nota =='1402'
+    elif cfop_da_nota =='5405':
+          cfop_da_nota =='1403'
+        
     pyautogui.press('ENTER')
 
 

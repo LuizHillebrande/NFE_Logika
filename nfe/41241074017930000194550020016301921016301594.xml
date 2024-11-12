@@ -1,0 +1,37 @@
+<NFeLog versao="1.00"><procNFe><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe41241074017930000194550020016301921016301594" versao="4.00"><ide><cUF>41</cUF><cNF>01630159</cNF><natOp>VENDA DE MERCADORIA ADQ. OU REC. DE TERCEIROS</natOp><mod>55</mod><serie>2</serie><nNF>1630192</nNF><dhEmi>2024-10-10T18:05:23-03:00</dhEmi><dhSaiEnt>2024-10-11T18:05:23-03:00</dhSaiEnt><tpNF>1</tpNF><idDest>1</idDest><cMunFG>4103701</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>4</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>0</indFinal><indPres>9</indPres><indIntermed>0</indIntermed><procEmi>0</procEmi><verProc>Sig.NFe 4.10</verProc></ide><emit><CNPJ>74017930000194</CNPJ><xNome>DIFRIPAR LOGISTICA E DISTRIBUICAO LTDA</xNome><xFant>DIFRIPAR</xFant><enderEmit><xLgr>R RONALD TKOTZ, 5460</xLgr><nro>5460</nro><xBairro>DISTR.IND. DR. JEHOVAH ALMEIDA GOMES</xBairro><cMun>4103701</cMun><xMun>CAMBE</xMun><UF>PR</UF><CEP>86192171</CEP><cPais>1058</cPais><xPais>Brasil</xPais><fone>4331745300</fone></enderEmit><IE>6110321102</IE><IM>10399009</IM><CNAE>4634601</CNAE><CRT>3</CRT></emit><dest><CNPJ>11542119000102</CNPJ><xNome>S S R CAUS ACOUGUE-ME</xNome><enderDest><xLgr>RUA RIO IGUACU,334</xLgr><nro>0</nro><xBairro>JD SANTO AMARO</xBairro><cMun>4103701</cMun><xMun>CAMBE</xMun><UF>PR</UF><CEP>86185090</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>31541602</fone></enderDest><indIEDest>1</indIEDest><IE>9051164870</IE></dest><det nItem="1"><prod><cProd>110957</cProd><cEAN>17896080810147</cEAN><xProd>MAC COMPR COMUM LIANE 10X1KG NR4</xProd><NCM>19021900</NCM><CFOP>5102</CFOP><uCom>FD</uCom><qCom>1.0000</qCom><vUnCom>79.3000000000</vUnCom><vProd>79.30</vProd><cEANTrib>17896080810147</cEANTrib><uTrib>FD</uTrib><qTrib>1.0000</qTrib><vUnTrib>79.3000000000</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS00><orig>0</orig><CST>00</CST><modBC>3</modBC><vBC>79.30</vBC><pICMS>12.00</pICMS><vICMS>9.51</vICMS></ICMS00></ICMS><IPI><cEnq>999</cEnq><IPINT><CST>53</CST></IPINT></IPI><PIS><PISNT><CST>08</CST></PISNT></PIS><COFINS><COFINSNT><CST>08</CST></COFINSNT></COFINS></imposto></det><total><ICMSTot><vBC>79.30</vBC><vICMS>9.51</vICMS><vICMSDeson>0.00</vICMSDeson><vFCP>0.00</vFCP><vBCST>0.00</vBCST><vST>0.00</vST><vFCPST>0.00</vFCPST><vFCPSTRet>0.00</vFCPSTRet><vProd>79.30</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vIPIDevol>0.00</vIPIDevol><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>79.30</vNF></ICMSTot></total><transp><modFrete>0</modFrete><transporta><CNPJ>13154671000159</CNPJ><xNome>CLORIVALDO V ALVES TRANSPORTES</xNome><IE>9054719024</IE><xEnder>AV JOSE BONIFACIO</xEnder><xMun>IBIPORA</xMun><UF>PR</UF></transporta><veicTransp><placa>AZS8968</placa><UF>PR</UF></veicTransp><vol><qVol>0</qVol><esp>DIVERSOS</esp><marca>DIVERSOS</marca><nVol>0000</nVol><pesoL>10.000</pesoL><pesoB>10.000</pesoB></vol></transp><cobr><fat><nFat>1630192</nFat><vOrig>79.30</vOrig><vLiq>79.30</vLiq></fat><dup><nDup>001</nDup><dVenc>2024-10-25</dVenc><vDup>79.30</vDup></dup></cobr><pag><detPag><indPag>1</indPag><tPag>15</tPag><vPag>79.30</vPag></detPag></pag><infAdic><infAdFisco>Cliente: 9538 - CASA DE CARNES FRIGOCAUS9538 CASA DE CARNES FRIGOCAUS Ped: 3533 Carga: 601 Condicao: BOLETO 14 DIAS Vendedor: 12 TEL: 43-98815-2409 ALIQ: 12,00% BASE: 79,30</infAdFisco></infAdic><infRespTec><CNPJ>00334000000128</CNPJ><xContato>SIGANE PROVEDORA DE SOFTWARE</xContato><email>sjdelima@sigane.com.br</email><fone>4533065465</fone></infRespTec></infNFe><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><Reference URI="#NFe41241074017930000194550020016301921016301594"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><DigestValue>p/tvnRppaFt3uvuwVpubP08YOSw=</DigestValue></Reference></SignedInfo><SignatureValue>LWp7M02IlpHeHYKB6/1iZ0Nq39fWDfF9EdTDUWCoUg0LmJh7nYYbWPamuNZTtzJ4SfbGeu7jX/Fp
+JvvbJbHuEBaOaWWpZvAqWRCt7cKhwGLQC5Ol9EsmpKBjDZnt0bGPfYVVEYTjyCLQuKzbAAR8S5Ep
+Iop6Jvd1u+DCTjv6z2C2BfnRDYnNGqDk1M5wP0kQ7SMMH1A5+hcp+mR7o/WY5KAGhbsklqEsPInp
+WPiK9FaGniFBRUtypckO5G9z5wwBnNKl0JQvvzT967Vqr5GdInhcArld9qGqu/Oc6tF5EDh4XFk9
+kV/K3Z8c3PwU1Hsin7X9NjOS8qP5bXQH9RQukg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIHNDCCBRygAwIBAgIIVG0kAigzaVQwDQYJKoZIhvcNAQELBQAwWTELMAkGA1UEBhMCQlIxEzAR
+BgNVBAoTCklDUC1CcmFzaWwxFTATBgNVBAsTDEFDIFNPTFVUSSB2NTEeMBwGA1UEAxMVQUMgU09M
+VVRJIE11bHRpcGxhIHY1MB4XDTI0MDIyODEzMTEwMFoXDTI1MDIyNzEzMTEwMFowgekxCzAJBgNV
+BAYTAkJSMRMwEQYDVQQKEwpJQ1AtQnJhc2lsMQswCQYDVQQIEwJQUjEOMAwGA1UEBxMFQ2FtYmUx
+HjAcBgNVBAsTFUFDIFNPTFVUSSBNdWx0aXBsYSB2NTEXMBUGA1UECxMOMjk3NzM5MjIwMDAxMTMx
+EzARBgNVBAsTClByZXNlbmNpYWwxGjAYBgNVBAsTEUNlcnRpZmljYWRvIFBKIEExMT4wPAYDVQQD
+EzVESUZSSVBBUiBMT0dJU1RJQ0EgRSBESVNUUklCVUlDQU8gTFREQTo3NDAxNzkzMDAwMDE5NDCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJATIO2341RTNPzQZLpLT+kn0GTrGsxtuaZJ
+zVmLpjT+JHhUrHorwwsSgqzsQsaalD/9pF8tvmdNJVZe7zLXipQ6u+y4ratFAGHWivD7E6ReFKXo
+yUhxdrPMGTBKym9kiDZKKqZCwPCy87Vvj52Isl1Lc98zSDdJbNxZTFy7pQCUugOQqZtwc00XRUG4
+MyjUgfGNxgl2pZ3cWkTtAqZf/XL4bQhXJpoGCGSDzKdFcj/yjIU+c1ArxIV5mjLEeZzdv3dPEf2H
+/glilGR/5vewxZRcaw4TNpXu7jYxPfFQDBkwkT1YjX6XKCcWvACtOQxyQt9fMmIZKP3oapB8w0cA
+xmsCAwEAAaOCAm0wggJpMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUxVLtJYAJ35yCyJ9Hxt20XzHd
+ubEwVAYIKwYBBQUHAQEESDBGMEQGCCsGAQUFBzAChjhodHRwOi8vY2NkLmFjc29sdXRpLmNvbS5i
+ci9sY3IvYWMtc29sdXRpLW11bHRpcGxhLXY1LnA3YjCBqAYDVR0RBIGgMIGdgRNhZG1AZGlmcmlw
+YXIuY29tLmJyoBgGBWBMAQMCoA8TDUpPU0UgQlJVTkVUVE+gGQYFYEwBAwOgEBMONzQwMTc5MzAw
+MDAxOTSgOAYFYEwBAwSgLxMtMTkwMzE5NDcwMjA3NTkyMDk4MjAwMDAwMDAwMDAwMDAwMDAwMDAw
+MDAwMDAwoBcGBWBMAQMHoA4TDDAwMDAwMDAwMDAwMDBdBgNVHSAEVjBUMFIGBmBMAQIBJjBIMEYG
+CCsGAQUFBwIBFjpodHRwOi8vY2NkLmFjc29sdXRpLmNvbS5ici9kb2NzL2RwYy1hYy1zb2x1dGkt
+bXVsdGlwbGEucGRmMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDCBjAYDVR0fBIGEMIGB
+MD6gPKA6hjhodHRwOi8vY2NkLmFjc29sdXRpLmNvbS5ici9sY3IvYWMtc29sdXRpLW11bHRpcGxh
+LXY1LmNybDA/oD2gO4Y5aHR0cDovL2NjZDIuYWNzb2x1dGkuY29tLmJyL2xjci9hYy1zb2x1dGkt
+bXVsdGlwbGEtdjUuY3JsMB0GA1UdDgQWBBTvA4By456+js1n6uNRZkHn1JbtZTAOBgNVHQ8BAf8E
+BAMCBeAwDQYJKoZIhvcNAQELBQADggIBAC8W7yp83F539ky1bL25cNFQmkjxbzVU7rhtp2jckcQ7
+wb4hXeUbtZUoyaAzg7aJoUiES5/TNAQ2Ml2ZGwnmzIyHty2p/ZUMXbRoSiMDlr6qcLpZABxA9Eoz
+VPQAmkcwGlCjVwq6piOL6zranm35zEMLUe7qNQbt9yoHzogzXJt0pXHTBMJFTgw70u4DZRksvnF1
+URl1K5uoIbC+vjkMMfzGh3FB78TP4nGvlfw3vv9zZhUw0C1lLAcDyYGVitt9YcX86XFjBLxEnzUd
+NXMi5PvkcyMM4gh09VKhy2wb1eZj4zV5USvF+NMFzztKkrnmyzKdZKTgGhn35vdths1wO8/OUOzm
+AacBMBh+UUCNSjkCpnUunT8T3imWFFFElS/qkFza1AqYU31jktwHCVnZoe+ccrTfAF0tDyzH5jrn
+peBRB6yKjtzeDC/+5I8bGiN5ImPnK6m04PRI9I0hiO02l6hOBNbYAryFts0lN9f9aW9re65+XJfY
+iduXvQc+EJAacmI84IF6dSwxJwY6NgOi6kRK5H1lDGGwMmaVFlgIGPNkoZaQkzE04tlHNCxLB0Q4
+FNkCVD2uM3ziqghgCu3S5V1pPdkG0z3FYAAOHYxoWkZ/kvxXVBYA4fhqib4Gx2/kq0Hv3MUwjLmb
+O+g40Bc6tNhnOzv1QO0b0Sr/I07tGYQF</X509Certificate></X509Data></KeyInfo></Signature></NFe><protNFe versao="4.00"><infProt Id="ID141240309652351"><tpAmb>1</tpAmb><verAplic>PR-v4_8_73</verAplic><chNFe>41241074017930000194550020016301921016301594</chNFe><dhRecbto>2024-10-10T18:05:44-03:00</dhRecbto><nProt>141240309652351</nProt><digVal>p/tvnRppaFt3uvuwVpubP08YOSw=</digVal><cStat>100</cStat><xMotivo>Autorizado o uso da NF-e</xMotivo></infProt></protNFe></procNFe></NFeLog>
