@@ -4,6 +4,15 @@ import json
 import pandas as pd  # Para salvar os dados em Excel
 from datetime import datetime
 
+# Função para formatar a data para o formato desejado (DD/MM/YYYY)
+def formatar_data(data):
+    try:
+        # Tentando converter a data para o formato 'DD/MM/YYYY'
+        return datetime.strptime(data, '%Y-%m-%d').strftime('%d/%m/%Y')
+    except ValueError:
+        # Caso a data não seja no formato esperado, retorna a data no formato padrão
+        return data
+
 # Função para gerar a data padrão (30/mês atual/ano atual)
 def data_padrao():
     hoje = datetime.today()
@@ -17,7 +26,7 @@ def pegar_infos(name_files):
         try:
             # Parse do XML
             dicionario_arquivo = xmltodict.parse(arquivo_xml)
-            # print(json.dumps(dicionario_arquivo,indent=4))
+            # print(json.dumps(dicionario_arquivo, indent=4))
 
             # Acessando as informações necessárias
             info_nfe = dicionario_arquivo["NFeLog"]["procNFe"]["NFe"]["infNFe"]
@@ -62,7 +71,7 @@ def pegar_infos(name_files):
                     for parcela in dup:  # Iterando sobre as parcelas
                         # Acessando as informações da parcela diretamente, já que parcela é um dicionário
                         data_vcto = parcela.get("dVenc", data_padrao())  # Se não houver 'dVenc', usa a data padrão
-                        datas_vencimento.append(data_vcto)  # Adicionando a data à lista
+                        datas_vencimento.append(formatar_data(data_vcto))  # Adicionando a data formatada à lista
 
                     # Se houver pelo menos uma data de vencimento, armazene-a
                     if datas_vencimento:
@@ -74,12 +83,12 @@ def pegar_infos(name_files):
                 elif isinstance(dup, dict):  # Se 'dup' for um dicionário único (uma única parcela)
                     # Acessando a data de vencimento ou usando a data padrão
                     data_vcto = dup.get("dVenc", data_padrao())  # Se não houver 'dVenc', usa a data padrão
-                    dados_arquivo["Data de Vencimento"] = data_vcto
+                    dados_arquivo["Data de Vencimento"] = formatar_data(data_vcto)  # Formata a data antes de armazenar
                     # Se for uma parcela única, então o número de parcelas é 1
                     dados_arquivo["Número de Parcelas"] = 1
             else:
                 # Caso não haja 'dup', usa a data padrão e assume que há 1 parcela
-                dados_arquivo["Data de Vencimento"] = data_padrao()
+                dados_arquivo["Data de Vencimento"] = formatar_data(data_padrao())
                 dados_arquivo["Número de Parcelas"] = 1
 
             # Adiciona os dados do arquivo na lista de dados

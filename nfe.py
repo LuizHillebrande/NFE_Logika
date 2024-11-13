@@ -48,31 +48,19 @@ sleep(3)
 pyautogui.press('pagedown')
 
 def preencher_parcelas():
-        pyautogui.click(754,177,duration=2)
-        for l in range(4):
-                pyautogui.press('right')
-        sleep(1)
-        for k in range(4):
-            pyautogui.press('backspace')
-        pyautogui.write(str(numero_parcelas))
-        sleep(1)
-        pyautogui.click(998,176)
-        sleep(1)
-        pyautogui.write('30')
+    data_formatada = datas_vencimento[0]  # Assume que a data já está formatada corretamente no Excel
+    pyautogui.click(362, 273)
+    sleep(1)
+    for _ in range(10):
+        pyautogui.press('right')
+    sleep(1)
+    for j in range(10):
+        pyautogui.press('backspace')
+    pyautogui.write(data_formatada)  # Escreve a data diretamente
+    sleep(1)
+    pyautogui.press('ENTER')
+    sleep(2)
 
-        pyautogui.click(362,273)
-        sleep(1)
-        for _ in range(10):
-                pyautogui.press('right')
-        sleep(1)
-        for j in range(10):
-            pyautogui.press('backspace')
-        pyautogui.write(data_formatada)
-        sleep(1)
-        pyautogui.press('ENTER')
-        sleep(2)
-
-        pyautogui.press('pagedown')
 
 def preencher_parcelas_multiplas():
     # Preencher o número de parcelas
@@ -88,29 +76,27 @@ def preencher_parcelas_multiplas():
     pyautogui.press('TAB')  # Move para o campo "dias" ou similar
     sleep(1)
     pyautogui.write('30')   # Preenche o valor de dias
-    sleep(1)
+    sleep(2)
     
     for _ in range(3):
         pyautogui.press('TAB')  # Move para o campo de vencimento
         sleep(1)
     
     # Preenche a primeira data de vencimento
+    data_formatada = datas_vencimento[0]  # Assume que a data já está formatada corretamente no Excel
     for _ in range(10):
         pyautogui.press('right')  # Move para a direita no campo de data
     sleep(1)
     for j in range(10):
         pyautogui.press('backspace')  # Limpa o campo
-    pyautogui.write(datas_vencimento[0])  # Preenche com a primeira data
-    sleep(1)
+    pyautogui.write(data_formatada)  # Preenche com a primeira data formatada
+    sleep(2)
     
     # Agora preenche as próximas datas de vencimento (se houver mais parcelas)
     if len(datas_vencimento) > 1:  # Se houver mais de uma data de vencimento (parcelas múltiplas)
         for i in range(1, len(datas_vencimento)):  # Começa no índice 1 para a segunda parcela
-            # Dá 2 TABs extras para ir para o campo da próxima parcela
-            pyautogui.press('TAB')  
-            sleep(1)
-            pyautogui.press('TAB')
-            sleep(1)
+            for _ in range(2):
+                pyautogui.press('TAB')
 
             # Limpa e preenche o campo da data de vencimento
             for _ in range(10):
@@ -118,15 +104,17 @@ def preencher_parcelas_multiplas():
             sleep(1)
             for j in range(10):
                 pyautogui.press('backspace')  # Limpa o campo
-            pyautogui.write(datas_vencimento[i])  # Preenche com a data da próxima parcela
+            # Preenche com a próxima data
+            data_formatada = datas_vencimento[i]  # A data já vem formatada do Excel
+            pyautogui.write(data_formatada)  # Preenche com a data formatada
+            print(data_formatada)  # Para verificar a data formatada
             sleep(1)
 
-    pyautogui.press('ENTER')  # Confirma as alterações
-    sleep(2)
+    pyautogui.press('ENTER')  
+    sleep(4)
 
-    pyautogui.press('pagedown')  # Realiza um page down caso necessário para continuar
 #COMECAR A FUNCAO ITERANDO SOBRE AS LINHAS DO EXCEL
-for linha in sheet_nfe.iter_rows(min_row=67, max_row=67):
+for linha in sheet_nfe.iter_rows(min_row=17, max_row=17):
 
     numero_parcelas = linha[3].value
     data_vcto = linha[4].value
@@ -147,8 +135,7 @@ for linha in sheet_nfe.iter_rows(min_row=67, max_row=67):
 
     #passando parametros do excel
     cfop_da_nota = linha[2].value.strip().replace('[', '').replace(']', '').replace("'", '')
-    print(cfop_da_nota)
-    print(data_vcto)
+    print("data do vcto simples:",data_vcto)
     datas_vencimento_composta = linha[6].value
     
 
@@ -165,6 +152,8 @@ for linha in sheet_nfe.iter_rows(min_row=67, max_row=67):
             for tab in range(5):
                   pyautogui.press('TAB')
 
+            pyautogui.press('ENTER')
+            sleep(2)
             pyautogui.press('ENTER')
             sleep(2)
 
@@ -213,15 +202,14 @@ for linha in sheet_nfe.iter_rows(min_row=67, max_row=67):
             sleep(3)
 
             if cfop in ['5403', '5401', '5405']:
-                    for l in range (2):
-                        pyautogui.press('TAB')
+                        pyautogui.click(444,393,duration=2)
                         sleep(1)
                         pyautogui.write(str(980))
+                        sleep(1)
                         for r in range(6):
                              pyautogui.press('TAB')
-                             sleep(1)
-                             limpa_campo()
-                             sleep(1)
+                        limpa_campo()
+                        sleep(1)
                         pyautogui.press('TAB')
                         sleep(1)
                         limpa_campo()  
@@ -251,6 +239,12 @@ for linha in sheet_nfe.iter_rows(min_row=67, max_row=67):
                         pyautogui.press('TAB')
                         sleep(1)
                         pyautogui.press('ENTER')
+                        sleep(4)
+                        pyautogui.click(702,438,duration=2)
+                        sleep(5)
+                        pyautogui.press('ENTER')
+                        sleep(4)
+                        
             else:
                 for _ in range(8):
                      pyautogui.press('TAB')  
@@ -286,13 +280,23 @@ for linha in sheet_nfe.iter_rows(min_row=67, max_row=67):
                 pyautogui.press('TAB')
                 sleep(1)
                 pyautogui.press('ENTER')
+                sleep(4)
+                pyautogui.click(702,438,duration=2)
+                sleep(2)
+                pyautogui.press('ENTER')
+                sleep(4)
+        
+    if isinstance(datas_vencimento_composta, str) and ',' in datas_vencimento_composta:
+            datas_vencimento = [data.strip() for data in datas_vencimento_composta.split(',')]  # Para várias datas
+            preencher_parcelas_multiplas()
+    else:
+        datas_vencimento = [datas_vencimento_composta]
+        preencher_parcelas()  # Para o caso de apenas uma parcela
 
-                    
-
-    else:             
-        # Se for um único valor
-        cfops = [cfop_da_nota]
-        pyautogui.press('ENTER')
+else:             
+    #se so tiver 1 cfop
+    cfops = [cfop_da_nota]
+    pyautogui.press('ENTER')
 
 
         # Caso a data de vencimento seja vazia ou inválida, usa uma data padrão
@@ -305,15 +309,15 @@ for linha in sheet_nfe.iter_rows(min_row=67, max_row=67):
             datas_vencimento = [data.strip("[]' ") for data in datas_vencimento_composta.split(',')]
             
             # Tenta converter a primeira data
-            try:
+            try:    
                 # A primeira data de vencimento
-                data_formatada = datetime.strptime(datas_vencimento[0], '%Y-%m-%d').strftime('%d/%m/%Y')
+                data_formatada = [
+                    datetime.strptime(data, '%Y-%m-%d').strftime('%d/%m/%Y') for data in datas_vencimento
+                ]
             except ValueError:
-                print(f"Erro ao tentar formatar a data: {datas_vencimento[0]}. Usando data padrão.")
                 data_formatada = '01/01/1900'  # Data padrão ou outro valor
         else:
             # Se a data composta não for uma string, define a data padrão
-            print("Data composta de vencimento não encontrada ou está mal formatada. Usando data padrão.")
             data_formatada = '01/01/1900'  # Data padrão ou outro valor
     else:
         # Se data_vcto não for None, usamos o valor normal
@@ -326,11 +330,9 @@ for linha in sheet_nfe.iter_rows(min_row=67, max_row=67):
                 data_formatada = datetime.strptime(data_vcto, '%Y-%m-%d').strftime('%d/%m/%Y')
             except ValueError:
                 # Caso o valor seja inválido, define uma data padrão
-                print(f"Erro ao tentar formatar a data: {data_vcto}. Usando data padrão.")
                 data_formatada = '01/01/1900'  # Data padrão
         else:
             # Caso data_vcto seja outro tipo inesperado
-            print(f"Tipo inesperado para data_vcto: {data_vcto}. Usando data padrão.")
             data_formatada = '01/01/1900'  # Valor padrão
 
 
@@ -375,6 +377,7 @@ for linha in sheet_nfe.iter_rows(min_row=67, max_row=67):
     sleep(1)
         
     pyautogui.press('ENTER')
+    sleep(1)
 
 
     #CLICAR EM ALIQUOTA, LIMPAR
@@ -480,7 +483,7 @@ for linha in sheet_nfe.iter_rows(min_row=67, max_row=67):
     pyautogui.press('ENTER')
     sleep(8)
     pyautogui.press('ENTER')
-    sleep(5)
+    sleep(7)
 
     #PREENCHER NUMERO DE PARCELAS
     if isinstance(datas_vencimento_composta, str) and ',' in datas_vencimento_composta:
@@ -489,3 +492,6 @@ for linha in sheet_nfe.iter_rows(min_row=67, max_row=67):
     else:
         datas_vencimento = [datas_vencimento_composta]
         preencher_parcelas()  # Para o caso de apenas uma parcela
+
+    pyautogui.press('pagedown')
+
