@@ -45,11 +45,13 @@ pyautogui.click(213,62,duration=1)
 pyautogui.click(418,63,duration=1)
 sleep(3)
 #TECLAR PAGE DOWN
+pyautogui.click(835,438,duration=2)
+sleep(5)
 pyautogui.press('pagedown')
 
 def preencher_parcelas():
     data_formatada = datas_vencimento[0]  # Assume que a data já está formatada corretamente no Excel
-    pyautogui.click(362, 273)
+    pyautogui.press('TAB')
     sleep(1)
     for _ in range(10):
         pyautogui.press('right')
@@ -114,7 +116,7 @@ def preencher_parcelas_multiplas():
     sleep(4)
 
 #COMECAR A FUNCAO ITERANDO SOBRE AS LINHAS DO EXCEL
-for linha in sheet_nfe.iter_rows(min_row=17, max_row=17):
+for linha in sheet_nfe.iter_rows(min_row=2, max_row=3):
 
     numero_parcelas = linha[3].value
     data_vcto = linha[4].value
@@ -132,6 +134,8 @@ for linha in sheet_nfe.iter_rows(min_row=17, max_row=17):
     sleep(2)
     pyautogui.press('ENTER')
     sleep(2)
+    pyautogui.press('ENTER')
+    sleep(2)
 
     #passando parametros do excel
     cfop_da_nota = linha[2].value.strip().replace('[', '').replace(']', '').replace("'", '')
@@ -142,21 +146,18 @@ for linha in sheet_nfe.iter_rows(min_row=17, max_row=17):
     if isinstance(cfop_da_nota, str) and ',' in cfop_da_nota: 
         # Caso o CFOP seja uma string com múltiplos valores separados por vírgula
         cfops = cfop_da_nota.split(',')
+        for tab in range(5):
+                  pyautogui.press('TAB')
         for cfop in cfops:
             cfop = cfop.strip()
             #LOGICA PARA QUANDO FOR MAIS DE 1 CFOP
 
             pyautogui.press('ENTER')
-            sleep(2)
+            sleep(4)
 
-            for tab in range(5):
-                  pyautogui.press('TAB')
 
             pyautogui.press('ENTER')
             sleep(2)
-            pyautogui.press('ENTER')
-            sleep(2)
-
     
             pyautogui.press('TAB')
             sleep(1)
@@ -241,16 +242,16 @@ for linha in sheet_nfe.iter_rows(min_row=17, max_row=17):
                         pyautogui.press('ENTER')
                         sleep(4)
                         pyautogui.click(702,438,duration=2)
-                        sleep(5)
-                        pyautogui.press('ENTER')
-                        sleep(4)
+                        sleep(8)
+                        
+                      
                         
             else:
                 for _ in range(8):
                      pyautogui.press('TAB')  
                      sleep(1)
-                     limpa_campo()
-                     sleep(1)
+                limpa_campo()
+                sleep(1)
                 pyautogui.press('TAB')
                 sleep(1)
                 limpa_campo()  
@@ -280,218 +281,225 @@ for linha in sheet_nfe.iter_rows(min_row=17, max_row=17):
                 pyautogui.press('TAB')
                 sleep(1)
                 pyautogui.press('ENTER')
-                sleep(4)
+                sleep(5)
                 pyautogui.click(702,438,duration=2)
-                sleep(2)
-                pyautogui.press('ENTER')
-                sleep(4)
-        
-    if isinstance(datas_vencimento_composta, str) and ',' in datas_vencimento_composta:
+                sleep(5)
+    
+        sleep(10)
+        if isinstance(datas_vencimento_composta, str) and ',' in datas_vencimento_composta:
             datas_vencimento = [data.strip() for data in datas_vencimento_composta.split(',')]  # Para várias datas
+            pyautogui.press('ENTER')
+            sleep(5)
+            pyautogui.press('ESC')
+            sleep(5)
             preencher_parcelas_multiplas()
-    else:
-        datas_vencimento = [datas_vencimento_composta]
-        preencher_parcelas()  # Para o caso de apenas uma parcela
+        else:
+            datas_vencimento = [datas_vencimento_composta]
+            pyautogui.press('ENTER')
+            sleep(5)
+            pyautogui.press('ESC')
+            sleep(5)
+            preencher_parcelas()  # Para o caso de apenas uma parcela
 
-else:             
-    #se so tiver 1 cfop
-    cfops = [cfop_da_nota]
-    pyautogui.press('ENTER')
+    else:             
+        #se so tiver 1 cfop
+        cfops = [cfop_da_nota]
+        pyautogui.press('ENTER')
 
 
-        # Caso a data de vencimento seja vazia ou inválida, usa uma data padrão
-    if data_vcto is None or data_vcto == '':
-        # Se a data composta de vencimento for uma string, dividimos pelas vírgulas
-        datas_vencimento_composta = linha[6].value  # A data composta de vencimento
-        
-        if isinstance(datas_vencimento_composta, str):
-            # Limpa a string para remover os colchetes e as aspas simples
-            datas_vencimento = [data.strip("[]' ") for data in datas_vencimento_composta.split(',')]
+            # Caso a data de vencimento seja vazia ou inválida, usa uma data padrão
+        if data_vcto is None or data_vcto == '':
+            # Se a data composta de vencimento for uma string, dividimos pelas vírgulas
+            datas_vencimento_composta = linha[6].value  # A data composta de vencimento
             
-            # Tenta converter a primeira data
-            try:    
-                # A primeira data de vencimento
-                data_formatada = [
-                    datetime.strptime(data, '%Y-%m-%d').strftime('%d/%m/%Y') for data in datas_vencimento
-                ]
-            except ValueError:
+            if isinstance(datas_vencimento_composta, str):
+                # Limpa a string para remover os colchetes e as aspas simples
+                datas_vencimento = [data.strip("[]' ") for data in datas_vencimento_composta.split(',')]
+                
+                # Tenta converter a primeira data
+                try:    
+                    # A primeira data de vencimento
+                    data_formatada = [
+                        datetime.strptime(data, '%Y-%m-%d').strftime('%d/%m/%Y') for data in datas_vencimento
+                    ]
+                except ValueError:
+                    data_formatada = '01/01/1900'  # Data padrão ou outro valor
+            else:
+                # Se a data composta não for uma string, define a data padrão
                 data_formatada = '01/01/1900'  # Data padrão ou outro valor
         else:
-            # Se a data composta não for uma string, define a data padrão
-            data_formatada = '01/01/1900'  # Data padrão ou outro valor
-    else:
-        # Se data_vcto não for None, usamos o valor normal
-        if isinstance(data_vcto, datetime):
-            # Se data_vcto já for um objeto datetime, apenas formate
-            data_formatada = data_vcto.strftime('%d/%m/%Y')
-        elif isinstance(data_vcto, str):
-            try:
-                # Tentando converter para o formato %Y-%m-%d
-                data_formatada = datetime.strptime(data_vcto, '%Y-%m-%d').strftime('%d/%m/%Y')
-            except ValueError:
-                # Caso o valor seja inválido, define uma data padrão
-                data_formatada = '01/01/1900'  # Data padrão
-        else:
-            # Caso data_vcto seja outro tipo inesperado
-            data_formatada = '01/01/1900'  # Valor padrão
+            # Se data_vcto não for None, usamos o valor normal
+            if isinstance(data_vcto, datetime):
+                # Se data_vcto já for um objeto datetime, apenas formate
+                data_formatada = data_vcto.strftime('%d/%m/%Y')
+            elif isinstance(data_vcto, str):
+                try:
+                    # Tentando converter para o formato %Y-%m-%d
+                    data_formatada = datetime.strptime(data_vcto, '%Y-%m-%d').strftime('%d/%m/%Y')
+                except ValueError:
+                    # Caso o valor seja inválido, define uma data padrão
+                    data_formatada = '01/01/1900'  # Data padrão
+            else:
+                # Caso data_vcto seja outro tipo inesperado
+                data_formatada = '01/01/1900'  # Valor padrão
 
 
 
-    #CLICAR EM CODIGO FISCAL
-    codigo_fiscal = pyautogui.click(401,306,duration=2)
-    sleep(2)
-    pyautogui.hotkey('ctrl', 'p')
-    sleep(1)
-    pyautogui.click(519,339,duration=1)
-    sleep(1)
-    pyautogui.click(532,362,duration=1)
-    sleep(1)
-    pyautogui.click(627,390,duration=1)
-    sleep(1)
-    if cfop_da_nota =='6102':
-        pyautogui.write(str(2102))
-    elif cfop_da_nota =='5102':
-        pyautogui.write(str(1102))
-    elif cfop_da_nota =='6101':
-        pyautogui.write(str(2101))
-    elif cfop_da_nota =='5101':
-        pyautogui.write(str(1101))
-    elif cfop_da_nota =='5949':
-        pyautogui.write(str(1949))
-    elif cfop_da_nota =='5106':
-          pyautogui.write(str(1102))
-    elif cfop_da_nota == '5403':
-          pyautogui.write(str(1403))
-    elif cfop_da_nota =='5401':
-          pyautogui.write(str(1403))
-    elif cfop_da_nota =='5405':
-          pyautogui.write(str(1403))
-    elif cfop_da_nota =='5104':
+        #CLICAR EM CODIGO FISCAL
+        codigo_fiscal = pyautogui.click(401,306,duration=2)
+        sleep(2)
+        pyautogui.hotkey('ctrl', 'p')
+        sleep(1)
+        pyautogui.click(519,339,duration=1)
+        sleep(1)
+        pyautogui.click(532,362,duration=1)
+        sleep(1)
+        pyautogui.click(627,390,duration=1)
+        sleep(1)
+        if cfop_da_nota =='6102':
+            pyautogui.write(str(2102))
+        elif cfop_da_nota =='5102':
             pyautogui.write(str(1102))
-    else:
-        pyautogui.write(str(1102))
+        elif cfop_da_nota =='6101':
+            pyautogui.write(str(2101))
+        elif cfop_da_nota =='5101':
+            pyautogui.write(str(1101))
+        elif cfop_da_nota =='5949':
+            pyautogui.write(str(1949))
+        elif cfop_da_nota =='5106':
+            pyautogui.write(str(1102))
+        elif cfop_da_nota == '5403':
+            pyautogui.write(str(1403))
+        elif cfop_da_nota =='5401':
+            pyautogui.write(str(1403))
+        elif cfop_da_nota =='5405':
+            pyautogui.write(str(1403))
+        elif cfop_da_nota =='5104':
+                pyautogui.write(str(1102))
+        else:
+            pyautogui.write(str(1102))
 
-    pyautogui.press('ENTER')
-    sleep(1)
-    pyautogui.press('F3')
-    sleep(1)
+        pyautogui.press('ENTER')
+        sleep(1)
+        pyautogui.press('F3')
+        sleep(1)
+            
+        pyautogui.press('ENTER')
+        sleep(1)
+
+
+        #CLICAR EM ALIQUOTA, LIMPAR
+        #CLICAR EM BASE DE CALCULO, LIMPAR
+        #CLICAR EM IMPOSTO, LIMPAR
+        #CLICAR EM ISENTAS/NT, LIMPAR
+        #CLICAR EM VALOR AUXILAR, LIMPAR
+        #CLICAR EM BASE IMP. RETIDO, LIMPAR
+        #CLICAR EM IMPOSTO RETIDO, LIMPAR
+
+        pyautogui.click(764,300)
+        for _ in range(10):
+                pyautogui.press('right')
+        sleep(1)
+        for j in range(10):
+            pyautogui.press('backspace')
+        for l in range(10):
+                pyautogui.press('right')
+        sleep(1)
+        for k in range(10):
+            pyautogui.press('backspace')
+        sleep(1)
+
+        pyautogui.click(770,319)
+        for _ in range(10):
+                pyautogui.press('right')
+        sleep(1)
+        for j in range(10):
+            pyautogui.press('backspace')
+        for l in range(10):
+                pyautogui.press('right')
+        sleep(1)
+        for k in range(10):
+            pyautogui.press('backspace')
+        sleep(1)
+
+        pyautogui.click(770,343)
+        for _ in range(10):
+                pyautogui.press('right')
+        sleep(1)
+        for j in range(10):
+            pyautogui.press('backspace')
+        for l in range(10):
+                pyautogui.press('right')
+        sleep(1)
+        for k in range(10):
+            pyautogui.press('backspace')
+        sleep(1)
+
+        pyautogui.click(770,367)
+        for _ in range(10):
+                pyautogui.press('right')
+        sleep(1)
+        for j in range(10):
+            pyautogui.press('backspace')
+        for l in range(10):
+                pyautogui.press('right')
+        sleep(1)
+        for k in range(10):
+            pyautogui.press('backspace')
+        sleep(1)
+
+        pyautogui.click(770,414)
+        for _ in range(10):
+                pyautogui.press('right')
+        sleep(1)
+        for j in range(10):
+            pyautogui.press('backspace')
+        for l in range(10):
+                pyautogui.press('right')
+        sleep(1)
+        for k in range(10):
+            pyautogui.press('backspace')
+        sleep(1)
+
+        pyautogui.click(770,440)
+        for _ in range(10):
+                pyautogui.press('right')
+        sleep(1)
+        for j in range(10):
+            pyautogui.press('backspace')
+        for l in range(10):
+                pyautogui.press('right')
+        sleep(1)
+        for k in range(10):
+            pyautogui.press('backspace')
+        sleep(1)
+
+        pyautogui.click(770,462)
+        for _ in range(10):
+                pyautogui.press('right')
+        sleep(1)
+        for j in range(10):
+            pyautogui.press('backspace')
+        for l in range(10):
+                pyautogui.press('right')
+        sleep(1)
+        for k in range(10):
+            pyautogui.press('backspace')
+        sleep(1)
+
         
-    pyautogui.press('ENTER')
-    sleep(1)
+        pyautogui.press('ENTER')
+        sleep(8)
+        pyautogui.press('ENTER')
+        sleep(7)
 
+        #PREENCHER NUMERO DE PARCELAS
+        if isinstance(datas_vencimento_composta, str) and ',' in datas_vencimento_composta:
+            datas_vencimento = [data.strip() for data in datas_vencimento_composta.split(',')]  # Para várias datas
+            preencher_parcelas_multiplas()
+        else:
+            datas_vencimento = [datas_vencimento_composta]
+            preencher_parcelas()  # Para o caso de apenas uma parcela
 
-    #CLICAR EM ALIQUOTA, LIMPAR
-    #CLICAR EM BASE DE CALCULO, LIMPAR
-    #CLICAR EM IMPOSTO, LIMPAR
-    #CLICAR EM ISENTAS/NT, LIMPAR
-    #CLICAR EM VALOR AUXILAR, LIMPAR
-    #CLICAR EM BASE IMP. RETIDO, LIMPAR
-    #CLICAR EM IMPOSTO RETIDO, LIMPAR
-
-    pyautogui.click(764,300)
-    for _ in range(10):
-            pyautogui.press('right')
-    sleep(1)
-    for j in range(10):
-        pyautogui.press('backspace')
-    for l in range(10):
-            pyautogui.press('right')
-    sleep(1)
-    for k in range(10):
-        pyautogui.press('backspace')
-    sleep(1)
-
-    pyautogui.click(770,319)
-    for _ in range(10):
-            pyautogui.press('right')
-    sleep(1)
-    for j in range(10):
-        pyautogui.press('backspace')
-    for l in range(10):
-            pyautogui.press('right')
-    sleep(1)
-    for k in range(10):
-        pyautogui.press('backspace')
-    sleep(1)
-
-    pyautogui.click(770,343)
-    for _ in range(10):
-            pyautogui.press('right')
-    sleep(1)
-    for j in range(10):
-        pyautogui.press('backspace')
-    for l in range(10):
-            pyautogui.press('right')
-    sleep(1)
-    for k in range(10):
-        pyautogui.press('backspace')
-    sleep(1)
-
-    pyautogui.click(770,367)
-    for _ in range(10):
-            pyautogui.press('right')
-    sleep(1)
-    for j in range(10):
-        pyautogui.press('backspace')
-    for l in range(10):
-            pyautogui.press('right')
-    sleep(1)
-    for k in range(10):
-        pyautogui.press('backspace')
-    sleep(1)
-
-    pyautogui.click(770,414)
-    for _ in range(10):
-            pyautogui.press('right')
-    sleep(1)
-    for j in range(10):
-        pyautogui.press('backspace')
-    for l in range(10):
-            pyautogui.press('right')
-    sleep(1)
-    for k in range(10):
-        pyautogui.press('backspace')
-    sleep(1)
-
-    pyautogui.click(770,440)
-    for _ in range(10):
-            pyautogui.press('right')
-    sleep(1)
-    for j in range(10):
-        pyautogui.press('backspace')
-    for l in range(10):
-            pyautogui.press('right')
-    sleep(1)
-    for k in range(10):
-        pyautogui.press('backspace')
-    sleep(1)
-
-    pyautogui.click(770,462)
-    for _ in range(10):
-            pyautogui.press('right')
-    sleep(1)
-    for j in range(10):
-        pyautogui.press('backspace')
-    for l in range(10):
-            pyautogui.press('right')
-    sleep(1)
-    for k in range(10):
-        pyautogui.press('backspace')
-    sleep(1)
-
-    
-    pyautogui.press('ENTER')
-    sleep(8)
-    pyautogui.press('ENTER')
-    sleep(7)
-
-    #PREENCHER NUMERO DE PARCELAS
-    if isinstance(datas_vencimento_composta, str) and ',' in datas_vencimento_composta:
-        datas_vencimento = [data.strip() for data in datas_vencimento_composta.split(',')]  # Para várias datas
-        preencher_parcelas_multiplas()
-    else:
-        datas_vencimento = [datas_vencimento_composta]
-        preencher_parcelas()  # Para o caso de apenas uma parcela
-
-    pyautogui.press('pagedown')
+        pyautogui.press('pagedown')
 
