@@ -53,12 +53,20 @@ def preencher_parcelas():
     data_formatada = datas_vencimento[0]  # Assume que a data já está formatada corretamente no Excel
     pyautogui.press('TAB')
     sleep(1)
-    for _ in range(10):
-        pyautogui.press('right')
+    limpa_campo()
     sleep(1)
-    for j in range(10):
-        pyautogui.press('backspace')
-    pyautogui.write(data_formatada)  # Escreve a data diretamente
+    pyautogui.write(str(numero_parcelas))
+    sleep(1)
+    pyautogui.press('TAB')
+    sleep(1)
+    pyautogui.write('30')
+    sleep(1)
+    for _ in range(3):
+        pyautogui.press('tab')
+    limpa_campo()
+    sleep(1)
+    pyautogui.write(data_vcto)  # Escreve a data diretamente
+    print(data_formatada)
     sleep(1)
     pyautogui.press('ENTER')
     sleep(2)
@@ -304,7 +312,6 @@ for linha in sheet_nfe.iter_rows(min_row=2, max_row=3):
     else:             
         #se so tiver 1 cfop
         cfops = [cfop_da_nota]
-        pyautogui.press('ENTER')
 
 
             # Caso a data de vencimento seja vazia ou inválida, usa uma data padrão
@@ -345,9 +352,12 @@ for linha in sheet_nfe.iter_rows(min_row=2, max_row=3):
 
 
 
-        #CLICAR EM CODIGO FISCAL
-        codigo_fiscal = pyautogui.click(401,306,duration=2)
+        #CLICAR EM CODIGO FISCAL DANDO TAB
+        for _ in range(3):
+            pyautogui.press('TAB')
         sleep(2)
+        pyautogui.press('F2')
+        sleep(1)
         pyautogui.hotkey('ctrl', 'p')
         sleep(1)
         pyautogui.click(519,339,duration=1)
@@ -395,103 +405,55 @@ for linha in sheet_nfe.iter_rows(min_row=2, max_row=3):
         #CLICAR EM VALOR AUXILAR, LIMPAR
         #CLICAR EM BASE IMP. RETIDO, LIMPAR
         #CLICAR EM IMPOSTO RETIDO, LIMPAR
-
-        pyautogui.click(764,300)
         for _ in range(10):
-                pyautogui.press('right')
-        sleep(1)
-        for j in range(10):
-            pyautogui.press('backspace')
-        for l in range(10):
-                pyautogui.press('right')
-        sleep(1)
-        for k in range(10):
-            pyautogui.press('backspace')
+            pyautogui.press('TAB')
+        limpa_campo()
         sleep(1)
 
-        pyautogui.click(770,319)
-        for _ in range(10):
-                pyautogui.press('right')
+        pyautogui.press('TAB')
+        limpa_campo()
         sleep(1)
-        for j in range(10):
-            pyautogui.press('backspace')
-        for l in range(10):
-                pyautogui.press('right')
-        sleep(1)
-        for k in range(10):
-            pyautogui.press('backspace')
+               
+        pyautogui.press('TAB')
+        limpa_campo()
         sleep(1)
 
-        pyautogui.click(770,343)
-        for _ in range(10):
-                pyautogui.press('right')
-        sleep(1)
-        for j in range(10):
-            pyautogui.press('backspace')
-        for l in range(10):
-                pyautogui.press('right')
-        sleep(1)
-        for k in range(10):
-            pyautogui.press('backspace')
+        pyautogui.press('TAB')
+        limpa_campo()
         sleep(1)
 
-        pyautogui.click(770,367)
-        for _ in range(10):
-                pyautogui.press('right')
-        sleep(1)
-        for j in range(10):
-            pyautogui.press('backspace')
-        for l in range(10):
-                pyautogui.press('right')
-        sleep(1)
-        for k in range(10):
-            pyautogui.press('backspace')
+        pyautogui.press('TAB')
+        limpa_campo()
         sleep(1)
 
-        pyautogui.click(770,414)
-        for _ in range(10):
-                pyautogui.press('right')
-        sleep(1)
-        for j in range(10):
-            pyautogui.press('backspace')
-        for l in range(10):
-                pyautogui.press('right')
-        sleep(1)
-        for k in range(10):
-            pyautogui.press('backspace')
+        pyautogui.press('TAB')
+        limpa_campo()
         sleep(1)
 
-        pyautogui.click(770,440)
-        for _ in range(10):
-                pyautogui.press('right')
-        sleep(1)
-        for j in range(10):
-            pyautogui.press('backspace')
-        for l in range(10):
-                pyautogui.press('right')
-        sleep(1)
-        for k in range(10):
-            pyautogui.press('backspace')
+        pyautogui.press('TAB')
+        limpa_campo()
         sleep(1)
 
-        pyautogui.click(770,462)
-        for _ in range(10):
-                pyautogui.press('right')
-        sleep(1)
-        for j in range(10):
-            pyautogui.press('backspace')
-        for l in range(10):
-                pyautogui.press('right')
-        sleep(1)
-        for k in range(10):
-            pyautogui.press('backspace')
+        #limpando os 2 campos depois de aliquota etc.. (podem nao ser clicaveis, pode bugar)
+        pyautogui.click(1004,366,duration=1)
+        limpa_campo()
         sleep(1)
 
-        
+        pyautogui.click(1000,418,duration=1)
+        limpa_campo()
+        sleep(1)
+
+
+        pyautogui.click(982,661,duration=1) #clicando em salvar, pq os tab aq pode nao funcionar
+        sleep(5)
+
+        #clicando em "parametro contabil foi alterado etc"
+        pyautogui.click(684,437,duration=1)
+        sleep(3)
+
         pyautogui.press('ENTER')
-        sleep(8)
-        pyautogui.press('ENTER')
-        sleep(7)
+        sleep(5)
+
 
         #PREENCHER NUMERO DE PARCELAS
         if isinstance(datas_vencimento_composta, str) and ',' in datas_vencimento_composta:
@@ -499,7 +461,10 @@ for linha in sheet_nfe.iter_rows(min_row=2, max_row=3):
             preencher_parcelas_multiplas()
         else:
             datas_vencimento = [datas_vencimento_composta]
+
             preencher_parcelas()  # Para o caso de apenas uma parcela
 
         pyautogui.press('pagedown')
+
+        #FIM DO PROGRAMA
 
