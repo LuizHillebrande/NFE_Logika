@@ -37,21 +37,20 @@ for linha in sheet_nfe.iter_rows(min_row=3, max_row=3):
     sleep(1)
     pyautogui.hotkey('ctrl', 'p')
     sleep(1)
-    pyautogui.write(str(numero_nota))
+    pyautogui.write(str('1231'))
     #TECLAR ENTER
     pyautogui.press('ENTER')
     sleep(2)
-    pyautogui.press('ENTER')
-    sleep(2)
-    
-    button_nota_A_B_location = pyautogui.locateOnScreen('botao_b.png')
-
-    # Se o botão for encontrado
-    if button_nota_A_B_location:
-        print("Botão OK encontrado!")
-        # Extrai as coordenadas do centro do botão
-        center = pyautogui.center(button_nota_A_B_location)
-        pyautogui.click(center)
+    button_numero_da_nota_errado = pyautogui.locateOnScreen('num_nota_errado.png')
+    if button_numero_da_nota_errado:
+            print("Botão NUM NOTA ERRADO encontrado!")
+            sleep(2)
+            pyautogui.click(760,435, duration=2)
     else:
-        print("Botão OK não encontrado na tela.")
+            print("Botão NOTA ERRADO não encontrado na tela.")
+            pyautogui.press('ENTER')
+            sleep(2)
+    
+    
+
 
