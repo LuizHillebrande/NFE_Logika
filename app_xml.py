@@ -23,7 +23,7 @@ def pegar_infos(name_files):
     dados = []  # Lista para armazenar os dados que serão exportados
 
     with open(f'nfe/{name_files}', "rb") as arquivo_xml:
-        try:
+        try: 
             # Parse do XML
             dicionario_arquivo = xmltodict.parse(arquivo_xml)
             # print(json.dumps(dicionario_arquivo, indent=4))
