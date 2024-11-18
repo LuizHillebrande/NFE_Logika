@@ -655,5 +655,5 @@ for linha in sheet_nfe.iter_rows(min_row=2, max_row=3):
 
             pyautogui.press('pagedown')
 
-            #FIM DO PROGRAMA
+            #FIM DO PROGRAMA lopacarai
 
