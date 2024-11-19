@@ -37,19 +37,22 @@ for linha in sheet_nfe.iter_rows(min_row=3, max_row=3):
     sleep(1)
     pyautogui.hotkey('ctrl', 'p')
     sleep(1)
-    pyautogui.write(str('1231'))
+    pyautogui.write(str(numero_nota))
     #TECLAR ENTER
     pyautogui.press('ENTER')
     sleep(2)
-    button_numero_da_nota_errado = pyautogui.locateOnScreen('num_nota_errado.png')
-    if button_numero_da_nota_errado:
-            print("Botão NUM NOTA ERRADO encontrado!")
+    pyautogui.press('enter')
+    sleep(4)
+    try:
+        button_nota_A_B_location = pyautogui.locateOnScreen('botao_a.png')
+        print('achei')
+    except pyautogui.ImageNotFoundException:
+            button_nota_A_B_location = None
+            print("Botão A NÃO encontrado!")
             sleep(2)
             pyautogui.click(760,435, duration=2)
-    else:
-            print("Botão NOTA ERRADO não encontrado na tela.")
-            pyautogui.press('ENTER')
-            sleep(2)
+   
+
     
     
 

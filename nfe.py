@@ -133,7 +133,7 @@ def preencher_parcelas_multiplas():
     sleep(4)
 
 #COMECAR A FUNCAO ITERANDO SOBRE AS LINHAS DO EXCEL
-for linha in sheet_nfe.iter_rows(min_row=2, max_row=3):
+for linha in sheet_nfe.iter_rows(min_row=3, max_row=3):
 
     numero_parcelas = linha[3].value
     data_vcto = linha[4].value
@@ -152,34 +152,24 @@ for linha in sheet_nfe.iter_rows(min_row=2, max_row=3):
     try:
         button_numero_da_nota_errado = pyautogui.locateOnScreen('num_nota_errado.png')
     except pyautogui.ImageNotFoundException:
-        button_numero_da_nota_errado = None
-    if button_numero_da_nota_errado is not None:
+        button_numero_da_nota_errado = None #QUANDO O BOTAO NAO FOR ENCONTRADO, VIRA NONE
+    if button_numero_da_nota_errado is not None: #SE O BOTAO NAO FOR NONE, QUER DIZER QUE ELE FOI ENCONTRADO
             print("Botão NUM NOTA ERRADO encontrado!")
             sleep(2)
             for _ in range(3):
                 pyautogui.press('TAB')
-    else:
+    else: #BOTAO NAO ENCONTRADO (PADRAO)
         pyautogui.press('ENTER')
-        sleep(2)
-        pyautogui.press('ENTER')
-        sleep(2)
-
-    
-
+        sleep(3)
+        
         #passando parametros do excel
         cfop_da_nota = linha[2].value.strip().replace('[', '').replace(']', '').replace("'", '')
-        print("data do vcto simples:",data_vcto)
         datas_vencimento_composta = linha[6].value              
         try:
             button_nota_A_B_location = pyautogui.locateOnScreen('botao_a.png')
-            button_nota_B_location = pyautogui.locateOnScreen('botao_b.png')
-            button_nota_C_location = pyautogui.locateOnScreen('botao_c.png')
-            button_nota_D_location = pyautogui.locateOnScreen('botao_d.png')
         except pyautogui.ImageNotFoundException:
             button_nota_A_B_location = None
-            button_nota_B_location = None
-            button_nota_C_location = None
-            button_nota_D_location = None
+
         if button_nota_A_B_location and isinstance(cfop_da_nota, str) and ',' in cfop_da_nota: 
             # Caso o CFOP seja uma string com múltiplos valores separados por vírgula
             cfops = cfop_da_nota.split(',')
@@ -340,10 +330,10 @@ for linha in sheet_nfe.iter_rows(min_row=2, max_row=3):
 
         elif button_nota_A_B_location and isinstance(cfop_da_nota, str) and ',' not in cfop_da_nota:
             cfop = cfop_da_nota.strip()
+            pyautogui.press('enter')
             while True:
-                for tab in range(5):
+                for _ in range (5):
                     pyautogui.press('TAB')
-                    sleep(1)
 
                 pyautogui.press('ENTER')
                 sleep(4)
@@ -495,11 +485,11 @@ for linha in sheet_nfe.iter_rows(min_row=2, max_row=3):
                         preencher_parcelas()  # Para o caso de apenas uma parcela
 
                     
-                    if not button_nota_A_B_location and button_nota_B_location and button_nota_C_location and button_nota_D_location:
-                        break  
+                    #if not button_nota_A_B_location and button_nota_B_location and button_nota_C_location and button_nota_D_location:
+                        #break  
 
         else:             
-            #se so tiver 1 cfop
+            #se so tiver 1 cfop sem o botao de A ser encontrado
             cfops = [cfop_da_nota]
 
 
@@ -542,6 +532,7 @@ for linha in sheet_nfe.iter_rows(min_row=2, max_row=3):
 
 
             #CLICAR EM CODIGO FISCAL DANDO TAB
+            print('lOPACARAI')
             for _ in range(3):
                 pyautogui.press('TAB')
             sleep(2)
