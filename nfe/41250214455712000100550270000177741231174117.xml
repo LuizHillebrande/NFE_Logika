@@ -1,0 +1,351 @@
+<NFeLog versao="1.00">
+<procNFe>
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+<infNFe Id="NFe41250214455712000100550270000177741231174117" versao="4.00">
+<ide>
+<cUF>41</cUF>
+<cNF>23117411</cNF>
+<natOp>VENDA DE MERCADORIA ADQUIRIDA OU RECEBIDA DE TERCEIROS, EFET</natOp>
+<mod>55</mod>
+<serie>27</serie>
+<nNF>17774</nNF>
+<dhEmi>2025-02-25T15:51:00-03:00</dhEmi>
+<dhSaiEnt>2025-02-25T15:51:00-03:00</dhSaiEnt>
+<tpNF>1</tpNF>
+<idDest>1</idDest>
+<cMunFG>4103701</cMunFG>
+<tpImp>1</tpImp>
+<tpEmis>1</tpEmis>
+<cDV>7</cDV>
+<tpAmb>1</tpAmb>
+<finNFe>1</finNFe>
+<indFinal>0</indFinal>
+<indPres>9</indPres>
+<indIntermed>0</indIntermed>
+<procEmi>0</procEmi>
+<verProc>2.2.001.008</verProc>
+<NFref>
+<refNFe>41250214455712000100550010001042761107175143</refNFe>
+</NFref>
+<NFref>
+<refNFe>41250214455712000100550010001043541341797773</refNFe>
+</NFref>
+</ide>
+<emit>
+<CNPJ>14455712000100</CNPJ>
+<xNome>DIFLEX DISTRIBUIDORA DE ALIMENTOS LTDA</xNome>
+<xFant>DIFLEX DISTRIBUIDORA</xFant>
+<enderEmit>
+<xLgr>RUA JOSE CARLOS MUFATTO MARGINAL PR 445</xLgr>
+<nro>1460</nro>
+<xBairro>JARDIM RIVIERA</xBairro>
+<cMun>4103701</cMun>
+<xMun>CAMBE</xMun>
+<UF>PR</UF>
+<CEP>86187025</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4330292800</fone>
+</enderEmit>
+<IE>9057505009</IE>
+<CRT>3</CRT>
+</emit>
+<dest>
+<CNPJ>11542119000102</CNPJ>
+<xNome>S.S.R.CAUS ACOUGUE ME</xNome>
+<enderDest>
+<xLgr>R. RIO IGUACU</xLgr>
+<nro>334</nro>
+<xBairro>JD. STO AMARO</xBairro>
+<cMun>4103701</cMun>
+<xMun>CAMBE</xMun>
+<UF>PR</UF>
+<CEP>86185090</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4331541602</fone>
+</enderDest>
+<indIEDest>1</indIEDest>
+<IE>9051164870</IE>
+</dest>
+<det nItem="1">
+<prod>
+<cProd>26</cProd>
+<cEAN>7895800151426</cEAN>
+<xProd>G MASCAR BUBBALOO MGO VRJ</xProd>
+<NCM>17041000</NCM>
+<cBenef>PR830001</cBenef>
+<CFOP>5104</CFOP>
+<uCom>UN</uCom>
+<qCom>1.0000</qCom>
+<vUnCom>18.4600000000</vUnCom>
+<vProd>18.46</vProd>
+<cEANTrib>7895800151426</cEANTrib>
+<uTrib>UN</uTrib>
+<qTrib>32.0000</qTrib>
+<vUnTrib>0.5768750000</vUnTrib>
+<vDesc>0.46</vDesc>
+<indTot>1</indTot>
+<xPed>2297000856</xPed>
+<nItemPed>1</nItemPed>
+</prod>
+<imposto>
+<ICMS>
+<ICMS51>
+<orig>0</orig>
+<CST>51</CST>
+<modBC>3</modBC>
+<pRedBC>0.0000</pRedBC>
+<vBC>18.00</vBC>
+<pICMS>19.5000</pICMS>
+<vICMSOp>3.51</vICMSOp>
+<pDif>38.4600</pDif>
+<vICMSDif>1.35</vICMSDif>
+<vICMS>2.16</vICMS>
+</ICMS51>
+</ICMS>
+<IPI>
+<cEnq>999</cEnq>
+<IPINT>
+<CST>53</CST>
+</IPINT>
+</IPI>
+<PIS>
+<PISAliq>
+<CST>01</CST>
+<vBC>15.84</vBC>
+<pPIS>1.6500</pPIS>
+<vPIS>0.26</vPIS>
+</PISAliq>
+</PIS>
+<COFINS>
+<COFINSAliq>
+<CST>01</CST>
+<vBC>15.84</vBC>
+<pCOFINS>7.6000</pCOFINS>
+<vCOFINS>1.20</vCOFINS>
+</COFINSAliq>
+</COFINS>
+</imposto>
+<infAdProd>PERC.PARC.FCI: 0 - N. FCI: 9565FBE3-935E-49A8-91DE-F80A9AE22D3F</infAdProd>
+</det>
+<det nItem="2">
+<prod>
+<cProd>27</cProd>
+<cEAN>7895800151570</cEAN>
+<xProd>G MASCAR BUBBALOO UVA VRJ</xProd>
+<NCM>17041000</NCM>
+<cBenef>PR830001</cBenef>
+<CFOP>5104</CFOP>
+<uCom>UN</uCom>
+<qCom>1.0000</qCom>
+<vUnCom>18.4600000000</vUnCom>
+<vProd>18.46</vProd>
+<cEANTrib>7895800151570</cEANTrib>
+<uTrib>UN</uTrib>
+<qTrib>32.0000</qTrib>
+<vUnTrib>0.5768750000</vUnTrib>
+<vDesc>0.46</vDesc>
+<indTot>1</indTot>
+<xPed>2297000856</xPed>
+<nItemPed>2</nItemPed>
+</prod>
+<imposto>
+<ICMS>
+<ICMS51>
+<orig>0</orig>
+<CST>51</CST>
+<modBC>3</modBC>
+<pRedBC>0.0000</pRedBC>
+<vBC>18.00</vBC>
+<pICMS>19.5000</pICMS>
+<vICMSOp>3.51</vICMSOp>
+<pDif>38.4600</pDif>
+<vICMSDif>1.35</vICMSDif>
+<vICMS>2.16</vICMS>
+</ICMS51>
+</ICMS>
+<IPI>
+<cEnq>999</cEnq>
+<IPINT>
+<CST>53</CST>
+</IPINT>
+</IPI>
+<PIS>
+<PISAliq>
+<CST>01</CST>
+<vBC>15.84</vBC>
+<pPIS>1.6500</pPIS>
+<vPIS>0.26</vPIS>
+</PISAliq>
+</PIS>
+<COFINS>
+<COFINSAliq>
+<CST>01</CST>
+<vBC>15.84</vBC>
+<pCOFINS>7.6000</pCOFINS>
+<vCOFINS>1.20</vCOFINS>
+</COFINSAliq>
+</COFINS>
+</imposto>
+<infAdProd>PERC.PARC.FCI: 0 - N. FCI: 48D672FA-5080-4E7C-8186-32AAE2D71331</infAdProd>
+</det>
+<det nItem="3">
+<prod>
+<cProd>42017</cProd>
+<cEAN>7895800164501</cEAN>
+<xProd>G MASC CHICL HORT BEAT VRJ</xProd>
+<NCM>17041000</NCM>
+<cBenef>PR830001</cBenef>
+<CFOP>5104</CFOP>
+<uCom>UN</uCom>
+<qCom>1.0000</qCom>
+<vUnCom>30.7800000000</vUnCom>
+<vProd>30.78</vProd>
+<cEANTrib>7895800164501</cEANTrib>
+<uTrib>UN</uTrib>
+<qTrib>32.0000</qTrib>
+<vUnTrib>0.9618750000</vUnTrib>
+<vDesc>2.48</vDesc>
+<indTot>1</indTot>
+<xPed>2297000856</xPed>
+<nItemPed>3</nItemPed>
+</prod>
+<imposto>
+<ICMS>
+<ICMS51>
+<orig>0</orig>
+<CST>51</CST>
+<modBC>3</modBC>
+<pRedBC>0.0000</pRedBC>
+<vBC>28.30</vBC>
+<pICMS>19.5000</pICMS>
+<vICMSOp>5.52</vICMSOp>
+<pDif>38.4600</pDif>
+<vICMSDif>2.12</vICMSDif>
+<vICMS>3.40</vICMS>
+</ICMS51>
+</ICMS>
+<IPI>
+<cEnq>999</cEnq>
+<IPINT>
+<CST>53</CST>
+</IPINT>
+</IPI>
+<PIS>
+<PISAliq>
+<CST>01</CST>
+<vBC>24.90</vBC>
+<pPIS>1.6500</pPIS>
+<vPIS>0.41</vPIS>
+</PISAliq>
+</PIS>
+<COFINS>
+<COFINSAliq>
+<CST>01</CST>
+<vBC>24.90</vBC>
+<pCOFINS>7.6000</pCOFINS>
+<vCOFINS>1.89</vCOFINS>
+</COFINSAliq>
+</COFINS>
+</imposto>
+<infAdProd>PERC.PARC.FCI: 0 - N. FCI: C8F954C3-83AE-4460-BED7-11F1DD706C0E</infAdProd>
+</det>
+<total>
+<ICMSTot>
+<vBC>64.30</vBC>
+<vICMS>7.72</vICMS>
+<vICMSDeson>0.00</vICMSDeson>
+<vFCP>0.00</vFCP>
+<vBCST>0.00</vBCST>
+<vST>0.00</vST>
+<vFCPST>0.00</vFCPST>
+<vFCPSTRet>0.00</vFCPSTRet>
+<qBCMono>0.00</qBCMono>
+<vICMSMono>0.00</vICMSMono>
+<qBCMonoReten>0.00</qBCMonoReten>
+<vICMSMonoReten>0.00</vICMSMonoReten>
+<qBCMonoRet>0.00</qBCMonoRet>
+<vICMSMonoRet>0.00</vICMSMonoRet>
+<vProd>67.70</vProd>
+<vFrete>0.00</vFrete>
+<vSeg>0.00</vSeg>
+<vDesc>3.40</vDesc>
+<vII>0.00</vII>
+<vIPI>0.00</vIPI>
+<vIPIDevol>0.00</vIPIDevol>
+<vPIS>0.93</vPIS>
+<vCOFINS>4.29</vCOFINS>
+<vOutro>0.00</vOutro>
+<vNF>64.30</vNF>
+<vTotTrib>0.00</vTotTrib>
+</ICMSTot>
+</total>
+<transp>
+<modFrete>0</modFrete>
+<transporta>
+<CPF>05447598931</CPF>
+<xNome>JEFFERSON PONTES AION PATENO - CARLOS Z</xNome>
+<xEnder>AV JOCKEI CLUB, 448 - HIPICA</xEnder>
+<xMun>LONDRINA</xMun>
+<UF>PR</UF>
+</transporta>
+<vol>
+<qVol>3</qVol>
+<nVol>3</nVol>
+<pesoL>0.910</pesoL>
+<pesoB>0.910</pesoB>
+</vol>
+</transp>
+<pag>
+<detPag>
+<indPag>0</indPag>
+<tPag>01</tPag>
+<vPag>64.30</vPag>
+</detPag>
+</pag>
+<infAdic>
+<infCpl>Cod.Cliente:37617-S.S.R.CAUS ACOUGUE - ME//Pedido:2297000856//Digitador:8888-FORCA DE VENDAS//Vendedor:2297-JEFFERSON PONTES AION PATENO - CARLOS Z//Cobranca:D-DINHEIRO A VISTA//Transacao N.: 16039607//Demostrativo Conf.Ajuste Sinief numero 03 de 04/07/2003 - NEUTRA: 64.3//- NEUTRA: 64.3//OBS: , NF parcial ref. ao Manifesto nro 104276 de 21/02//OBS ENTREGA://NF EMITIDA POR REG ESP N4980/14//DIFERIMENTO PARCIAL DE 38,46% CONF. ANEXO VIII, CAP. II, SECAO II, ART. 28 - INCISO I</infCpl>
+</infAdic>
+<infRespTec>
+<CNPJ>07577599000501</CNPJ>
+<xContato>TOTVS BRASILIA SOFTWARE - UNIDADE GOIANIA LTDA</xContato>
+<email>resp_tecnico_dfe_winthor@totvs.com.br</email>
+<fone>06232500200</fone>
+</infRespTec>
+</infNFe>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#NFe41250214455712000100550270000177741231174117">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>xBYNh9nIIy/ue/f4G3Z2zfVff58=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>JeBzSk0O/zdRww/k7vGqnderIgRksaiwjB8b/6m907v8D010g383XFFMcWKJqc0r1dZ7vGMNplHBgohy9TrjSPzB3keJFB4nRwVQDwSMT/kmfVFJ/hQPMRdLz2Pn9W7d2S4AHDUaIxK1LXdP3Pdo2AK+BAWSJvOknNNx1w2uNb7hQhe84LtmmoKi4mTeFZCZVwwpDolyY8IJw1ZM+7v/OsMYZzUdVcjypgiKjV9Mu4fJ5Rtr6HXNik4XT54em4AACqniuHc3qVaVUG4cYc4CmUMnBiXhkM/WyadMbv9nUHK6u/VlREKtCQPWalFmqyuOEkVRr033QL9xFVhTWF7QAA==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</NFe>
+<protNFe versao="4.00">
+<infProt Id="ID141250063291774">
+<tpAmb>1</tpAmb>
+<verAplic>PR-v4_8_84</verAplic>
+<chNFe>41250214455712000100550270000177741231174117</chNFe>
+<dhRecbto>2025-02-25T15:58:10-03:00</dhRecbto>
+<nProt>141250063291774</nProt>
+<digVal>xBYNh9nIIy/ue/f4G3Z2zfVff58=</digVal>
+<cStat>100</cStat>
+<xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt>
+</protNFe>
+</procNFe>
+</NFeLog>

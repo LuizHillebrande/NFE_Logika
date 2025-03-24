@@ -1,0 +1,248 @@
+<NFeLog versao="1.00">
+<procNFe>
+<NFe>
+<infNFe Id="NFe35250206853754000170550000018589611477388265" versao="4.00">
+<ide>
+<cUF>35</cUF>
+<cNF>47738826</cNF>
+<natOp>VENDA</natOp>
+<mod>55</mod>
+<serie>0</serie>
+<nNF>1858961</nNF>
+<dhEmi>2025-02-11T00:31:25-03:00</dhEmi>
+<dhSaiEnt>2025-02-11T00:31:25-03:00</dhSaiEnt>
+<tpNF>1</tpNF>
+<idDest>2</idDest>
+<cMunFG>3522901</cMunFG>
+<tpImp>1</tpImp>
+<tpEmis>1</tpEmis>
+<cDV>5</cDV>
+<tpAmb>1</tpAmb>
+<finNFe>1</finNFe>
+<indFinal>0</indFinal>
+<indPres>9</indPres>
+<indIntermed>0</indIntermed>
+<procEmi>0</procEmi>
+<verProc>3.0.928.8189</verProc>
+</ide>
+<emit>
+<CNPJ>06853754000170</CNPJ>
+<xNome>DENER DISTRIBUIDORA DE ALIMENTOS LTDA</xNome>
+<xFant>DENER ALIMENTOS</xFant>
+<enderEmit>
+<xLgr>RUA SANTO ANTONIO</xLgr>
+<nro>1070</nro>
+<xBairro>DISTRITO INDUSTRIAL</xBairro>
+<cMun>3522901</cMun>
+<xMun>ITAPUI</xMun>
+<UF>SP</UF>
+<CEP>17230000</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>1436648100</fone>
+</enderEmit>
+<IE>377060915115</IE>
+<CRT>3</CRT>
+</emit>
+<dest>
+<CNPJ>11542119000102</CNPJ>
+<xNome>S.S.R. CAUS ACOUGUE</xNome>
+<enderDest>
+<xLgr>RUA RIO IGUACU</xLgr>
+<nro>334</nro>
+<xBairro>JARDIM SANTO AMARO</xBairro>
+<cMun>4103701</cMun>
+<xMun>CAMBE</xMun>
+<UF>PR</UF>
+<CEP>86185090</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4332511601</fone>
+</enderDest>
+<indIEDest>1</indIEDest>
+<IE>9051164870</IE>
+</dest>
+<det nItem="1">
+<prod>
+<cProd>5053</cProd>
+<cEAN>SEM GTIN</cEAN>
+<xProd>QUEIJO COALHO BARRA SANTO ANTONIO PECA **********</xProd>
+<NCM>04069020</NCM>
+<CFOP>6102</CFOP>
+<uCom>KG</uCom>
+<qCom>5.7600</qCom>
+<vUnCom>49.9900000000</vUnCom>
+<vProd>287.94</vProd>
+<cEANTrib>SEM GTIN</cEANTrib>
+<uTrib>KG</uTrib>
+<qTrib>5.7600</qTrib>
+<vUnTrib>49.9900000000</vUnTrib>
+<indTot>1</indTot>
+</prod>
+<imposto>
+<vTotTrib>12.09</vTotTrib>
+<ICMS>
+<ICMS00>
+<orig>0</orig>
+<CST>00</CST>
+<modBC>3</modBC>
+<vBC>287.94</vBC>
+<pICMS>12.0000</pICMS>
+<vICMS>34.55</vICMS>
+</ICMS00>
+</ICMS>
+<PIS>
+<PISNT>
+<CST>06</CST>
+</PISNT>
+</PIS>
+<COFINS>
+<COFINSNT>
+<CST>06</CST>
+</COFINSNT>
+</COFINS>
+</imposto>
+<infAdProd>(2 PC)</infAdProd>
+</det>
+<det nItem="2">
+<prod>
+<cProd>369</cProd>
+<cEAN>7891515220983</cEAN>
+<xProd>SALSICHA HOT DOG 4 X 5KG PERDIGAO</xProd>
+<NCM>16010000</NCM>
+<CFOP>6102</CFOP>
+<uCom>KG</uCom>
+<qCom>20.0000</qCom>
+<vUnCom>9.9900000000</vUnCom>
+<vProd>199.80</vProd>
+<cEANTrib>7891515220983</cEANTrib>
+<uTrib>KG</uTrib>
+<qTrib>20.0000</qTrib>
+<vUnTrib>9.9900000000</vUnTrib>
+<indTot>1</indTot>
+</prod>
+<imposto>
+<vTotTrib>8.39</vTotTrib>
+<ICMS>
+<ICMS00>
+<orig>0</orig>
+<CST>00</CST>
+<modBC>3</modBC>
+<vBC>199.80</vBC>
+<pICMS>12.0000</pICMS>
+<vICMS>23.98</vICMS>
+</ICMS00>
+</ICMS>
+<PIS>
+<PISAliq>
+<CST>01</CST>
+<vBC>175.82</vBC>
+<pPIS>1.6500</pPIS>
+<vPIS>2.90</vPIS>
+</PISAliq>
+</PIS>
+<COFINS>
+<COFINSAliq>
+<CST>01</CST>
+<vBC>175.82</vBC>
+<pCOFINS>7.6000</pCOFINS>
+<vCOFINS>13.36</vCOFINS>
+</COFINSAliq>
+</COFINS>
+</imposto>
+<infAdProd>(1 CX)</infAdProd>
+</det>
+<total>
+<ICMSTot>
+<vBC>487.74</vBC>
+<vICMS>58.53</vICMS>
+<vICMSDeson>0.00</vICMSDeson>
+<vFCP>0.00</vFCP>
+<vBCST>0.00</vBCST>
+<vST>0.00</vST>
+<vFCPST>0.00</vFCPST>
+<vFCPSTRet>0.00</vFCPSTRet>
+<vProd>487.74</vProd>
+<vFrete>0.00</vFrete>
+<vSeg>0.00</vSeg>
+<vDesc>0.00</vDesc>
+<vII>0.00</vII>
+<vIPI>0.00</vIPI>
+<vIPIDevol>0.00</vIPIDevol>
+<vPIS>2.90</vPIS>
+<vCOFINS>13.36</vCOFINS>
+<vOutro>0.00</vOutro>
+<vNF>487.74</vNF>
+<vTotTrib>20.48</vTotTrib>
+</ICMSTot>
+</total>
+<transp>
+<modFrete>0</modFrete>
+<vol>
+<qVol>3</qVol>
+<pesoL>25.760</pesoL>
+<pesoB>26.130</pesoB>
+</vol>
+</transp>
+<cobr>
+<fat>
+<nFat>1858961</nFat>
+<vOrig>487.74</vOrig>
+<vDesc>0.00</vDesc>
+<vLiq>487.74</vLiq>
+</fat>
+<dup>
+<nDup>001</nDup>
+<dVenc>2025-02-24</dVenc>
+<vDup>487.74</vDup>
+</dup>
+</cobr>
+<pag>
+<detPag>
+<indPag>1</indPag>
+<tPag>15</tPag>
+<vPag>487.74</vPag>
+<card>
+<tpIntegra>2</tpIntegra>
+</card>
+</detPag>
+</pag>
+<infAdic>
+<infCpl>;*** FAVOR CONFERIR AS MERCADORIAS NO ATO DA ENTREGA ***;;Lei n 12.741/12: Voce pagou aproximadamente: R$ 20,48 de tributos federais, R$ 0,00 de tributos estaduais.;Fonte: IBPT/FECOMERCIO(SP)1906AA</infCpl>
+</infAdic>
+</infNFe>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#NFe35250206853754000170550000018589611477388265">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>qJ+VSQNj+wt7bRjaB9MAVuQVihs=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>NcN6rRL7Qe5on9Ef45qPPr3UcwcqLptFpuWa3xCEpeM86nFznlrOHjQjl9ay6/2fXagmsgTp3BmPVv0rPnVEDmc1g0SyRu2CafEDLqZ7p3AAvNjeyq/dMEQQeWLxpNNPW8M3TVSJK9D3etn4opf4cpRsHd+FX/lez0/pNY3rRlxjbMwEm3CYYIFwTv1dEL77zj4ScaMGQ1GdS26UyPabwkPf4J3xiygoMQlC3V2RaULQRBpjwkjAEWUR4Xt6op3cnSyavRnTDRdGdR00CYDu43qw3Eb28L2jDEZOgEHX8dTVe1nW9j4Z9PJCbrEc55/hJgtubBqCV5HWLt2b/QY54Q==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</NFe>
+<protNFe versao="4.00">
+<infProt Id="Id135250380707912">
+<tpAmb>1</tpAmb>
+<verAplic>SP_NFE_PL009_V4</verAplic>
+<chNFe>35250206853754000170550000018589611477388265</chNFe>
+<dhRecbto>2025-02-11T00:31:49-03:00</dhRecbto>
+<nProt>135250380707912</nProt>
+<digVal>qJ+VSQNj+wt7bRjaB9MAVuQVihs=</digVal>
+<cStat>100</cStat>
+<xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt>
+</protNFe>
+</procNFe>
+</NFeLog>

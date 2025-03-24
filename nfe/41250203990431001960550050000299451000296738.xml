@@ -1,0 +1,295 @@
+<NFeLog versao="1.00">
+<procNFe>
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+<infNFe Id="NFe41250203990431001960550050000299451000296738" versao="4.00">
+<ide>
+<cUF>41</cUF>
+<cNF>00029673</cNF>
+<natOp>VENDA PRODUCAO PROPRIA</natOp>
+<mod>55</mod>
+<serie>5</serie>
+<nNF>29945</nNF>
+<dhEmi>2025-02-20T00:36:58-03:00</dhEmi>
+<dhSaiEnt>2025-02-20T00:36:58-03:00</dhSaiEnt>
+<tpNF>1</tpNF>
+<idDest>1</idDest>
+<cMunFG>4109807</cMunFG>
+<tpImp>1</tpImp>
+<tpEmis>1</tpEmis>
+<cDV>8</cDV>
+<tpAmb>1</tpAmb>
+<finNFe>1</finNFe>
+<indFinal>0</indFinal>
+<indPres>2</indPres>
+<indIntermed>0</indIntermed>
+<procEmi>0</procEmi>
+<verProc>1.0</verProc>
+</ide>
+<emit>
+<CNPJ>03990431001960</CNPJ>
+<xNome>FRIGORIFICO RAINHA DA PAZ LTDA</xNome>
+<xFant>FRIGORIFICO RAINHA DA PAZ LTDA</xFant>
+<enderEmit>
+<xLgr>RODOVIA ESTADUAL ROD IBIPORA SERTANOPOLIS</xLgr>
+<nro>SN</nro>
+<xCpl>SALA FILIAL 19</xCpl>
+<xBairro>ZONA RURAL</xBairro>
+<cMun>4109807</cMun>
+<xMun>IBIPORA</xMun>
+<UF>PR</UF>
+<CEP>86200000</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4333749600</fone>
+</enderEmit>
+<IE>9104338493</IE>
+<CRT>3</CRT>
+</emit>
+<dest>
+<CNPJ>11542119000102</CNPJ>
+<xNome>S S R CAUS ACOUGUE - ME</xNome>
+<enderDest>
+<xLgr>RUA RIO IGUACU</xLgr>
+<nro>334</nro>
+<xCpl>.</xCpl>
+<xBairro>JARDIM SANTO AMARO</xBairro>
+<cMun>4103701</cMun>
+<xMun>CAMBE</xMun>
+<UF>PR</UF>
+<CEP>86185090</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4330354343</fone>
+</enderDest>
+<indIEDest>1</indIEDest>
+<IE>9051164870</IE>
+</dest>
+<det nItem="1">
+<prod>
+<cProd>8866</cProd>
+<cEAN>7898480081052</cEAN>
+<xProd>PAPADA CONGELADA DE SUINO</xProd>
+<NCM>02032900</NCM>
+<cBenef>PR820007</cBenef>
+<CFOP>5101</CFOP>
+<uCom>KG</uCom>
+<qCom>20.000</qCom>
+<vUnCom>16.2000000000</vUnCom>
+<vProd>324.00</vProd>
+<cEANTrib>7898480081052</cEANTrib>
+<uTrib>KG</uTrib>
+<qTrib>20.000</qTrib>
+<vUnTrib>16.2000000000</vUnTrib>
+<indTot>1</indTot>
+</prod>
+<imposto>
+<ICMS>
+<ICMS20>
+<orig>0</orig>
+<CST>20</CST>
+<modBC>3</modBC>
+<pRedBC>41.6700</pRedBC>
+<vBC>188.99</vBC>
+<pICMS>12.00</pICMS>
+<vICMS>22.68</vICMS>
+</ICMS20>
+</ICMS>
+<IPI>
+<cEnq>999</cEnq>
+<IPITrib>
+<CST>99</CST>
+<vBC>0.00</vBC>
+<pIPI>0.00</pIPI>
+<vIPI>0.00</vIPI>
+</IPITrib>
+</IPI>
+<PIS>
+<PISNT>
+<CST>06</CST>
+</PISNT>
+</PIS>
+<COFINS>
+<COFINSNT>
+<CST>06</CST>
+</COFINSNT>
+</COFINS>
+</imposto>
+<infAdProd>CONGELADOS 365</infAdProd>
+</det>
+<total>
+<ICMSTot>
+<vBC>188.99</vBC>
+<vICMS>22.68</vICMS>
+<vICMSDeson>0.00</vICMSDeson>
+<vFCP>0.00</vFCP>
+<vBCST>0.00</vBCST>
+<vST>0.00</vST>
+<vFCPST>0.00</vFCPST>
+<vFCPSTRet>0.00</vFCPSTRet>
+<vProd>324.00</vProd>
+<vFrete>0.00</vFrete>
+<vSeg>0.00</vSeg>
+<vDesc>0.00</vDesc>
+<vII>0.00</vII>
+<vIPI>0.00</vIPI>
+<vIPIDevol>0.00</vIPIDevol>
+<vPIS>0.00</vPIS>
+<vCOFINS>0.00</vCOFINS>
+<vOutro>0.00</vOutro>
+<vNF>324.00</vNF>
+</ICMSTot>
+</total>
+<transp>
+<modFrete>0</modFrete>
+<transporta>
+<CNPJ>03990431000130</CNPJ>
+<xNome>FRIGORIFICO RAINHA DA PAZ LTDA</xNome>
+<IE>9021982889</IE>
+<xEnder>RE.:IBIPORA SERTANOPOLIS SN KM 02,0</xEnder>
+<xMun>IBIPORA</xMun>
+<UF>PR</UF>
+</transporta>
+<veicTransp>
+<placa>BCC5138</placa>
+<UF>PR</UF>
+</veicTransp>
+<vol>
+<qVol>1</qVol>
+<esp>CX</esp>
+<marca>RAINHA DA PAZ</marca>
+<pesoL>20.000</pesoL>
+<pesoB>20.730</pesoB>
+</vol>
+</transp>
+<cobr>
+<fat>
+<nFat>29945</nFat>
+<vOrig>324.00</vOrig>
+<vDesc>0.00</vDesc>
+<vLiq>324.00</vLiq>
+</fat>
+<dup>
+<nDup>001</nDup>
+<dVenc>2025-03-13</dVenc>
+<vDup>324.00</vDup>
+</dup>
+</cobr>
+<pag>
+<detPag>
+<indPag>1</indPag>
+<tPag>15</tPag>
+<vPag>324.00</vPag>
+</detPag>
+</pag>
+<infAdic>
+<infCpl>REGIME ESPECIAL DE RECOLHIMENTO DO ICMS N 1.426 Valor Aproximado dos Tributos (Cod. Item/Valor): 8866/Vlr R$ 0,00 . Total R$ 0,00.REDUCAO DE BASE DE CALCULO PREVISTA NO ITEM 7 DO ANEXO VI DO RICMS/PR 2017 MOTORISTA: ANTONIO MANOEL GROSMAN . CNH: 01455578270 CPF: 461.642.869-72</infCpl>
+</infAdic>
+<infRespTec>
+<CNPJ>03298453000134</CNPJ>
+<xContato>RAFAEL MASCARELLO</xContato>
+<email>rafael.mascarello@maxiconsystems.com.br</email>
+<fone>4533784525</fone>
+</infRespTec>
+</infNFe>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#NFe41250203990431001960550050000299451000296738">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>YWGJDLSfNVB8AkLNayjmvKD0U3c=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>rA6F8Ph+tdJ+0EO83r1OIIS/Kl0gtB7WKmWDclu0N3jCkQYHcfhKZGW/UNQ5CYAPZigiks3Uo8XjVSg7DtAPSVcwTkymMEoTEmA7VFV1KtHV0o4SyHQm1gBXrzc/RzM/WnUf8Ihg8iFuGq0x0gLPZMp/3WOJs0U4hHEw+m/Iok16BUUQFk/i7UDqbZ0Q/cZjgBHVfUEakhDKMEXwQyCkDfqZaQpFardj8yO6jG1ioNyEm7N3SMmPyVUM/gz6ASacooLJknYiyX2Aqyku5W0rSHlSiAePe3yHZ0Q7oXuT5vePnJ4R5nETmtm6fI+D8g1T0V+bLJ0QcKEgye7KHlXBtg==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</NFe>
+<protNFe versao="4.00">
+<infProt Id="ID141250056990108">
+<tpAmb>1</tpAmb>
+<verAplic>PR-v4_8_84</verAplic>
+<chNFe>41250203990431001960550050000299451000296738</chNFe>
+<dhRecbto>2025-02-20T00:35:04-03:00</dhRecbto>
+<nProt>141250056990108</nProt>
+<digVal>YWGJDLSfNVB8AkLNayjmvKD0U3c=</digVal>
+<cStat>100</cStat>
+<xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt>
+</protNFe>
+</procNFe>
+<eveNFe>
+<evento versao="1.00">
+<infEvento Id="ID6106104125020399043100196055005000029945100029673801">
+<cOrgao>91</cOrgao>
+<tpAmb>1</tpAmb>
+<CNPJ>87124582000104</CNPJ>
+<chNFe>41250203990431001960550050000299451000296738</chNFe>
+<dhEvento>2025-02-20T00:35:58-03:00</dhEvento>
+<tpEvento>610610</tpEvento>
+<nSeqEvento>1</nSeqEvento>
+<verEvento>1.00</verEvento>
+<detEvento versao="1.00">
+<descEvento>MDF-e Autorizado</descEvento>
+<cOrgaoAutor>41</cOrgaoAutor>
+<tpAutor>5</tpAutor>
+<verAplic>RS20241221091830</verAplic>
+<MDFe>
+<chMDFe>41250203990431001960580170000128051205846252</chMDFe>
+<modal>01</modal>
+<dhEmi>2025-02-20T00:38:00</dhEmi>
+<nProt>941250006918747</nProt>
+<dhRecbto>2025-02-20T00:35:58</dhRecbto>
+</MDFe>
+<emit>
+<CNPJ>03990431001960</CNPJ>
+<IE>9104338493</IE>
+<xNome>FRIGORIFICO RAINHA DA PAZ LTDA. EM RECUPERACAO JUDICIAL</xNome>
+</emit>
+</detEvento>
+</infEvento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#ID6106104125020399043100196055005000029945100029673801">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>QBl4m9kfEEeONXH6ZYurg9IrZr8=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>KUz7uwYECH9le2jLvUNqlwThzs4mm8JwUcthPHABoaeUc9cIVZc2Fdau6k03rd52FAgpOmkAqhpjYNrs+svHPV3aGHJOXbmt99bu5uDtVfMH/meP6njFMHyL/MjwmE1qiMxDOLy0etpBYY6LM81ACmq/olYJDl1/RDOitXd7x9R7IiWe6qi8vigXCK8twFUgkYCeNTG31zH0m55nVKfrUI3Kj0GHqd1ZgaWHLXcccM8N01/LvtpVCx7MyNMEFDb6WrSCXDJfjMzZmxebuYFGa1PtnrfXZtlFWFtwh2544aEGA7+66HLrGSmKaGsqml9BZn9EQdJL9jx1Ul1SbfyrWQ==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</evento>
+<retEvento versao="1.00">
+<infEvento Id="ID891251679652771">
+<tpAmb>1</tpAmb>
+<verAplic>AN_1.8.4</verAplic>
+<cOrgao>91</cOrgao>
+<cStat>135</cStat>
+<xMotivo>Evento registrado e vinculado a NF-e</xMotivo>
+<chNFe>41250203990431001960550050000299451000296738</chNFe>
+<tpEvento>610610</tpEvento>
+<nSeqEvento>1</nSeqEvento>
+<chMDFe>41250203990431001960580170000128051205846252</chMDFe>
+<dhRegEvento>2025-02-20T00:35:58-03:00</dhRegEvento>
+<nProt>891251679652771</nProt>
+</infEvento>
+</retEvento>
+</eveNFe>
+</NFeLog>

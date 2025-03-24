@@ -1,0 +1,377 @@
+<NFeLog versao="1.00">
+<procNFe>
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+<infNFe Id="NFe41250285782878004176550010000544691294709096" versao="4.00">
+<ide>
+<cUF>41</cUF>
+<cNF>29470909</cNF>
+<natOp>VENDA MERC. ADQ. OU REC. TERC.</natOp>
+<mod>55</mod>
+<serie>1</serie>
+<nNF>54469</nNF>
+<dhEmi>2025-02-21T05:34:00-03:00</dhEmi>
+<dhSaiEnt>2025-02-21T05:45:00-03:00</dhSaiEnt>
+<tpNF>1</tpNF>
+<idDest>1</idDest>
+<cMunFG>4101408</cMunFG>
+<tpImp>2</tpImp>
+<tpEmis>1</tpEmis>
+<cDV>6</cDV>
+<tpAmb>1</tpAmb>
+<finNFe>1</finNFe>
+<indFinal>0</indFinal>
+<indPres>9</indPres>
+<indIntermed>0</indIntermed>
+<procEmi>0</procEmi>
+<verProc>24.2.1</verProc>
+</ide>
+<emit>
+<CNPJ>85782878004176</CNPJ>
+<xNome>PAMPLONA ALIMENTOS S/A</xNome>
+<enderEmit>
+<xLgr>ROD BR-376</xLgr>
+<nro>S/N</nro>
+<xCpl>KM 252 BLOCO A SALA 04</xCpl>
+<xBairro>BAIRRO PARQUE IND ZONA OEST</xBairro>
+<cMun>4101408</cMun>
+<xMun>APUCARANA</xMun>
+<UF>PR</UF>
+<CEP>86800762</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4735313131</fone>
+</enderEmit>
+<IE>9089126085</IE>
+<IEST>9089419007</IEST>
+<CRT>3</CRT>
+</emit>
+<dest>
+<CNPJ>11542119000102</CNPJ>
+<xNome>S.S.R. CAUS ACOUGUE</xNome>
+<enderDest>
+<xLgr>R RIO IGUACU</xLgr>
+<nro>334</nro>
+<xBairro>JARDIM SANTO AMARO</xBairro>
+<cMun>4103701</cMun>
+<xMun>CAMBE</xMun>
+<UF>PR</UF>
+<CEP>86185090</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4331541602</fone>
+</enderDest>
+<indIEDest>1</indIEDest>
+<IE>9051164870</IE>
+</dest>
+<det nItem="1">
+<prod>
+<cProd>21464</cProd>
+<cEAN>17896716311765</cEAN>
+<xProd>BACON</xProd>
+<NCM>02101200</NCM>
+<CEST>1708701</CEST>
+<indEscala>S</indEscala>
+<cBenef>PR820007</cBenef>
+<CFOP>5106</CFOP>
+<uCom>KG</uCom>
+<qCom>10.0000</qCom>
+<vUnCom>24.98</vUnCom>
+<vProd>249.80</vProd>
+<cEANTrib>7896716311768</cEANTrib>
+<uTrib>KG</uTrib>
+<qTrib>10.0000</qTrib>
+<vUnTrib>24.98</vUnTrib>
+<indTot>1</indTot>
+<nItemPed>1</nItemPed>
+</prod>
+<imposto>
+<ICMS>
+<ICMS20>
+<orig>0</orig>
+<CST>20</CST>
+<modBC>3</modBC>
+<pRedBC>64.1025</pRedBC>
+<vBC>89.67</vBC>
+<pICMS>19.50</pICMS>
+<vICMS>17.49</vICMS>
+</ICMS20>
+</ICMS>
+<IPI>
+<cEnq>999</cEnq>
+<IPITrib>
+<CST>99</CST>
+<vBC>0.00</vBC>
+<pIPI>0.00</pIPI>
+<vIPI>0.00</vIPI>
+</IPITrib>
+</IPI>
+<II>
+<vBC>0</vBC>
+<vDespAdu>0</vDespAdu>
+<vII>0</vII>
+<vIOF>0</vIOF>
+</II>
+<PIS>
+<PISNT>
+<CST>06</CST>
+</PISNT>
+</PIS>
+<COFINS>
+<COFINSNT>
+<CST>06</CST>
+</COFINSNT>
+</COFINS>
+</imposto>
+</det>
+<total>
+<ICMSTot>
+<vBC>89.67</vBC>
+<vICMS>17.49</vICMS>
+<vICMSDeson>0</vICMSDeson>
+<vFCPUFDest>0.00</vFCPUFDest>
+<vICMSUFDest>0.00</vICMSUFDest>
+<vICMSUFRemet>0.00</vICMSUFRemet>
+<vFCP>0</vFCP>
+<vBCST>0</vBCST>
+<vST>0.00</vST>
+<vFCPST>0</vFCPST>
+<vFCPSTRet>0</vFCPSTRet>
+<qBCMono>0</qBCMono>
+<vICMSMono>0</vICMSMono>
+<qBCMonoReten>0</qBCMonoReten>
+<vICMSMonoReten>0</vICMSMonoReten>
+<qBCMonoRet>0</qBCMonoRet>
+<vICMSMonoRet>0</vICMSMonoRet>
+<vProd>249.80</vProd>
+<vFrete>0</vFrete>
+<vSeg>0</vSeg>
+<vDesc>0</vDesc>
+<vII>0</vII>
+<vIPI>0</vIPI>
+<vIPIDevol>0</vIPIDevol>
+<vPIS>0</vPIS>
+<vCOFINS>0</vCOFINS>
+<vOutro>0</vOutro>
+<vNF>249.80</vNF>
+</ICMSTot>
+</total>
+<transp>
+<modFrete>0</modFrete>
+<transporta>
+<CNPJ>42474727000150</CNPJ>
+<xNome>PAULO ANDRE PELIZZER RIBEIRO TRANSPORTES</xNome>
+<IE>9089840640</IE>
+<xEnder>R CASTRO ALVES</xEnder>
+<xMun>SARANDI</xMun>
+<UF>PR</UF>
+</transporta>
+<veicTransp>
+<placa>SEC7H67</placa>
+<UF>PR</UF>
+</veicTransp>
+<vol>
+<qVol>1</qVol>
+<esp>VOLUMES</esp>
+<pesoL>10.000</pesoL>
+<pesoB>10.600</pesoB>
+</vol>
+</transp>
+<cobr>
+<fat>
+<nFat>54469</nFat>
+<vOrig>249.80</vOrig>
+<vDesc>0.00</vDesc>
+<vLiq>249.80</vLiq>
+</fat>
+<dup>
+<nDup>001</nDup>
+<dVenc>2025-03-07</dVenc>
+<vDup>249.80</vDup>
+</dup>
+</cobr>
+<pag>
+<detPag>
+<tPag>15</tPag>
+<vPag>249.80</vPag>
+</detPag>
+</pag>
+<infAdic>
+<infCpl>OS PAGAMENTOS DEVEM SER OBRIGATORIAMENTE EM FAVOR DE PAMPLONA ALIMENTOS S/A \LPEDIDO: 70268  S.I.F.: 0  CONTROLE: 1912  LACRE: *LA  ENTREGA NRO.: 1  ICMS BASE DE CALCULO REDUZIDA CFE. ANEXO VI, ITEM 7,  DO DECRETO 7.871/2017 - RICMS/PR (CONVENIO 89/05).  ALIQUOTA ZERO DA CONTRIBUICAO PARA O PIS/COFINS,  CONFORME LEI N . 10.925/2004 ART. 1 , XIX,  ALTERADA PELA LEI N  12.839/2013.</infCpl>
+<obsCont xCampo="EDI-Pedido">
+<xTexto>70268</xTexto>
+</obsCont>
+</infAdic>
+<infRespTec>
+<CNPJ>00447041000120</CNPJ>
+<xContato>INVENTTI SOLUCOES EMPRESARIAIS LTDA</xContato>
+<email>suporte@inventti.com.br</email>
+<fone>4730387700</fone>
+</infRespTec>
+</infNFe>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#NFe41250285782878004176550010000544691294709096">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>g2CU8u9rePOWsNXXdawsek1WiuY=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>zl60yk6LZ+WDqhF2cHsDxzw5ai+721e4Ah3wikl6fF4vQjbWXFHVTsQ+2q6Vuhx+CfXTStVEOy7kydNQRD7Xc1fFmUlYlOHyGCL0bIuk9ZzGU0/5haTDvxgEtwGusS01/4rF1YM8NsxHNOPcI349K5CgIKD6r4es3vQdkOvUBRt8L8oHryNFESpcefxHRqadRyc+vY0WKlNiaI8bmpJZkE3kp68k+75cflaUqkKtL2IUg1Ygu+hjV1p8dKKJqw+D+xx1D4QIWOOokZFvgVOxLF0DvQL4SGQuGTRE6DdwykKZCy+GDqTnLVAyEcDY2ObSb66QXWL/eAVHEmVC7k1KMA==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</NFe>
+<protNFe versao="4.00">
+<infProt Id="ID141250058498308">
+<tpAmb>1</tpAmb>
+<verAplic>PR-v4_8_84</verAplic>
+<chNFe>41250285782878004176550010000544691294709096</chNFe>
+<dhRecbto>2025-02-21T05:40:14-03:00</dhRecbto>
+<nProt>141250058498308</nProt>
+<digVal>g2CU8u9rePOWsNXXdawsek1WiuY=</digVal>
+<cStat>100</cStat>
+<xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt>
+</protNFe>
+</procNFe>
+<eveNFe>
+<evento versao="1.00">
+<infEvento Id="ID6106004125028578287800417655001000054469129470909601">
+<cOrgao>91</cOrgao>
+<tpAmb>1</tpAmb>
+<CNPJ>33683111000107</CNPJ>
+<chNFe>41250285782878004176550010000544691294709096</chNFe>
+<dhEvento>2025-02-21T06:13:43-03:00</dhEvento>
+<tpEvento>610600</tpEvento>
+<nSeqEvento>1</nSeqEvento>
+<verEvento>1.00</verEvento>
+<detEvento versao="1.00">
+<descEvento>CT-e Autorizado</descEvento>
+<CTe>
+<chCTe>41250242474727000150570020000133941791729210</chCTe>
+<modal>01</modal>
+<dhEmi>2025-02-21T05:42:08-03:00</dhEmi>
+<nProt>141250024663158</nProt>
+<dhRecbto>2025-02-21T05:42:49</dhRecbto>
+</CTe>
+<emit>
+<CNPJ>42474727000150</CNPJ>
+<IE>9089840640</IE>
+<xNome>PAULO ANDRE PELIZZER RIBEIRO TRANSPORTES</xNome>
+</emit>
+</detEvento>
+</infEvento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#ID6106004125028578287800417655001000054469129470909601">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>LIgv81qeMcsv0F8QhloJWIh6nn0=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>TVb3OWaxxFHbSxd8UBk9iTMnDCuJgJZx5Lt39yfjnTO5UeTU8Ui1GxIwPVlEfIpH3+z3RwnnL8+BNLL2SyMZlF2RPv8JH0PyPFHch1BH8FGzzknGL+wnXvMfsqxiKFIgttxELae2MImFtW9R6/iqw2IA940xr3g3GVanV61WdAmkj+UClgpfW4LrcG2UUvreOusDyeX1kiReCLMsMzLQF+VeN3/B6aLn6BbQP9uRdfNqXIpfHTkxg1JLhMYbt8XZg0UbFf9+ST9cj0U96XfWLzfl9rOToyM2qpRP/IzjinyE6Xu6vT6GBEK7DBuu6G1AkjUEJapsub/GmOfAvXdOTg==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</evento>
+<retEvento versao="1.00">
+<infEvento Id="ID891251725892065">
+<tpAmb>1</tpAmb>
+<verAplic>AN_1.6.4</verAplic>
+<cOrgao>91</cOrgao>
+<cStat>135</cStat>
+<xMotivo>Evento registrado e vinculado a NF-e</xMotivo>
+<chNFe>41250285782878004176550010000544691294709096</chNFe>
+<tpEvento>610600</tpEvento>
+<nSeqEvento>1</nSeqEvento>
+<CNPJDest>33683111000107</CNPJDest>
+<dhRegEvento>2025-02-21T06:13:43-03:00</dhRegEvento>
+<nProt>891251725892065</nProt>
+</infEvento>
+</retEvento>
+</eveNFe>
+<eveNFe>
+<evento versao="1.00">
+<infEvento Id="ID6106144125028578287800417655001000054469129470909601">
+<cOrgao>91</cOrgao>
+<tpAmb>1</tpAmb>
+<CNPJ>33683111000107</CNPJ>
+<chNFe>41250285782878004176550010000544691294709096</chNFe>
+<dhEvento>2025-02-21T06:13:55-03:00</dhEvento>
+<tpEvento>610614</tpEvento>
+<nSeqEvento>1</nSeqEvento>
+<verEvento>1.00</verEvento>
+<detEvento versao="1.00">
+<descEvento>MDF-e Autorizado com CT-e</descEvento>
+<cOrgaoAutor>91</cOrgaoAutor>
+<tpAutor>5</tpAutor>
+<verAplic>1.6.2</verAplic>
+<MDFe>
+<chMDFe>41250242474727000150580020000009411400037441</chMDFe>
+<chCTe>41250242474727000150570020000133941791729210</chCTe>
+<modal>01</modal>
+<dhEmi>2025-02-21T05:46:00-03:00</dhEmi>
+<nProt>941250007108060</nProt>
+<dhRecbto>2025-02-21T05:46:59-03:00</dhRecbto>
+</MDFe>
+<emit>
+<CNPJ>42474727000150</CNPJ>
+<IE>9089840640</IE>
+<xNome>PAULO ANDRE PELIZZER RIBEIRO TRANSPORTES E LOGISTICA</xNome>
+</emit>
+</detEvento>
+</infEvento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#ID6106144125028578287800417655001000054469129470909601">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>WNIH8EHq8TWb/0J5EFvRec10Fbs=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>ZTha/iwkrGPOGNqrJvoRDI0yxCwq69kK3FJxa5z1vu5WPcxJNRCwbR0QRNI3oHf5228sOialeVpNtP8GBKYBPUly9d0Xg+sqWu8bU94Np1zf7GTJjmuqXw9no6YfQpbNyJL8NnEIMCw+yoK7zOGdFJMBxt+4ABwzvixZvpMr48O2ZI0Cz6Jw2NjacVQM486NWF4hswHCV7buwTECPmtg7Ansdn2YfJUmEz0j+TbswMv6+8MGfFAScakueyDWg/yxOPrSUbCcs0jn3CMYQFJZWqj/FAeeKj9yYllOHuxIWOl77xTMZES/H4g+2ZlO9HhkuNbczWzseGb1afOGtCbaYQ==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</evento>
+<retEvento versao="1.00">
+<infEvento Id="ID891251725895272">
+<tpAmb>1</tpAmb>
+<verAplic>AN_1.6.4</verAplic>
+<cOrgao>91</cOrgao>
+<cStat>135</cStat>
+<xMotivo>Evento registrado e vinculado a NF-e</xMotivo>
+<chNFe>41250285782878004176550010000544691294709096</chNFe>
+<tpEvento>610614</tpEvento>
+<nSeqEvento>1</nSeqEvento>
+<CNPJDest>33683111000107</CNPJDest>
+<dhRegEvento>2025-02-21T06:13:55-03:00</dhRegEvento>
+<nProt>891251725895272</nProt>
+</infEvento>
+</retEvento>
+</eveNFe>
+</NFeLog>

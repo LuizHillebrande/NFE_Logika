@@ -1,0 +1,214 @@
+<NFeLog versao="1.00">
+<procNFe>
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+<infNFe Id="NFe41250208544325000147550010000742791742340401" versao="4.00">
+<ide>
+<cUF>41</cUF>
+<cNF>74234040</cNF>
+<natOp>Venda de mercadorias</natOp>
+<mod>55</mod>
+<serie>1</serie>
+<nNF>74279</nNF>
+<dhEmi>2025-02-18T17:19:19-03:00</dhEmi>
+<dhSaiEnt>2025-02-19T00:00:00-03:00</dhSaiEnt>
+<tpNF>1</tpNF>
+<idDest>1</idDest>
+<cMunFG>4122404</cMunFG>
+<tpImp>1</tpImp>
+<tpEmis>1</tpEmis>
+<cDV>1</cDV>
+<tpAmb>1</tpAmb>
+<finNFe>1</finNFe>
+<indFinal>0</indFinal>
+<indPres>9</indPres>
+<indIntermed>0</indIntermed>
+<procEmi>0</procEmi>
+<verProc>Bling 1.0</verProc>
+</ide>
+<emit>
+<CNPJ>08544325000147</CNPJ>
+<xNome>PAULO SERGIO DE SOUZA E CIA LTDA</xNome>
+<xFant>DiFrango</xFant>
+<enderEmit>
+<xLgr>Avenida Jose Antonio Santis</xLgr>
+<nro>199</nro>
+<xBairro>Jardim Nobre</xBairro>
+<cMun>4122404</cMun>
+<xMun>Rolandia</xMun>
+<UF>PR</UF>
+<CEP>86602810</CEP>
+<cPais>1058</cPais>
+<xPais>Brasil</xPais>
+<fone>4332551729</fone>
+</enderEmit>
+<IE>9039212509</IE>
+<CRT>3</CRT>
+</emit>
+<dest>
+<CNPJ>11542119000102</CNPJ>
+<xNome>S S R CAUS ACOUGUE ME</xNome>
+<enderDest>
+<xLgr>Rua Rio Iguacu</xLgr>
+<nro>334</nro>
+<xBairro>Jardim Santo Amaro</xBairro>
+<cMun>4103701</cMun>
+<xMun>Cambe</xMun>
+<UF>PR</UF>
+<CEP>86185090</CEP>
+<cPais>1058</cPais>
+<xPais>Brasil</xPais>
+</enderDest>
+<indIEDest>1</indIEDest>
+<IE>9051164870</IE>
+</dest>
+<det nItem="1">
+<prod>
+<cProd>136</cProd>
+<cEAN>SEM GTIN</cEAN>
+<xProd>CARCACA CONGELADA 17,6KG CVALE 2,2KG</xProd>
+<NCM>02071100</NCM>
+<CEST>1708700</CEST>
+<indEscala>S</indEscala>
+<cBenef>PR820007</cBenef>
+<CFOP>5102</CFOP>
+<uCom>KG</uCom>
+<qCom>52.8000</qCom>
+<vUnCom>13.50</vUnCom>
+<vProd>712.80</vProd>
+<cEANTrib>SEM GTIN</cEANTrib>
+<uTrib>KG</uTrib>
+<qTrib>52.8000</qTrib>
+<vUnTrib>13.50</vUnTrib>
+<indTot>1</indTot>
+<nItemPed>1</nItemPed>
+</prod>
+<imposto>
+<vTotTrib>145.77</vTotTrib>
+<ICMS>
+<ICMS20>
+<orig>0</orig>
+<CST>20</CST>
+<modBC>0</modBC>
+<pRedBC>41.67</pRedBC>
+<vBC>415.80</vBC>
+<pICMS>12.0000</pICMS>
+<vICMS>49.90</vICMS>
+</ICMS20>
+</ICMS>
+<IPI>
+<cEnq>999</cEnq>
+<IPITrib>
+<CST>99</CST>
+<vBC>0.00</vBC>
+<pIPI>0.00</pIPI>
+<vIPI>0.00</vIPI>
+</IPITrib>
+</IPI>
+<PIS>
+<PISNT>
+<CST>06</CST>
+</PISNT>
+</PIS>
+<COFINS>
+<COFINSNT>
+<CST>06</CST>
+</COFINSNT>
+</COFINS>
+</imposto>
+</det>
+<total>
+<ICMSTot>
+<vBC>415.80</vBC>
+<vICMS>49.90</vICMS>
+<vICMSDeson>0.00</vICMSDeson>
+<vFCP>0.00</vFCP>
+<vBCST>0.00</vBCST>
+<vST>0.00</vST>
+<vFCPST>0.00</vFCPST>
+<vFCPSTRet>0.00</vFCPSTRet>
+<vProd>712.80</vProd>
+<vFrete>0.00</vFrete>
+<vSeg>0.00</vSeg>
+<vDesc>0.00</vDesc>
+<vII>0.00</vII>
+<vIPI>0.00</vIPI>
+<vIPIDevol>0.00</vIPIDevol>
+<vPIS>0.00</vPIS>
+<vCOFINS>0.00</vCOFINS>
+<vOutro>0.00</vOutro>
+<vNF>712.80</vNF>
+<vTotTrib>145.77</vTotTrib>
+</ICMSTot>
+</total>
+<transp>
+<modFrete>0</modFrete>
+<vol>
+<pesoL>52.800</pesoL>
+<pesoB>53.856</pesoB>
+</vol>
+</transp>
+<cobr>
+<fat>
+<nFat>074279</nFat>
+<vOrig>712.80</vOrig>
+<vDesc>0</vDesc>
+<vLiq>712.80</vLiq>
+</fat>
+<dup>
+<nDup>001</nDup>
+<dVenc>2025-03-04</dVenc>
+<vDup>712.80</vDup>
+</dup>
+</cobr>
+<pag>
+<detPag>
+<indPag>1</indPag>
+<tPag>15</tPag>
+<vPag>712.80</vPag>
+</detPag>
+</pag>
+<infAdic>
+<infCpl>Total aproximado de tributos: R$ 145,77 (20,45%)  Federais R$ 95,87 (13,45%)  Estaduais R$ 49,90 (7,00%) . Fonte IBPT.br /</infCpl>
+</infAdic>
+<infRespTec>
+<CNPJ>01056417000139</CNPJ>
+<xContato>Organisys Software SA</xContato>
+<email>fiscal@bling.com.br</email>
+<fone>05430579470</fone>
+</infRespTec>
+</infNFe>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#NFe41250208544325000147550010000742791742340401">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>wv632imaWX041LnNxNwDGJdlIZM=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>LPIyo2qI3DLDx6yCJaqwc7V2RcesHF8TK7Ogpklkj+tHxfHDBlgrRbUnFbsgC0Fngg+I7r3qeAvADGJhHDZPsTB+o1al/BgDlDQv0YNAHg/g85I27A0wvWGloVtcI91IR9wURN8ePRjc0QHwBrvOuYaMNxC3ACBrX8dTYjheErEu6mxHcIgReitagq7CxQicc2ECVuna4PmdOoibv2sonIyS6mavn1wt4YYnhq7enNyeVtPC+VWasEsrmtHRsAJ/f99U9OH+x+5ReeuVe15pIxen2ZLuMInzJGSNh3HN9jZTWQ7ZCzknrMeijU2/ytDnuWzRkp7kxDqf/ttJQzE9/w==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</NFe>
+<protNFe versao="4.00">
+<infProt Id="ID141250055205527">
+<tpAmb>1</tpAmb>
+<verAplic>PR-v4_8_84</verAplic>
+<chNFe>41250208544325000147550010000742791742340401</chNFe>
+<dhRecbto>2025-02-18T17:19:20-03:00</dhRecbto>
+<nProt>141250055205527</nProt>
+<digVal>wv632imaWX041LnNxNwDGJdlIZM=</digVal>
+<cStat>100</cStat>
+<xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt>
+</protNFe>
+</procNFe>
+</NFeLog>

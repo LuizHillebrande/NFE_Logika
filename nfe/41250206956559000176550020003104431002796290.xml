@@ -1,0 +1,229 @@
+<NFeLog versao="1.00">
+<procNFe>
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+<infNFe Id="NFe41250206956559000176550020003104431002796290" versao="4.00">
+<ide>
+<cUF>41</cUF>
+<cNF>00279629</cNF>
+<natOp>Venda de producao do estabelecimento</natOp>
+<mod>55</mod>
+<serie>2</serie>
+<nNF>310443</nNF>
+<dhEmi>2025-02-15T01:22:16-03:00</dhEmi>
+<dhSaiEnt>2025-02-15T01:22:16-03:00</dhSaiEnt>
+<tpNF>1</tpNF>
+<idDest>1</idDest>
+<cMunFG>4115200</cMunFG>
+<tpImp>1</tpImp>
+<tpEmis>1</tpEmis>
+<cDV>0</cDV>
+<tpAmb>1</tpAmb>
+<finNFe>1</finNFe>
+<indFinal>0</indFinal>
+<indPres>3</indPres>
+<indIntermed>0</indIntermed>
+<procEmi>0</procEmi>
+<verProc>2024.2.1</verProc>
+</ide>
+<emit>
+<CNPJ>06956559000176</CNPJ>
+<xNome>DISTRIBUIDORA DE CARNES RIBEIRO LTDA</xNome>
+<xFant>DISTRIBUIDORA RIBEIRO</xFant>
+<enderEmit>
+<xLgr>AV. FRANKLIN DELANO ROOSELVELT</xLgr>
+<nro>203</nro>
+<xBairro>JD. ALVORADA</xBairro>
+<cMun>4115200</cMun>
+<xMun>Maringa</xMun>
+<UF>PR</UF>
+<CEP>87035090</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>04430255858</fone>
+</enderEmit>
+<IE>9031765126</IE>
+<CRT>3</CRT>
+</emit>
+<dest>
+<CNPJ>11542119000102</CNPJ>
+<xNome>S.S.R. CAUS ACOUGUE</xNome>
+<enderDest>
+<xLgr>RUA RIO IGUACU</xLgr>
+<nro>334</nro>
+<xBairro>JARDIM SANTO AMARO</xBairro>
+<cMun>4103701</cMun>
+<xMun>Cambe</xMun>
+<UF>PR</UF>
+<CEP>86185090</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4331541602</fone>
+</enderDest>
+<indIEDest>1</indIEDest>
+<IE>9051164870</IE>
+<email>Casadecarnesfrigocaus@gmail.com</email>
+</dest>
+<det nItem="1">
+<prod>
+<cProd>10730-0</cProd>
+<cEAN>SEM GTIN</cEAN>
+<xProd>MEIA CARCACA SUINA</xProd>
+<NCM>02031100</NCM>
+<cBenef>PR820007</cBenef>
+<CFOP>5101</CFOP>
+<uCom>KG</uCom>
+<qCom>83.8000</qCom>
+<vUnCom>13.4000</vUnCom>
+<vProd>1122.92</vProd>
+<cEANTrib>SEM GTIN</cEANTrib>
+<uTrib>KG</uTrib>
+<qTrib>83.8000</qTrib>
+<vUnTrib>13.4000</vUnTrib>
+<indTot>1</indTot>
+</prod>
+<imposto>
+<ICMS>
+<ICMS20>
+<orig>0</orig>
+<CST>20</CST>
+<modBC>3</modBC>
+<pRedBC>41.667</pRedBC>
+<vBC>655.03</vBC>
+<pICMS>12.0000</pICMS>
+<vICMS>78.60</vICMS>
+</ICMS20>
+</ICMS>
+<IPI>
+<cEnq>999</cEnq>
+<IPINT>
+<CST>51</CST>
+</IPINT>
+</IPI>
+<PIS>
+<PISNT>
+<CST>06</CST>
+</PISNT>
+</PIS>
+<COFINS>
+<COFINSNT>
+<CST>06</CST>
+</COFINSNT>
+</COFINS>
+</imposto>
+<infAdProd>[*DT_PRD*]Qtde_aux=2 [*DT_PRD_FIM*]</infAdProd>
+</det>
+<total>
+<ICMSTot>
+<vBC>655.03</vBC>
+<vICMS>78.60</vICMS>
+<vICMSDeson>0</vICMSDeson>
+<vFCP>0.00</vFCP>
+<vBCST>0.00</vBCST>
+<vST>0.00</vST>
+<vFCPST>0.00</vFCPST>
+<vFCPSTRet>0.00</vFCPSTRet>
+<vProd>1122.92</vProd>
+<vFrete>0.00</vFrete>
+<vSeg>0.00</vSeg>
+<vDesc>0.00</vDesc>
+<vII>0.00</vII>
+<vIPI>0.00</vIPI>
+<vIPIDevol>0</vIPIDevol>
+<vPIS>0.00</vPIS>
+<vCOFINS>0.00</vCOFINS>
+<vOutro>0.00</vOutro>
+<vNF>1122.92</vNF>
+</ICMSTot>
+</total>
+<transp>
+<modFrete>0</modFrete>
+<transporta>
+<CNPJ>06956559000176</CNPJ>
+<xNome>DISTRIBUIDORA DE CARNES RIBEIRO LTDA</xNome>
+<IE>9031765126</IE>
+<xEnder>AVENIDA FRANKLIN DELANO ROOSEVELT, 203, JARDIM ALVORADA, 870</xEnder>
+<xMun>Maringa</xMun>
+<UF>PR</UF>
+</transporta>
+<veicTransp>
+<placa>BAZ0316</placa>
+<UF>PR</UF>
+<RNTC>049471911</RNTC>
+</veicTransp>
+<vol>
+<qVol>2</qVol>
+<pesoL>83.800</pesoL>
+<pesoB>89.400</pesoB>
+</vol>
+</transp>
+<cobr>
+<fat>
+<nFat>100.NE.002.310443</nFat>
+<vOrig>1122.92</vOrig>
+<vDesc>0</vDesc>
+<vLiq>1122.92</vLiq>
+</fat>
+<dup>
+<nDup>001</nDup>
+<dVenc>2025-03-10</dVenc>
+<vDup>561.46</vDup>
+</dup>
+<dup>
+<nDup>002</nDup>
+<dVenc>2025-03-17</dVenc>
+<vDup>561.46</vDup>
+</dup>
+</cobr>
+<pag>
+<detPag>
+<indPag>1</indPag>
+<tPag>15</tPag>
+<vPag>1122.92</vPag>
+</detPag>
+</pag>
+<infAdic>
+<infAdFisco>REDUCAO NA BASE DE CALCULO DO ICMS DE 58,333% CONFORME ANEXO II DO RICMS ITEM IV.</infAdFisco>
+<infCpl>Motorista: . Pedido 470461. Carga 47609. Seq Entrega 2. COD CLI 55066. Porco 75 kg pra menos.</infCpl>
+</infAdic>
+<infRespTec>
+<CNPJ>73500290000106</CNPJ>
+<xContato>Roberto Lucio Pavan</xContato>
+<email>atak@atak.com.br</email>
+<fone>4421015657</fone>
+</infRespTec>
+</infNFe>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#NFe41250206956559000176550020003104431002796290">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>lAhFkpBpRKnI7eW7x6ncAp36uX0=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>DcULKFld5TkGpnUpKid8mIaXLtIOUMWEXeJYW56BG+ZR+mtTIj2mdDfllQQfyg+61uaWEIpH6ZryOXuwefcxdS7yn3W9K1DgHKa0F02p0KHp16kABX8IN6hS1IVLMZwbJAvtRMzHKeOeW7cVUwGK4Sh6e6btDDyH/rlb0L/z+qUlSEswomhLM7IS1FbfoVDRO8wAomZ0GtP2TXAk+2wNiRgDODC5tpwRra9o2Fm+lbt5sKct/XLOeFl/yDyuMG5DzMIwh7x0CmQnuYyzHvsKvj4+t9fa67WbKWbMzZekNNqZ1T6I+ZMaYhJEau7pjoKZR4wcZyBbbrkBaZkGYiubWA==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</NFe>
+<protNFe versao="4.00">
+<infProt Id="ID141250051624976">
+<tpAmb>1</tpAmb>
+<verAplic>PR-v4_8_84</verAplic>
+<chNFe>41250206956559000176550020003104431002796290</chNFe>
+<dhRecbto>2025-02-15T01:22:19-03:00</dhRecbto>
+<nProt>141250051624976</nProt>
+<digVal>lAhFkpBpRKnI7eW7x6ncAp36uX0=</digVal>
+<cStat>100</cStat>
+<xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt>
+</protNFe>
+</procNFe>
+</NFeLog>

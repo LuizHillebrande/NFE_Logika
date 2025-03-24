@@ -1,0 +1,317 @@
+<NFeLog versao="1.00">
+<procNFe>
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+<infNFe Id="NFe41250202916265038566550010001540741228890102" versao="4.00">
+<ide>
+<cUF>41</cUF>
+<cNF>22889010</cNF>
+<natOp>VENDA DE MERC OU RECEBIDA DE TERCEIROS</natOp>
+<mod>55</mod>
+<serie>1</serie>
+<nNF>154074</nNF>
+<dhEmi>2025-02-14T05:27:57-03:00</dhEmi>
+<dhSaiEnt>2025-02-14T05:27:57-03:00</dhSaiEnt>
+<tpNF>1</tpNF>
+<idDest>1</idDest>
+<cMunFG>4101408</cMunFG>
+<tpImp>1</tpImp>
+<tpEmis>1</tpEmis>
+<cDV>2</cDV>
+<tpAmb>1</tpAmb>
+<finNFe>1</finNFe>
+<indFinal>0</indFinal>
+<indPres>3</indPres>
+<indIntermed>0</indIntermed>
+<procEmi>0</procEmi>
+<verProc>4.00 N:24.3.1</verProc>
+</ide>
+<emit>
+<CNPJ>02916265038566</CNPJ>
+<xNome>JBS S/A</xNome>
+<xFant>JBS S/A</xFant>
+<enderEmit>
+<xLgr>ROD BR376 KM 252 SN</xLgr>
+<nro>0</nro>
+<xCpl>LTE GLEBA BARBA NOVA</xCpl>
+<xBairro>NUCLEO TRES BOCAS</xBairro>
+<cMun>4101408</cMun>
+<xMun>APUCARANA</xMun>
+<UF>PR</UF>
+<CEP>86800762</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4433027400</fone>
+</enderEmit>
+<IE>9097185546</IE>
+<CRT>3</CRT>
+</emit>
+<dest>
+<CNPJ>11542119000102</CNPJ>
+<xNome>S S R CAUS ACOUGUE ME</xNome>
+<enderDest>
+<xLgr>R RIO IGUACU</xLgr>
+<nro>334</nro>
+<xBairro>JARDIM SANTO AMARO</xBairro>
+<cMun>4103701</cMun>
+<xMun>CAMBE</xMun>
+<UF>PR</UF>
+<CEP>86185090</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4330352025</fone>
+</enderDest>
+<indIEDest>1</indIEDest>
+<IE>9051164870</IE>
+</dest>
+<det nItem="1">
+<prod>
+<cProd>8427</cProd>
+<cEAN>7898466103396</cEAN>
+<xProd>CONTRA FILE BOVINO RESFRIADO (4,5KG UP) DO CHEF</xProd>
+<NCM>02013000</NCM>
+<CEST>1708400</CEST>
+<cBenef>PR820007</cBenef>
+<CFOP>5102</CFOP>
+<uCom>KG</uCom>
+<qCom>62.9300</qCom>
+<vUnCom>47.649928492</vUnCom>
+<vProd>2998.61</vProd>
+<cEANTrib>7898466103396</cEANTrib>
+<uTrib>KG</uTrib>
+<qTrib>62.9300</qTrib>
+<vUnTrib>47.649928492</vUnTrib>
+<indTot>1</indTot>
+<xPed>5708170</xPed>
+</prod>
+<imposto>
+<vTotTrib>613.21</vTotTrib>
+<ICMS>
+<ICMS20>
+<orig>0</orig>
+<CST>20</CST>
+<modBC>3</modBC>
+<pRedBC>41.67</pRedBC>
+<vBC>1749.09</vBC>
+<pICMS>12.00</pICMS>
+<vICMS>209.89</vICMS>
+</ICMS20>
+</ICMS>
+<IPI>
+<cEnq>999</cEnq>
+<IPITrib>
+<CST>99</CST>
+<vBC>0.00</vBC>
+<pIPI>0.00</pIPI>
+<vIPI>0.00</vIPI>
+</IPITrib>
+</IPI>
+<II>
+<vBC>0</vBC>
+<vDespAdu>0</vDespAdu>
+<vII>0</vII>
+<vIOF>0</vIOF>
+</II>
+<PIS>
+<PISNT>
+<CST>06</CST>
+</PISNT>
+</PIS>
+<COFINS>
+<COFINSNT>
+<CST>06</CST>
+</COFINSNT>
+</COFINS>
+</imposto>
+<infAdProd>Trib aprox R$: 403,31 Federal, R$: 209,90 Estadual</infAdProd>
+</det>
+<total>
+<ICMSTot>
+<vBC>1749.09</vBC>
+<vICMS>209.89</vICMS>
+<vICMSDeson>0</vICMSDeson>
+<vFCPUFDest>0.00</vFCPUFDest>
+<vICMSUFDest>0.00</vICMSUFDest>
+<vICMSUFRemet>0.00</vICMSUFRemet>
+<vFCP>0</vFCP>
+<vBCST>0</vBCST>
+<vST>0.00</vST>
+<vFCPST>0</vFCPST>
+<vFCPSTRet>0</vFCPSTRet>
+<qBCMono>0</qBCMono>
+<vICMSMono>0</vICMSMono>
+<qBCMonoReten>0</qBCMonoReten>
+<vICMSMonoReten>0</vICMSMonoReten>
+<qBCMonoRet>0</qBCMonoRet>
+<vICMSMonoRet>0</vICMSMonoRet>
+<vProd>2998.61</vProd>
+<vFrete>0</vFrete>
+<vSeg>0</vSeg>
+<vDesc>0</vDesc>
+<vII>0</vII>
+<vIPI>0</vIPI>
+<vIPIDevol>0</vIPIDevol>
+<vPIS>0</vPIS>
+<vCOFINS>0</vCOFINS>
+<vOutro>0</vOutro>
+<vNF>2998.61</vNF>
+<vTotTrib>613.21</vTotTrib>
+</ICMSTot>
+</total>
+<transp>
+<modFrete>0</modFrete>
+<transporta>
+<CNPJ>05366953000272</CNPJ>
+<xNome>TRANSPORTES MAROSO LTDA</xNome>
+<IE>122111394113</IE>
+<xEnder>RUA ALFREDO VIEIRA ALVES 390</xEnder>
+<xMun>CAMPINAS</xMun>
+<UF>SP</UF>
+</transporta>
+<reboque>
+<placa>CUI2266</placa>
+<UF>SP</UF>
+<RNTC>000086850</RNTC>
+</reboque>
+<vol>
+<qVol>3</qVol>
+<esp>CX</esp>
+<pesoL>62.930</pesoL>
+<pesoB>65.345</pesoB>
+</vol>
+</transp>
+<cobr>
+<fat>
+<nFat>154074</nFat>
+<vOrig>2998.61</vOrig>
+<vDesc>0.00</vDesc>
+<vLiq>2998.61</vLiq>
+</fat>
+<dup>
+<nDup>001</nDup>
+<dVenc>2025-03-07</dVenc>
+<vDup>2998.61</vDup>
+</dup>
+</cobr>
+<pag>
+<detPag>
+<tPag>15</tPag>
+<vPag>2998.61</vPag>
+</detPag>
+</pag>
+<infAdic>
+<infCpl>BASE DE CALCULO REDUZIDA CONFORME ITEM 7, ANEXO VI DO DECRETO 7.871/2017 - RICMS/PR  PIS E COFINS RED. A ZERO, CONF. ART 1, XIX, ALINEA A, DA LEI 10925/04, ALTERADA PELA LEI 12839/13  CODIGO DO TERCEIRO E  532848.  VALOR DO FRETE R$  16,34.  VALOR DO FRETE A RECEBER R$ 16,34. - Trib aprox R$: 403,31 Federal, R$: 209,90 Estadual FONTE IBPT</infCpl>
+<obsCont xCampo="nCdTerceiro">
+<xTexto>532848</xTexto>
+</obsCont>
+<obsCont xCampo="nValorFrete">
+<xTexto>0.00</xTexto>
+</obsCont>
+<obsCont xCampo="nCdDocumento">
+<xTexto>366587</xTexto>
+</obsCont>
+<obsCont xCampo="nCdInstrucao">
+<xTexto>30147</xTexto>
+</obsCont>
+<obsCont xCampo="CPFMOTORISTA">
+<xTexto>302.486.918-21</xTexto>
+</obsCont>
+<obsCont xCampo="PLACA">
+<xTexto>CUI-2266</xTexto>
+</obsCont>
+</infAdic>
+<infRespTec>
+<CNPJ>00447041000120</CNPJ>
+<xContato>INVENTTI SOLUCOES EMPRESARIAIS LTDA</xContato>
+<email>suporte@inventti.com.br</email>
+<fone>4730387700</fone>
+</infRespTec>
+</infNFe>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#NFe41250202916265038566550010001540741228890102">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>7R2oPXOmYQom1jBSpEW3SE4e/Zg=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>gjnJcnrqA5g23EHF/vusN6cieTdlATc/HtlA6gGDvXGUZsOWuYeyy0qh/JcoFhFTcyWppE/7Ul7aWpgw/UAmoAEO1Q+IZBctUCvh9GTeQuwHULw9+UZHA5SXphhwAh9fWCXPsAeiQUNHQvL5A1ATorTi2TTXMZl8+ChHktpJvOCflDiMb3w0Dch5kuFrB0rlBfJl7MLtkTrpJf9lcBS6BP1NpPtlqslK7XX84utWlvNIPEe5oH/AZQ9RU4jCsa9mMUc3K9Rk8BxWKNxSlOanIdUDEcx0J04Xd55aW3h8pSSWuHIczQPkCm7WsAMmFOLZbM+dmJIiWEdhshsmYZP3wg==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</NFe>
+<protNFe versao="4.00">
+<infProt Id="ID141250050231111">
+<tpAmb>1</tpAmb>
+<verAplic>PR-v4_8_84</verAplic>
+<chNFe>41250202916265038566550010001540741228890102</chNFe>
+<dhRecbto>2025-02-14T05:28:01-03:00</dhRecbto>
+<nProt>141250050231111</nProt>
+<digVal>7R2oPXOmYQom1jBSpEW3SE4e/Zg=</digVal>
+<cStat>100</cStat>
+<xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt>
+</protNFe>
+</procNFe>
+<eveNFe>
+<evento versao="1.00">
+<infEvento Id="ID1101114125020291626503856655001000154074122889010201">
+<cOrgao>41</cOrgao>
+<tpAmb>1</tpAmb>
+<CNPJ>02916265038566</CNPJ>
+<chNFe>41250202916265038566550010001540741228890102</chNFe>
+<dhEvento>2025-02-14T05:39:29-03:00</dhEvento>
+<tpEvento>110111</tpEvento>
+<nSeqEvento>1</nSeqEvento>
+<verEvento>1.00</verEvento>
+<detEvento versao="1.00">
+<descEvento>Cancelamento</descEvento>
+<nProt>141250050231111</nProt>
+<xJust>NFe rejeitada pela Sefaz</xJust>
+</detEvento>
+</infEvento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#ID1101114125020291626503856655001000154074122889010201">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>pLeULeGOCnimGCxJDD41I/4YlMg=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>DNETyDs/qCnzsCrBgnHY5L62eIdVLsbMbTfAKQ1hbSM2faqdmsavOtaP0vrllUBXJCEpL6f1nL+1z3+NVt5Fi7HhkvMDlhFuqq0omn/yA3m8NYxt1PSAF2nTaeesnsegCouZenMwLXd4b9Jm5YeCa3kUDxbW/yXkbokGqhcJokvU3d+1R+ttLnN6B0Pqwne39n4DC3zc9s1aJ2aK3SfwMXg3IMUeep+Gv9gK1Gft3mOUhe812zhScuWJZ1qu5ZTB2F0h7rlfiQjc2tCge58aykcAmB6DoZ0miHSh1ki0PTy1OspZXrPCJXlmtR5qEbbbeHmxBIYERdX5QWdbzuJTiQ==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</evento>
+<retEvento versao="1.00">
+<infEvento>
+<tpAmb>1</tpAmb>
+<verAplic>PR-v4_8_84</verAplic>
+<cOrgao>41</cOrgao>
+<cStat>135</cStat>
+<xMotivo>Evento registrado e vinculado a NF-e</xMotivo>
+<chNFe>41250202916265038566550010001540741228890102</chNFe>
+<tpEvento>110111</tpEvento>
+<xEvento>Cancelamento</xEvento>
+<nSeqEvento>1</nSeqEvento>
+<dhRegEvento>2025-02-14T05:39:40-03:00</dhRegEvento>
+<nProt>141250050234987</nProt>
+</infEvento>
+</retEvento>
+</eveNFe>
+</NFeLog>

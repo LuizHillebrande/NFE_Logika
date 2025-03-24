@@ -1,0 +1,302 @@
+<NFeLog versao="1.00">
+<procNFe>
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+<infNFe Id="NFe41250210656672000103550010001477731000061402" versao="4.00">
+<ide>
+<cUF>41</cUF>
+<cNF>00006140</cNF>
+<natOp>VENDA PRODUTO - DE</natOp>
+<mod>55</mod>
+<serie>1</serie>
+<nNF>147773</nNF>
+<dhEmi>2025-02-26T18:08:08-03:00</dhEmi>
+<dhSaiEnt>2025-02-27T18:08:08-03:00</dhSaiEnt>
+<tpNF>1</tpNF>
+<idDest>1</idDest>
+<cMunFG>4103701</cMunFG>
+<tpImp>1</tpImp>
+<tpEmis>1</tpEmis>
+<cDV>2</cDV>
+<tpAmb>1</tpAmb>
+<finNFe>1</finNFe>
+<indFinal>0</indFinal>
+<indPres>0</indPres>
+<procEmi>0</procEmi>
+<verProc>3089</verProc>
+</ide>
+<emit>
+<CNPJ>10656672000103</CNPJ>
+<xNome>REFRIKO INDUSTRIA E COMERCIO DE BEBIDAS LTDA</xNome>
+<xFant>REFRIKO IND. COM.  BEB. LTDA</xFant>
+<enderEmit>
+<xLgr>R. ADELINO  BIACHINI, NR. 900B</xLgr>
+<nro>S/N</nro>
+<xBairro>GLEBA PATRIMONIO</xBairro>
+<cMun>4103701</cMun>
+<xMun>CAMBE</xMun>
+<UF>PR</UF>
+<CEP>86186019</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4331745500</fone>
+</enderEmit>
+<IE>9049025782</IE>
+<IEST>9051929737</IEST>
+<CRT>3</CRT>
+</emit>
+<dest>
+<CNPJ>11542119000102</CNPJ>
+<xNome>S.S.R. CAUS ACOUGUE  ME</xNome>
+<enderDest>
+<xLgr>RUA RIO IGUACU., 334</xLgr>
+<nro>.</nro>
+<xBairro>JARDIM SANTO AMARO</xBairro>
+<cMun>4103701</cMun>
+<xMun>CAMBE</xMun>
+<UF>PR</UF>
+<CEP>86185090</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>43984815387</fone>
+</enderDest>
+<indIEDest>1</indIEDest>
+<IE>9051164870</IE>
+</dest>
+<autXML>
+<CPF>59671742904</CPF>
+</autXML>
+<det nItem="1">
+<prod>
+<cProd>120</cProd>
+<cEAN>17898942053327</cEAN>
+<xProd>ENERGETICO FURIOSO GUARANA 12X250ML  FURIOSO GUA 12X250ML</xProd>
+<NCM>22029900</NCM>
+<CEST>0301301</CEST>
+<CFOP>5403</CFOP>
+<uCom>FD</uCom>
+<qCom>1.0000</qCom>
+<vUnCom>25.470000</vUnCom>
+<vProd>25.47</vProd>
+<cEANTrib>7898942053320</cEANTrib>
+<uTrib>FD</uTrib>
+<qTrib>1.0000</qTrib>
+<vUnTrib>25.470000</vUnTrib>
+<indTot>1</indTot>
+</prod>
+<imposto>
+<vTotTrib>0</vTotTrib>
+<ICMS>
+<ICMS10>
+<orig>0</orig>
+<CST>10</CST>
+<modBC>3</modBC>
+<vBC>25.47</vBC>
+<pICMS>12.00</pICMS>
+<vICMS>3.06</vICMS>
+<modBCST>5</modBCST>
+<vBCST>27.12</vBCST>
+<pICMSST>19.50</pICMSST>
+<vICMSST>2.23</vICMSST>
+</ICMS10>
+</ICMS>
+<IPI>
+<cEnq>999</cEnq>
+<IPITrib>
+<CST>50</CST>
+<vBC>25.47</vBC>
+<pIPI>1.9500</pIPI>
+<vIPI>0.50</vIPI>
+</IPITrib>
+</IPI>
+<PIS>
+<PISAliq>
+<CST>02</CST>
+<vBC>22.41</vBC>
+<pPIS>1.86</pPIS>
+<vPIS>0.42</vPIS>
+</PISAliq>
+</PIS>
+<COFINS>
+<COFINSAliq>
+<CST>02</CST>
+<vBC>22.41</vBC>
+<pCOFINS>8.54</pCOFINS>
+<vCOFINS>1.91</vCOFINS>
+</COFINSAliq>
+</COFINS>
+</imposto>
+</det>
+<det nItem="2">
+<prod>
+<cProd>8</cProd>
+<cEAN>17898942053020</cEAN>
+<xProd>REFRIKO TUBAINA 6X2LT</xProd>
+<NCM>22021000</NCM>
+<CEST>0301001</CEST>
+<CFOP>5401</CFOP>
+<uCom>FD</uCom>
+<qCom>1.0000</qCom>
+<vUnCom>27.430000</vUnCom>
+<vProd>27.43</vProd>
+<cEANTrib>7898942053023</cEANTrib>
+<uTrib>FD</uTrib>
+<qTrib>1.0000</qTrib>
+<vUnTrib>27.430000</vUnTrib>
+<indTot>1</indTot>
+</prod>
+<imposto>
+<vTotTrib>12.05</vTotTrib>
+<ICMS>
+<ICMS10>
+<orig>0</orig>
+<CST>10</CST>
+<modBC>3</modBC>
+<vBC>27.43</vBC>
+<pICMS>12.00</pICMS>
+<vICMS>3.29</vICMS>
+<modBCST>5</modBCST>
+<vBCST>28.86</vBCST>
+<pICMSST>18.00</pICMSST>
+<vICMSST>1.90</vICMSST>
+<vBCFCPST>28.86</vBCFCPST>
+<pFCPST>2.00</pFCPST>
+<vFCPST>0.58</vFCPST>
+</ICMS10>
+</ICMS>
+<IPI>
+<cEnq>999</cEnq>
+<IPITrib>
+<CST>50</CST>
+<vBC>27.43</vBC>
+<pIPI>0.9800</pIPI>
+<vIPI>0.27</vIPI>
+</IPITrib>
+</IPI>
+<PIS>
+<PISAliq>
+<CST>02</CST>
+<vBC>24.14</vBC>
+<pPIS>1.86</pPIS>
+<vPIS>0.45</vPIS>
+</PISAliq>
+</PIS>
+<COFINS>
+<COFINSAliq>
+<CST>02</CST>
+<vBC>24.14</vBC>
+<pCOFINS>8.54</pCOFINS>
+<vCOFINS>2.06</vCOFINS>
+</COFINSAliq>
+</COFINS>
+</imposto>
+<infAdProd>(FCPST): Base  R$ 28.86 Perc.2% Vlr. R$0.58</infAdProd>
+</det>
+<total>
+<ICMSTot>
+<vBC>52.90</vBC>
+<vICMS>6.35</vICMS>
+<vICMSDeson>0.00</vICMSDeson>
+<vFCPUFDest>0.00</vFCPUFDest>
+<vICMSUFDest>0.00</vICMSUFDest>
+<vICMSUFRemet>0.00</vICMSUFRemet>
+<vFCP>0.00</vFCP>
+<vBCST>55.98</vBCST>
+<vST>4.13</vST>
+<vFCPST>0.58</vFCPST>
+<vFCPSTRet>0.00</vFCPSTRet>
+<vProd>52.90</vProd>
+<vFrete>0.00</vFrete>
+<vSeg>0.00</vSeg>
+<vDesc>0.00</vDesc>
+<vII>0.00</vII>
+<vIPI>0.77</vIPI>
+<vIPIDevol>0.00</vIPIDevol>
+<vPIS>0.87</vPIS>
+<vCOFINS>3.97</vCOFINS>
+<vOutro>0.00</vOutro>
+<vNF>58.38</vNF>
+<vTotTrib>12.05</vTotTrib>
+</ICMSTot>
+</total>
+<transp>
+<modFrete>0</modFrete>
+<transporta>
+<CNPJ>10864824000163</CNPJ>
+<xNome>AAA0005</xNome>
+<xEnder>ADELINO</xEnder>
+<xMun>SAO JOSE DOS PINHAIS</xMun>
+<UF>PR</UF>
+</transporta>
+<vol>
+<qVol>2</qVol>
+<esp>DIVERSAS</esp>
+<marca>DIVERSAS</marca>
+<pesoL>15.730</pesoL>
+<pesoB>16.213</pesoB>
+</vol>
+</transp>
+<cobr>
+<fat>
+<nFat>147773</nFat>
+<vOrig>58.38</vOrig>
+<vLiq>58.38</vLiq>
+</fat>
+<dup>
+<nDup>001</nDup>
+<dVenc>2025-03-27</dVenc>
+<vDup>58.38</vDup>
+</dup>
+</cobr>
+<pag>
+<detPag>
+<indPag>1</indPag>
+<tPag>15</tPag>
+<vPag>58.38</vPag>
+</detPag>
+</pag>
+<infAdic>
+<infAdFisco>TOTAL FCP: 5.76 TOTAL FCP: 6.96 TOTAL FCP: 0.38 TOTAL FCP: 2.30 TOTAL FCP: 5.77 TOTAL FCP: 0.58 TOTAL FCP: 5.49 TOTAL FCP: 5.77 TOTAL FCP: 6.35 TOTAL FCP: 1.16 TOTAL FCP: 0.72 TOTAL FCP: 0.58 TOTAL FCP: 0.10 TOTAL FCP: 2.38 TOTAL FCP: 0.58 TOTAL FCP: 1.66 TOTAL FCP: 0.58</infAdFisco>
+<infCpl>Nome Fantasia: 6140  -  CASA DE CARNES FRIGO ::  Liquidacao: 26190 Pedido: 166149  Motorista: MOTORISTA PADRAO  Cod. Veic.: 121 Rota: 206 - LUCAS AMARO            F. Pgto: FATURA     Cond. Vcto: 28 DIAS::  PRIORIDADE: NORMAL   PIS COFINS CALCULADOS CFE LEGISLACAO EM VIGORVALOR PIS: 0.87VALOR COFINS: 3.97     :: Valor Aproximado dos Tributos: R$12,05 (22,7788279773157%) FONTE: IBPT :: ALIQ. DO IPI CONFORME PARAGRAFO I , ART. 15 - LEI NO 13.097/15            ADICIONAL DE ALIQUOTA 2% SOBRE A ST, RELATIVO AO FECOP CRIADO PELA LEI NR 18.573/2015 =R$: 0.58</infCpl>
+</infAdic>
+<infRespTec>
+<CNPJ>10411578000194</CNPJ>
+<xContato>NEUSA PREVIATTI</xContato>
+<email>neusa@saib.com.br</email>
+<fone>6234529500</fone>
+</infRespTec>
+</infNFe>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#NFe41250210656672000103550010001477731000061402">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>4NMwp7dHvVW3mSHVrzRpzZI/9vM=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>ALgj0ykdxgFtakj+8pZfAlWr72iZO0CmZMawIRTZuTPdKROHdEcdPS4W6MmskKWrJSFVz7sEGoTtWdKgkz/9CcjgBQXzEpFa0Xc1A7uG7F6K0LMSW8Npqx1KnoPxfxMKksIoezFo3qE3TyfpjfFM/WN7Tv0CnqJhI490dRh9t1DgaUfCYIOEmJ5YMdQaVTFP+SHxF4RFR3BqEonYf0F0B8cH3QAkxSlY7YbmXI6jvfrRW2A4xETgatvLPZvZss3FiFSBMGQdUAjpQKNCsbc7RY5LKLW1W14IfQ2BpsE2NKdZQ01QDcbbY5VjGlhD1bs8RC7dvPKdmvHcdcZuau/7vQ==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</NFe>
+<protNFe versao="4.00">
+<infProt Id="ID141250065220082">
+<tpAmb>1</tpAmb>
+<verAplic>PR-v4_8_84</verAplic>
+<chNFe>41250210656672000103550010001477731000061402</chNFe>
+<dhRecbto>2025-02-26T21:11:58-03:00</dhRecbto>
+<nProt>141250065220082</nProt>
+<digVal>4NMwp7dHvVW3mSHVrzRpzZI/9vM=</digVal>
+<cStat>100</cStat>
+<xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt>
+</protNFe>
+</procNFe>
+</NFeLog>

@@ -17,7 +17,6 @@ sheet_nfe = wb_nfe['Sheet1']
 #da enter
 
 
-
 def limpa_campo():
     for _ in range(10):
             pyautogui.press('right')

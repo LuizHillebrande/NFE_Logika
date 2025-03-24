@@ -1,0 +1,284 @@
+<NFeLog versao="1.00">
+<procNFe>
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+<infNFe Id="NFe41250285090033001951550010000661341520214029" versao="4.00">
+<ide>
+<cUF>41</cUF>
+<cNF>52021402</cNF>
+<natOp>VENDA PROD/COM.ESTABELECIMENTO</natOp>
+<mod>55</mod>
+<serie>1</serie>
+<nNF>66134</nNF>
+<dhEmi>2025-02-21T09:13:17-03:00</dhEmi>
+<dhSaiEnt>2025-02-21T09:13:17-03:00</dhSaiEnt>
+<tpNF>1</tpNF>
+<idDest>1</idDest>
+<cMunFG>4122404</cMunFG>
+<tpImp>1</tpImp>
+<tpEmis>1</tpEmis>
+<cDV>9</cDV>
+<tpAmb>1</tpAmb>
+<finNFe>1</finNFe>
+<indFinal>0</indFinal>
+<indPres>1</indPres>
+<procEmi>0</procEmi>
+<verProc>12.1.2407|12.1.2310</verProc>
+</ide>
+<emit>
+<CNPJ>85090033001951</CNPJ>
+<xNome>JAGUAFRANGOS INDUSTRIA E COMERCIO DE ALIMENTOS LTDA</xNome>
+<xFant>JAGUA-CDRO</xFant>
+<enderEmit>
+<xLgr>RODOVIA: ROD RODOVIA MARGINAL BR -369 LT - 31</xLgr>
+<nro>S N</nro>
+<xCpl>KM 168 LOTE 315/A1/A</xCpl>
+<xBairro>GLEBA RIBEIRAO CAFEZAL</xBairro>
+<cMun>4122404</cMun>
+<xMun>ROLANDIA</xMun>
+<UF>PR</UF>
+<CEP>86600970</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4332768120</fone>
+</enderEmit>
+<IE>9091067703</IE>
+<CRT>3</CRT>
+</emit>
+<dest>
+<CNPJ>11542119000102</CNPJ>
+<xNome>S.S.R. CAUS ACOUGUE</xNome>
+<enderDest>
+<xLgr>R: RIO IGUACU</xLgr>
+<nro>334</nro>
+<xBairro>JARDIM SANTO AMARO</xBairro>
+<cMun>4103701</cMun>
+<xMun>CAMBE</xMun>
+<UF>PR</UF>
+<CEP>86185090</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4330354343</fone>
+</enderDest>
+<indIEDest>1</indIEDest>
+<IE>9051164870</IE>
+</dest>
+<det nItem="1">
+<prod>
+<cProd>300.R360</cProd>
+<cEAN>7898700563405</cEAN>
+<xProd>CARNE CONGELADA DE FRANGO COM OSSO - PE</xProd>
+<NCM>02071434</NCM>
+<CEST>1708700</CEST>
+<indEscala>S</indEscala>
+<cBenef>PR820007</cBenef>
+<CFOP>5102</CFOP>
+<uCom>KG</uCom>
+<qCom>16.0000</qCom>
+<vUnCom>4.7000000000</vUnCom>
+<vProd>75.20</vProd>
+<cEANTrib>7898700563399</cEANTrib>
+<uTrib>KG</uTrib>
+<qTrib>16.0000</qTrib>
+<vUnTrib>4.7000000000</vUnTrib>
+<indTot>1</indTot>
+</prod>
+<imposto>
+<vTotTrib>5.26</vTotTrib>
+<ICMS>
+<ICMS20>
+<orig>0</orig>
+<CST>20</CST>
+<modBC>3</modBC>
+<pRedBC>41.6667</pRedBC>
+<vBC>43.87</vBC>
+<pICMS>12.0000</pICMS>
+<vICMS>5.26</vICMS>
+</ICMS20>
+</ICMS>
+<PIS>
+<PISNT>
+<CST>06</CST>
+</PISNT>
+</PIS>
+<COFINS>
+<COFINSNT>
+<CST>06</CST>
+</COFINSNT>
+</COFINS>
+</imposto>
+<infAdProd>Valor aprox. dos tributos:  R$ 5,26</infAdProd>
+</det>
+<total>
+<ICMSTot>
+<vBC>43.87</vBC>
+<vICMS>5.26</vICMS>
+<vICMSDeson>0.00</vICMSDeson>
+<vFCP>0.00</vFCP>
+<vBCST>0.00</vBCST>
+<vST>0.00</vST>
+<vFCPST>0.00</vFCPST>
+<vFCPSTRet>0.00</vFCPSTRet>
+<vProd>75.20</vProd>
+<vFrete>0.00</vFrete>
+<vSeg>0.00</vSeg>
+<vDesc>0.00</vDesc>
+<vII>0.00</vII>
+<vIPI>0.00</vIPI>
+<vIPIDevol>0.00</vIPIDevol>
+<vPIS>0.00</vPIS>
+<vCOFINS>0.00</vCOFINS>
+<vOutro>0.00</vOutro>
+<vNF>75.20</vNF>
+<vTotTrib>5.26</vTotTrib>
+</ICMSTot>
+</total>
+<transp>
+<modFrete>0</modFrete>
+<transporta>
+<CNPJ>24333316000163</CNPJ>
+<xNome>GIRONN TRANSPORTE LTDA</xNome>
+<IE>9075686797</IE>
+<xEnder>R ARCO-IRIS,32</xEnder>
+<xMun>CAMBE</xMun>
+<UF>PR</UF>
+</transporta>
+<vol>
+<qVol>1</qVol>
+<esp>CX.PAPELAO MI 16KG</esp>
+<nVol>1/1</nVol>
+<pesoL>16.000</pesoL>
+<pesoB>16.310</pesoB>
+</vol>
+</transp>
+<cobr>
+<fat>
+<nFat>23066134011</nFat>
+<vOrig>75.20</vOrig>
+<vDesc>0.00</vDesc>
+<vLiq>75.20</vLiq>
+</fat>
+<dup>
+<nDup>001</nDup>
+<dVenc>2025-03-07</dVenc>
+<vDup>75.20</vDup>
+</dup>
+</cobr>
+<pag>
+<detPag>
+<indPag>1</indPag>
+<tPag>15</tPag>
+<vPag>75.20</vPag>
+</detPag>
+</pag>
+<infAdic>
+<infCpl>DIVERGENCIAS/DEVOLUCOES DEVERAO OCORRER NO PERIODO DE 7 DIAS PARA PRODUTOS  RESFRIADOS E 15 DIAS PARA PRODUTOS CONGELADOS E AMBIENTE, CONTADOS A PARTI R DA DATA DE ENTREGA DO PRODUTO. NR. ORDEM DE MONTAGEM: 60685 DETALHES CALCULO ICMS: PCT ICMS 12,00% PCT RED BASE ICMS 41,67% VALOR BASE ICMS 43,87 VALOR ICMS  5,26 Cliente: 103920 - FRIGOCAUS Condicao de Pagto: 14 DIAS Representante: 1608 - FABIO SEREIA  . PLACA:AXL4448 UF:PR REDUCAO BC ICMS DE 41,67%, CONF. ITEM 7 DO ANEXO VI DO RICMS-PR - PRACA DE PAGAMENTO DA FATURA: JAGUAPITA-PR VENDA EFETUADA COM SUSPENSAO DA CONTRIB.PIS E COFINS CONF.LEI RFB 12350/10. VALOR APROXIMADO DOS TRIBUTOS: R$ 0,00 CONFORME  LEI 12.741 DE 2013. PEDIDO: 167263</infCpl>
+</infAdic>
+<compra>
+<xCont>0</xCont>
+</compra>
+<infRespTec>
+<CNPJ>27231185000100</CNPJ>
+<xContato>Angela Maria Gheller Telles</xContato>
+<email>resp_tecnico_dfe_supplychain@totvs.com.br</email>
+<fone>1128593906</fone>
+</infRespTec>
+</infNFe>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#NFe41250285090033001951550010000661341520214029">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>sbj/+G7dtL57EKc4+gqhp41a2UY=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>a6gf8/YUhBdcA/qIuvz9uXxqm1gM0Wcb10d5HgSp8VcidI4kbpw/RYR1uciJ6qZ8M1IRhJHp+9p1A/dSxr0bapk3gEVGZga6WqySMEdw6odZzQ98QeiLd/RbTE716wFusOf0Kpm4+4t6uO5F8QcoTTD/Qj54n/yAMlIAntiVADMAP92E18ApGe2lkltPWeLNuRIDunQM7qrcfhDL4QFoKB22oXOlM8VJjOZsgLcoaG78QdxvrxFcVJ2WfTYHrXHaHF1cEa9efHHRvvWie+qaX4Z3kAq+J2qH71ppvG0+hfVf/lCLbOBhocAbs/Tf6mzrN0RvZ0+SnWWyolUkAh0RHA==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</NFe>
+<protNFe versao="4.00">
+<infProt Id="ID141250058707147">
+<tpAmb>1</tpAmb>
+<verAplic>PR-v4_8_84</verAplic>
+<chNFe>41250285090033001951550010000661341520214029</chNFe>
+<dhRecbto>2025-02-21T09:15:02-03:00</dhRecbto>
+<nProt>141250058707147</nProt>
+<digVal>sbj/+G7dtL57EKc4+gqhp41a2UY=</digVal>
+<cStat>100</cStat>
+<xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt>
+</protNFe>
+</procNFe>
+<eveNFe>
+<evento versao="1.00">
+<infEvento Id="ID6106004125028509003300195155001000066134152021402901">
+<cOrgao>91</cOrgao>
+<tpAmb>1</tpAmb>
+<CNPJ>33683111000107</CNPJ>
+<chNFe>41250285090033001951550010000661341520214029</chNFe>
+<dhEvento>2025-02-24T08:55:39-03:00</dhEvento>
+<tpEvento>610600</tpEvento>
+<nSeqEvento>1</nSeqEvento>
+<verEvento>1.00</verEvento>
+<detEvento versao="1.00">
+<descEvento>CT-e Autorizado</descEvento>
+<CTe>
+<chCTe>41250224333316000163570010000069721329915030</chCTe>
+<modal>01</modal>
+<dhEmi>2025-02-24T08:14:42-03:00</dhEmi>
+<nProt>141250025587041</nProt>
+<dhRecbto>2025-02-24T08:20:01</dhRecbto>
+</CTe>
+<emit>
+<CNPJ>24333316000163</CNPJ>
+<IE>9075686797</IE>
+<xNome>GIRONN TRANSPORTES EIRELI ME</xNome>
+</emit>
+</detEvento>
+</infEvento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#ID6106004125028509003300195155001000066134152021402901">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>KLmlreA6c/eGO05ibOgIUF0WnSw=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>Vlk+tX7IC9qO89FyPbujfxzp3L9+QvXkX7mvigtkjYDv+OV4Ft7YhaiJaGrX9YhuSmXnpMQtn2D10ab2fQx6YUrpNnb5pt3c5G5oSXv1mcbjFBrFf5ILTl+Y60gOAul2Kd5rc3QynU0hiARMLpG6bqNtR+MfzmN8l9QVfQYXP0zxD+fS22QikHcyWj0nVLBLGUKepYOROn0UzKAowV8DOWspC/jGAbUThB04rRCMIdHn0SK4xFclSlCNGVugYEP7lfiluWqQbaAC6WlNRndECrHbkLp8SN27VmA0EZtcGGo7Suab05wUfQGu+kQ2DW/ltum1LzjmrgN1UQz53U6g9A==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</evento>
+<retEvento versao="1.00">
+<infEvento Id="ID891251801397244">
+<tpAmb>1</tpAmb>
+<verAplic>AN_1.6.4</verAplic>
+<cOrgao>91</cOrgao>
+<cStat>135</cStat>
+<xMotivo>Evento registrado e vinculado a NF-e</xMotivo>
+<chNFe>41250285090033001951550010000661341520214029</chNFe>
+<tpEvento>610600</tpEvento>
+<nSeqEvento>1</nSeqEvento>
+<CNPJDest>33683111000107</CNPJDest>
+<dhRegEvento>2025-02-24T08:55:39-03:00</dhRegEvento>
+<nProt>891251801397244</nProt>
+</infEvento>
+</retEvento>
+</eveNFe>
+</NFeLog>

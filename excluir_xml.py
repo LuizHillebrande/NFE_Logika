@@ -2,7 +2,7 @@ import os
 
 # Caminho da pasta onde estão os arquivos XML
 # Caminho da pasta onde estão os arquivos XML
-pasta_nfe = r'\\Hdlogika\k\Backup_19_08_2021\Unidade_D\K\LEATICIA\Luiz Fernando\NFE_Automation\NFE_Logika\NFE_Logika\nfe'
+pasta_nfe = r'\\Hdlogika\k\Backup_19_08_2021\Unidade_D\K\LEATICIA\Luiz Fernando\NFE_Automation\NFE_Logika\nfe'
 
 
 # Listar todos os arquivos na pasta

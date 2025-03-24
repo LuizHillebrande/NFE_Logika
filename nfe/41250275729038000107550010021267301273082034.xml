@@ -1,0 +1,358 @@
+<NFeLog versao="1.00">
+<procNFe>
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+<infNFe Id="NFe41250275729038000107550010021267301273082034" versao="4.00">
+<ide>
+<cUF>41</cUF>
+<cNF>27308203</cNF>
+<natOp>VENDAS - BC REDUZIDA</natOp>
+<mod>55</mod>
+<serie>1</serie>
+<nNF>2126730</nNF>
+<dhEmi>2025-02-27T05:23:12-03:00</dhEmi>
+<dhSaiEnt>2025-02-27T05:23:12-03:00</dhSaiEnt>
+<tpNF>1</tpNF>
+<idDest>1</idDest>
+<cMunFG>4115200</cMunFG>
+<tpImp>1</tpImp>
+<tpEmis>1</tpEmis>
+<cDV>4</cDV>
+<tpAmb>1</tpAmb>
+<finNFe>1</finNFe>
+<indFinal>0</indFinal>
+<indPres>0</indPres>
+<procEmi>0</procEmi>
+<verProc>12.1.2410.151</verProc>
+</ide>
+<emit>
+<CNPJ>75729038000107</CNPJ>
+<xNome>ABATEDOURO COROAVES LTDA</xNome>
+<xFant>Coroaves - Maringá</xFant>
+<enderEmit>
+<xLgr>ESTRADA - DA FRUTA</xLgr>
+<nro>831</nro>
+<xCpl>LOTE 145 CXPST 1204</xCpl>
+<xBairro>GLEBA - PATRIMONIO MARINGA</xBairro>
+<cMun>4115200</cMun>
+<xMun>Maringa</xMun>
+<UF>PR</UF>
+<CEP>87070002</CEP>
+<cPais>1058</cPais>
+<xPais>Brasil</xPais>
+<fone>4432189000</fone>
+</enderEmit>
+<IE>7011153091</IE>
+<CRT>3</CRT>
+</emit>
+<dest>
+<CNPJ>11542119000102</CNPJ>
+<xNome>S.S.R. CAUS AÇOUGUE - ME</xNome>
+<enderDest>
+<xLgr>RUA - RIO IGUACU</xLgr>
+<nro>334</nro>
+<xBairro>JARDIM - JARDIM SANTO AMARO</xBairro>
+<cMun>4103701</cMun>
+<xMun>Cambé</xMun>
+<UF>PR</UF>
+<CEP>86185090</CEP>
+<cPais>1058</cPais>
+<xPais>Brasil</xPais>
+<fone>4331541602</fone>
+</enderDest>
+<indIEDest>1</indIEDest>
+<IE>9051164870</IE>
+</dest>
+<autXML>
+<CNPJ>39811895000180</CNPJ>
+</autXML>
+<det nItem="1">
+<prod>
+<cProd>000300</cProd>
+<cEAN>7897176803008</cEAN>
+<xProd>COXA/SOBRECOXA RESF</xProd>
+<NCM>02071300</NCM>
+<CEST>1708700</CEST>
+<cBenef>PR820007</cBenef>
+<CFOP>5101</CFOP>
+<uCom>KG</uCom>
+<qCom>18.0000</qCom>
+<vUnCom>8.5000000000</vUnCom>
+<vProd>153.00</vProd>
+<cEANTrib>7897176803008</cEANTrib>
+<uTrib>KG</uTrib>
+<qTrib>18.0000</qTrib>
+<vUnTrib>8.5000000000</vUnTrib>
+<indTot>1</indTot>
+</prod>
+<imposto>
+<vTotTrib>31.29</vTotTrib>
+<ICMS>
+<ICMS20>
+<orig>0</orig>
+<CST>20</CST>
+<modBC>3</modBC>
+<pRedBC>41.67</pRedBC>
+<vBC>89.25</vBC>
+<pICMS>12.00</pICMS>
+<vICMS>10.71</vICMS>
+</ICMS20>
+</ICMS>
+<PIS>
+<PISNT>
+<CST>06</CST>
+</PISNT>
+</PIS>
+<COFINS>
+<COFINSNT>
+<CST>06</CST>
+</COFINSNT>
+</COFINS>
+</imposto>
+</det>
+<det nItem="2">
+<prod>
+<cProd>000500</cProd>
+<cEAN>7897176805002</cEAN>
+<xProd>ASA RESF</xProd>
+<NCM>02071300</NCM>
+<CEST>1708700</CEST>
+<cBenef>PR820007</cBenef>
+<CFOP>5101</CFOP>
+<uCom>KG</uCom>
+<qCom>18.0000</qCom>
+<vUnCom>12.3000000000</vUnCom>
+<vProd>221.40</vProd>
+<cEANTrib>7897176805002</cEANTrib>
+<uTrib>KG</uTrib>
+<qTrib>18.0000</qTrib>
+<vUnTrib>12.3000000000</vUnTrib>
+<indTot>1</indTot>
+</prod>
+<imposto>
+<vTotTrib>45.28</vTotTrib>
+<ICMS>
+<ICMS20>
+<orig>0</orig>
+<CST>20</CST>
+<modBC>3</modBC>
+<pRedBC>41.67</pRedBC>
+<vBC>129.15</vBC>
+<pICMS>12.00</pICMS>
+<vICMS>15.50</vICMS>
+</ICMS20>
+</ICMS>
+<PIS>
+<PISNT>
+<CST>06</CST>
+</PISNT>
+</PIS>
+<COFINS>
+<COFINSNT>
+<CST>06</CST>
+</COFINSNT>
+</COFINS>
+</imposto>
+</det>
+<det nItem="3">
+<prod>
+<cProd>000550</cProd>
+<cEAN>7897176805507</cEAN>
+<xProd>COXINHA DA ASA RESF</xProd>
+<NCM>02071300</NCM>
+<CEST>1708700</CEST>
+<cBenef>PR820007</cBenef>
+<CFOP>5101</CFOP>
+<uCom>KG</uCom>
+<qCom>18.0000</qCom>
+<vUnCom>11.9000000000</vUnCom>
+<vProd>214.20</vProd>
+<cEANTrib>7897176805507</cEANTrib>
+<uTrib>KG</uTrib>
+<qTrib>18.0000</qTrib>
+<vUnTrib>11.9000000000</vUnTrib>
+<indTot>1</indTot>
+</prod>
+<imposto>
+<vTotTrib>43.80</vTotTrib>
+<ICMS>
+<ICMS20>
+<orig>0</orig>
+<CST>20</CST>
+<modBC>3</modBC>
+<pRedBC>41.67</pRedBC>
+<vBC>124.95</vBC>
+<pICMS>12.00</pICMS>
+<vICMS>14.99</vICMS>
+</ICMS20>
+</ICMS>
+<PIS>
+<PISNT>
+<CST>06</CST>
+</PISNT>
+</PIS>
+<COFINS>
+<COFINSNT>
+<CST>06</CST>
+</COFINSNT>
+</COFINS>
+</imposto>
+</det>
+<det nItem="4">
+<prod>
+<cProd>000570</cProd>
+<cEAN>7897176805705</cEAN>
+<xProd>MEIO DA ASA RESF</xProd>
+<NCM>02071300</NCM>
+<CEST>1708700</CEST>
+<cBenef>PR820007</cBenef>
+<CFOP>5101</CFOP>
+<uCom>KG</uCom>
+<qCom>18.0000</qCom>
+<vUnCom>17.7000000000</vUnCom>
+<vProd>318.60</vProd>
+<cEANTrib>7897176805705</cEANTrib>
+<uTrib>KG</uTrib>
+<qTrib>18.0000</qTrib>
+<vUnTrib>17.7000000000</vUnTrib>
+<indTot>1</indTot>
+</prod>
+<imposto>
+<vTotTrib>65.15</vTotTrib>
+<ICMS>
+<ICMS20>
+<orig>0</orig>
+<CST>20</CST>
+<modBC>3</modBC>
+<pRedBC>41.67</pRedBC>
+<vBC>185.85</vBC>
+<pICMS>12.00</pICMS>
+<vICMS>22.30</vICMS>
+</ICMS20>
+</ICMS>
+<PIS>
+<PISNT>
+<CST>06</CST>
+</PISNT>
+</PIS>
+<COFINS>
+<COFINSNT>
+<CST>06</CST>
+</COFINSNT>
+</COFINS>
+</imposto>
+</det>
+<total>
+<ICMSTot>
+<vBC>529.20</vBC>
+<vICMS>63.50</vICMS>
+<vICMSDeson>0.00</vICMSDeson>
+<vFCP>0.00</vFCP>
+<vBCST>0.00</vBCST>
+<vST>0.00</vST>
+<vFCPST>0.00</vFCPST>
+<vFCPSTRet>0.00</vFCPSTRet>
+<qBCMono>0.00</qBCMono>
+<vICMSMono>0.00</vICMSMono>
+<qBCMonoRet>0.00</qBCMonoRet>
+<vICMSMonoRet>0.00</vICMSMonoRet>
+<vProd>907.20</vProd>
+<vFrete>0.00</vFrete>
+<vSeg>0.00</vSeg>
+<vDesc>0.00</vDesc>
+<vII>0.00</vII>
+<vIPI>0.00</vIPI>
+<vIPIDevol>0.00</vIPIDevol>
+<vPIS>0.00</vPIS>
+<vCOFINS>0.00</vCOFINS>
+<vOutro>0.00</vOutro>
+<vNF>907.20</vNF>
+<vTotTrib>185.52</vTotTrib>
+</ICMSTot>
+</total>
+<transp>
+<modFrete>0</modFrete>
+<transporta>
+<CNPJ>39811895000180</CNPJ>
+<xNome>VEGA TRANSPORTES</xNome>
+<IE>9086986067</IE>
+<xEnder>AV HARRY PROCHET 242 SLJ01 ZONA 06</xEnder>
+<xMun>Maringá</xMun>
+<UF>PR</UF>
+</transporta>
+<veicTransp>
+<placa>DFN2G86</placa>
+<UF>PR</UF>
+</veicTransp>
+<vol>
+<qVol>72</qVol>
+<esp>Quilos</esp>
+<pesoL>72.000</pesoL>
+<pesoB>73.584</pesoB>
+</vol>
+</transp>
+<cobr>
+<fat>
+<nFat>2126730</nFat>
+<vOrig>907.20</vOrig>
+<vDesc>0.00</vDesc>
+<vLiq>907.20</vLiq>
+</fat>
+<dup>
+<nDup>001</nDup>
+<dVenc>2025-03-13</dVenc>
+<vDup>907.20</vDup>
+</dup>
+</cobr>
+<pag>
+<detPag>
+<indPag>1</indPag>
+<tPag>99</tPag>
+<xPag>OUTROS</xPag>
+<vPag>907.20</vPag>
+</detPag>
+</pag>
+<infAdic>
+<infCpl>Trib aprox R$: Federal = 0, Estadual = 0, Municipal = 0.Fonte: IBPT 0. PLACA: DFN2G86 UF: PR | 505 - PIS/COFINS ALIQ REDUZIDA A ZERO CF.LEI 12839/2013 - 09/07/2013.</infCpl>
+</infAdic>
+<infRespTec>
+<CNPJ>07363764000190</CNPJ>
+<xContato>Eduardo Pires</xContato>
+<email>resp_tecnico_dfe_rm@totvs.com.br</email>
+<fone>1128593911</fone>
+</infRespTec>
+</infNFe>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#NFe41250275729038000107550010021267301273082034">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>Qf98vzslGNaSBbrkp8RnLOLylh8=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>VYXT8NnaVWnCFjNtexbuP9lThMGnhUuaUlQ6HCRd7CH11/l6kcm+fFYN3XCmi4C8qK62jUBSD1faLLyuuaNOyPRV7ld4VZazGsnRiMgTQJ/LC8CkGNkunbsp1CI0J+cCvB8xcCc2NbAAZ2Jvuc45IrkeLPpZV79Nh+SxITPD4cn1PHmWCyjHbEWgerXkIVnSLW7skDqePKeJUPch7wOBwyppFgGo1DRYHG055oN/MJ6eIjJZCAvoyHL9QaYHpwv8ocyL04UJabDTLxaxWUKZpFJlbja2bPqVLEiCSaGh3+eb/mA0/nmnO6w5LG4+K8w1RxxOgDdqXNJEZPFjXPTrOg==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</NFe>
+<protNFe versao="4.00">
+<infProt Id="ID141250065414410">
+<tpAmb>1</tpAmb>
+<verAplic>PR-v4_8_84</verAplic>
+<chNFe>41250275729038000107550010021267301273082034</chNFe>
+<dhRecbto>2025-02-27T05:26:40-03:00</dhRecbto>
+<nProt>141250065414410</nProt>
+<digVal>Qf98vzslGNaSBbrkp8RnLOLylh8=</digVal>
+<cStat>100</cStat>
+<xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt>
+</protNFe>
+</procNFe>
+</NFeLog>

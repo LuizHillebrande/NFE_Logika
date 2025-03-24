@@ -1,0 +1,220 @@
+<NFeLog versao="1.00">
+<procNFe>
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+<infNFe Id="NFe41250285090033001951550010000659441197009045" versao="4.00">
+<ide>
+<cUF>41</cUF>
+<cNF>19700904</cNF>
+<natOp>VENDA PROD/COM.ESTABELECIMENTO</natOp>
+<mod>55</mod>
+<serie>1</serie>
+<nNF>65944</nNF>
+<dhEmi>2025-02-20T06:36:34-03:00</dhEmi>
+<dhSaiEnt>2025-02-20T06:36:34-03:00</dhSaiEnt>
+<tpNF>1</tpNF>
+<idDest>1</idDest>
+<cMunFG>4122404</cMunFG>
+<tpImp>1</tpImp>
+<tpEmis>1</tpEmis>
+<cDV>5</cDV>
+<tpAmb>1</tpAmb>
+<finNFe>1</finNFe>
+<indFinal>0</indFinal>
+<indPres>1</indPres>
+<procEmi>0</procEmi>
+<verProc>12.1.2407|12.1.2310</verProc>
+</ide>
+<emit>
+<CNPJ>85090033001951</CNPJ>
+<xNome>JAGUAFRANGOS INDUSTRIA E COMERCIO DE ALIMENTOS LTDA</xNome>
+<xFant>JAGUA-CDRO</xFant>
+<enderEmit>
+<xLgr>RODOVIA: ROD RODOVIA MARGINAL BR -369 LT - 31</xLgr>
+<nro>S N</nro>
+<xCpl>KM 168 LOTE 315/A1/A</xCpl>
+<xBairro>GLEBA RIBEIRAO CAFEZAL</xBairro>
+<cMun>4122404</cMun>
+<xMun>ROLANDIA</xMun>
+<UF>PR</UF>
+<CEP>86600970</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4332768120</fone>
+</enderEmit>
+<IE>9091067703</IE>
+<CRT>3</CRT>
+</emit>
+<dest>
+<CNPJ>11542119000102</CNPJ>
+<xNome>S.S.R. CAUS ACOUGUE</xNome>
+<enderDest>
+<xLgr>R: RIO IGUACU</xLgr>
+<nro>334</nro>
+<xBairro>JARDIM SANTO AMARO</xBairro>
+<cMun>4103701</cMun>
+<xMun>CAMBE</xMun>
+<UF>PR</UF>
+<CEP>86185090</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4330354343</fone>
+</enderDest>
+<indIEDest>1</indIEDest>
+<IE>9051164870</IE>
+</dest>
+<det nItem="1">
+<prod>
+<cProd>700.A772</cProd>
+<cEAN>7908642804099</cEAN>
+<xProd>FRANGO RESFRIADO (COM 2 PES, 1 FIGADO, 1 MOELA, 1 PESCOCO E 1 CABECA) {JAGUA}</xProd>
+<NCM>02071300</NCM>
+<CEST>1708700</CEST>
+<indEscala>S</indEscala>
+<cBenef>PR820007</cBenef>
+<CFOP>5102</CFOP>
+<uCom>KG</uCom>
+<qCom>60.0000</qCom>
+<vUnCom>8.3000000000</vUnCom>
+<vProd>498.00</vProd>
+<cEANTrib>7908642804082</cEANTrib>
+<uTrib>KG</uTrib>
+<qTrib>60.0000</qTrib>
+<vUnTrib>8.3000000000</vUnTrib>
+<indTot>1</indTot>
+</prod>
+<imposto>
+<vTotTrib>34.86</vTotTrib>
+<ICMS>
+<ICMS20>
+<orig>0</orig>
+<CST>20</CST>
+<modBC>3</modBC>
+<pRedBC>41.6667</pRedBC>
+<vBC>290.50</vBC>
+<pICMS>12.0000</pICMS>
+<vICMS>34.86</vICMS>
+</ICMS20>
+</ICMS>
+<PIS>
+<PISNT>
+<CST>06</CST>
+</PISNT>
+</PIS>
+<COFINS>
+<COFINSNT>
+<CST>06</CST>
+</COFINSNT>
+</COFINS>
+</imposto>
+<infAdProd>Valor aprox. dos tributos:  R$ 34,86</infAdProd>
+</det>
+<total>
+<ICMSTot>
+<vBC>290.50</vBC>
+<vICMS>34.86</vICMS>
+<vICMSDeson>0.00</vICMSDeson>
+<vFCP>0.00</vFCP>
+<vBCST>0.00</vBCST>
+<vST>0.00</vST>
+<vFCPST>0.00</vFCPST>
+<vFCPSTRet>0.00</vFCPSTRet>
+<vProd>498.00</vProd>
+<vFrete>0.00</vFrete>
+<vSeg>0.00</vSeg>
+<vDesc>0.00</vDesc>
+<vII>0.00</vII>
+<vIPI>0.00</vIPI>
+<vIPIDevol>0.00</vIPIDevol>
+<vPIS>0.00</vPIS>
+<vCOFINS>0.00</vCOFINS>
+<vOutro>0.00</vOutro>
+<vNF>498.00</vNF>
+<vTotTrib>34.86</vTotTrib>
+</ICMSTot>
+</total>
+<transp>
+<modFrete>0</modFrete>
+<transporta>
+<CNPJ>41435792000104</CNPJ>
+<xNome>AVEROL TRANSPORTES LTDA</xNome>
+<IE>9088754600</IE>
+<xEnder>R JOSE GONCALVES RUIZ,38</xEnder>
+<xMun>ROLANDIA</xMun>
+<UF>PR</UF>
+</transporta>
+<vol>
+<qVol>3</qVol>
+<esp>CAIXA PAPELAO 20KG MI</esp>
+<nVol>1/3</nVol>
+<pesoL>60.000</pesoL>
+<pesoB>61.050</pesoB>
+</vol>
+</transp>
+<cobr>
+<fat>
+<nFat>23065944011</nFat>
+<vOrig>498.00</vOrig>
+<vDesc>0.00</vDesc>
+<vLiq>498.00</vLiq>
+</fat>
+<dup>
+<nDup>001</nDup>
+<dVenc>2025-03-06</dVenc>
+<vDup>498.00</vDup>
+</dup>
+</cobr>
+<pag>
+<detPag>
+<indPag>1</indPag>
+<tPag>15</tPag>
+<vPag>498.00</vPag>
+</detPag>
+</pag>
+<infAdic>
+<infCpl>DIVERGENCIAS/DEVOLUCOES DEVERAO OCORRER NO PERIODO DE 7 DIAS PARA PRODUTOS  RESFRIADOS E 15 DIAS PARA PRODUTOS CONGELADOS E AMBIENTE, CONTADOS A PARTI R DA DATA DE ENTREGA DO PRODUTO. NR. ORDEM DE MONTAGEM: 60497 DETALHES CALCULO ICMS: PCT ICMS 12,00% PCT RED BASE ICMS 41,67% VALOR BASE ICMS 290,50 VALOR ICMS 34,86 Cliente: 103920 - FRIGOCAUS Condicao de Pagto: 14 DIAS Representante: 1608 - FABIO SEREIA  . PLACA:FMG5D38 UF:PR REDUCAO BC ICMS DE 41,67%, CONF. ITEM 7 DO ANEXO VI DO RICMS-PR - PRACA DE PAGAMENTO DA FATURA: JAGUAPITA-PR VENDA EFETUADA COM SUSPENSAO DA CONTRIB.PIS E COFINS CONF.LEI RFB 12350/10. VALOR APROXIMADO DOS TRIBUTOS: R$ 0,00 CONFORME  LEI 12.741 DE 2013. PEDIDO: 167073</infCpl>
+</infAdic>
+<compra>
+<xCont>0</xCont>
+</compra>
+<infRespTec>
+<CNPJ>27231185000100</CNPJ>
+<xContato>Angela Maria Gheller Telles</xContato>
+<email>resp_tecnico_dfe_supplychain@totvs.com.br</email>
+<fone>1128593906</fone>
+</infRespTec>
+</infNFe>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#NFe41250285090033001951550010000659441197009045">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>cI25Hs7xE4comGCiTNODfjnKNEs=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>YSrAPr3nZ0aW8WONSMw/JFXKOubhR41KtB/bHdhZBmmfEChQGX92XwHrsa7yXjMhaZTGGqS+eJuDkX7sUln+dyoCsJck+4rBrBCjQCuuQAvaVPYorykYQNuWlRIPuzbKAcQj+uGcY37ghGU1/8AGYE8iKdJk7l6Jmpd5FfIaQm1bv1wBaD42wWDC5iTsnkmwSu4HLBfcr3QKzdUL1xg0tq73UcqQ0DCpebJNuZcNtQVKZIMd1Jw+pk+jA3r4h+lG80e1sXKjugj1rNaRTlykJZkcbLndmPTFSLLr+Cdi1dvrYkX/PbM5FtBXr5f8dEgdR9QWBys7kAdzDYtlJkbCUw==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</NFe>
+<protNFe versao="4.00">
+<infProt Id="ID141250057086574">
+<tpAmb>1</tpAmb>
+<verAplic>PR-v4_8_84</verAplic>
+<chNFe>41250285090033001951550010000659441197009045</chNFe>
+<dhRecbto>2025-02-20T06:39:55-03:00</dhRecbto>
+<nProt>141250057086574</nProt>
+<digVal>cI25Hs7xE4comGCiTNODfjnKNEs=</digVal>
+<cStat>100</cStat>
+<xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt>
+</protNFe>
+</procNFe>
+</NFeLog>

@@ -1,0 +1,310 @@
+<NFeLog versao="1.00">
+<procNFe>
+<NFe xmlns="http://www.portalfiscal.inf.br/nfe">
+<infNFe Id="NFe41250211284125000107550010002007661993324424" versao="4.00">
+<ide>
+<cUF>41</cUF>
+<cNF>99332442</cNF>
+<natOp>REMESSA BONIFICACAO</natOp>
+<mod>55</mod>
+<serie>1</serie>
+<nNF>200766</nNF>
+<dhEmi>2025-02-25T08:44:15-03:00</dhEmi>
+<dhSaiEnt>2025-02-25T08:44:15-03:00</dhSaiEnt>
+<tpNF>1</tpNF>
+<idDest>1</idDest>
+<cMunFG>4113700</cMunFG>
+<tpImp>1</tpImp>
+<tpEmis>1</tpEmis>
+<cDV>4</cDV>
+<tpAmb>1</tpAmb>
+<finNFe>1</finNFe>
+<indFinal>0</indFinal>
+<indPres>9</indPres>
+<indIntermed>0</indIntermed>
+<procEmi>0</procEmi>
+<verProc>TopERP 3.1.0.5</verProc>
+</ide>
+<emit>
+<CNPJ>11284125000107</CNPJ>
+<xNome>DISTRIBUIDORA BOM APETITE LTDA</xNome>
+<xFant>DISTRIBUIDORA BOM APETITE</xFant>
+<enderEmit>
+<xLgr>RUA PRATA</xLgr>
+<nro>273</nro>
+<xBairro>JD SAO FRANCISCO</xBairro>
+<cMun>4113700</cMun>
+<xMun>LONDRINA</xMun>
+<UF>PR</UF>
+<CEP>86067220</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4333479429</fone>
+</enderEmit>
+<IE>9050606004</IE>
+<IM>175.568-4</IM>
+<CNAE>4637199</CNAE>
+<CRT>3</CRT>
+</emit>
+<dest>
+<CNPJ>11542119000102</CNPJ>
+<xNome>S S R CAUS ACOUGUE - ME</xNome>
+<enderDest>
+<xLgr>RUA RIO IGUACU</xLgr>
+<nro>334</nro>
+<xBairro>JARDIM SANTO AMARO</xBairro>
+<cMun>4103701</cMun>
+<xMun>CAMBE</xMun>
+<UF>PR</UF>
+<CEP>86185090</CEP>
+<cPais>1058</cPais>
+<xPais>BRASIL</xPais>
+<fone>4331541602</fone>
+</enderDest>
+<indIEDest>1</indIEDest>
+<IE>9051164870</IE>
+</dest>
+<det nItem="1">
+<prod>
+<cProd>1</cProd>
+<cEAN>7897645600015</cEAN>
+<xProd>BATATA PALHA 120G - BOM APETITE</xProd>
+<NCM>20052000</NCM>
+<CFOP>5910</CFOP>
+<uCom>UN</uCom>
+<qCom>2.0000</qCom>
+<vUnCom>4.9800000000</vUnCom>
+<vProd>9.96</vProd>
+<cEANTrib>7897645600015</cEANTrib>
+<uTrib>UN</uTrib>
+<qTrib>2.0000</qTrib>
+<vUnTrib>4.9800000000</vUnTrib>
+<indTot>1</indTot>
+</prod>
+<imposto>
+<ICMS>
+<ICMS60>
+<orig>0</orig>
+<CST>60</CST>
+<vBCSTRet>8.45</vBCSTRet>
+<pST>18.0000</pST>
+<vICMSSubstituto>0.67</vICMSSubstituto>
+<vICMSSTRet>0.85</vICMSSTRet>
+</ICMS60>
+</ICMS>
+<PIS>
+<PISAliq>
+<CST>01</CST>
+<vBC>9.96</vBC>
+<pPIS>1.6500</pPIS>
+<vPIS>0.16</vPIS>
+</PISAliq>
+</PIS>
+<COFINS>
+<COFINSAliq>
+<CST>01</CST>
+<vBC>9.96</vBC>
+<pCOFINS>7.6000</pCOFINS>
+<vCOFINS>0.76</vCOFINS>
+</COFINSAliq>
+</COFINS>
+</imposto>
+</det>
+<total>
+<ICMSTot>
+<vBC>0.00</vBC>
+<vICMS>0.00</vICMS>
+<vICMSDeson>0.00</vICMSDeson>
+<vFCP>0.00</vFCP>
+<vBCST>0.00</vBCST>
+<vST>0.00</vST>
+<vFCPST>0.00</vFCPST>
+<vFCPSTRet>0.00</vFCPSTRet>
+<vProd>9.96</vProd>
+<vFrete>0.00</vFrete>
+<vSeg>0.00</vSeg>
+<vDesc>0.00</vDesc>
+<vII>0.00</vII>
+<vIPI>0.00</vIPI>
+<vIPIDevol>0.00</vIPIDevol>
+<vPIS>0.16</vPIS>
+<vCOFINS>0.76</vCOFINS>
+<vOutro>0.00</vOutro>
+<vNF>9.96</vNF>
+</ICMSTot>
+</total>
+<transp>
+<modFrete>0</modFrete>
+<transporta>
+<CNPJ>11284125000107</CNPJ>
+<xNome>O MESMO</xNome>
+<IE>9050606004</IE>
+<xEnder>RUA PRATA 273</xEnder>
+<xMun>LONDRINA</xMun>
+<UF>PR</UF>
+</transporta>
+<veicTransp>
+<placa>APW9419</placa>
+<UF>PR</UF>
+<RNTC>F-350</RNTC>
+</veicTransp>
+<vol>
+<qVol>0</qVol>
+<esp>VOLUMES</esp>
+<pesoL>0.240</pesoL>
+<pesoB>0.270</pesoB>
+</vol>
+</transp>
+<cobr>
+<fat>
+<nFat>200766</nFat>
+<vOrig>0.00</vOrig>
+<vDesc>0.00</vDesc>
+<vLiq>0.00</vLiq>
+</fat>
+</cobr>
+<pag>
+<detPag>
+<tPag>90</tPag>
+<vPag>0.00</vPag>
+</detPag>
+</pag>
+<infAdic>
+<infCpl>REF TROCA MESMO PRODUTO VENCIDOS - TROCA JA DESCARTADA|| SUBSTITUICAO TRIBUITARIA ST. CONF. Art. 118 A 122 DO ANEXO IX SECAO XXII|SUBSTITUICAO TRIBUITARIA ST. CONF. ART. 24 A 25 DO ANEXO IX SECAO III</infCpl>
+<obsCont xCampo="xEmailEmitente">
+<xTexto>comercial@distribuidorabomapetite.com.br</xTexto>
+</obsCont>
+<obsCont xCampo="xFantDest">
+<xTexto>FANTASIA:CASA DE CARNES FRIGOCAUS</xTexto>
+</obsCont>
+<obsCont xCampo="xCodDest">
+<xTexto>428</xTexto>
+</obsCont>
+<obsCont xCampo="xCodVen">
+<xTexto>96</xTexto>
+</obsCont>
+<obsCont xCampo="xformaPag">
+<xTexto>SEM FATURA</xTexto>
+</obsCont>
+<obsCont xCampo="xcondPag">
+<xTexto>SEM FATURA</xTexto>
+</obsCont>
+<obsCont xCampo="obs1">
+<xTexto>BASE DE CALCULO S.T.: 8,45</xTexto>
+</obsCont>
+<obsCont xCampo="obs2">
+<xTexto>VALOR S.T. : 0,85</xTexto>
+</obsCont>
+</infAdic>
+<compra>
+<xPed>200916</xPed>
+</compra>
+<infRespTec>
+<CNPJ>06369202000191</CNPJ>
+<xContato>Edison Kemerich de Brito</xContato>
+<email>edison.brito@topsystem.com.br</email>
+<fone>4931993388</fone>
+</infRespTec>
+</infNFe>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#NFe41250211284125000107550010002007661993324424">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>EImvjHc7/7K34Bjf3wJqwhK+LrU=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>Om5BlBvIz0D237wtcm1eRYWS5awayxFxEBE3X4nlyRAuoarRGI75MoLXqMt0WcUTqLzQeus//h5z9dr67xNrki4MfHooxMFyL+19w5m2iEOeCrfL/3OByy+q7CB7YSgi4cyrjsaykp5BLQNMIyH9sOio3xVahX2gHMRUQOJSn/WRm/CKg8ISH+guw8eVDVvlvDxJZC4VHhV8m0/ZOzPR2vOZ4JI/zGF7s5TzBqO9R41lwljF431upxZQp+/2YcC3OGngsvjR79zH6XG47YSTGOnDEnlCe9/BQ6PyO4PBKGau8HUT+j/luavQFZPa+Tq7TN7fdtJj/PECVUj5r/Yk9A==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</NFe>
+<protNFe versao="4.00">
+<infProt Id="ID141250062547093">
+<tpAmb>1</tpAmb>
+<verAplic>PR-v4_8_84</verAplic>
+<chNFe>41250211284125000107550010002007661993324424</chNFe>
+<dhRecbto>2025-02-25T09:17:14-03:00</dhRecbto>
+<nProt>141250062547093</nProt>
+<digVal>EImvjHc7/7K34Bjf3wJqwhK+LrU=</digVal>
+<cStat>100</cStat>
+<xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt>
+</protNFe>
+</procNFe>
+<eveNFe>
+<evento versao="1.00">
+<infEvento Id="ID6106104125021128412500010755001000200766199332442401">
+<cOrgao>91</cOrgao>
+<tpAmb>1</tpAmb>
+<CNPJ>87124582000104</CNPJ>
+<chNFe>41250211284125000107550010002007661993324424</chNFe>
+<dhEvento>2025-02-26T08:36:03-03:00</dhEvento>
+<tpEvento>610610</tpEvento>
+<nSeqEvento>1</nSeqEvento>
+<verEvento>1.00</verEvento>
+<detEvento versao="1.00">
+<descEvento>MDF-e Autorizado</descEvento>
+<cOrgaoAutor>41</cOrgaoAutor>
+<tpAutor>5</tpAutor>
+<verAplic>RS20241221091830</verAplic>
+<MDFe>
+<chMDFe>41250211284125000107580010000056081000018614</chMDFe>
+<modal>01</modal>
+<dhEmi>2025-02-26T08:35:00</dhEmi>
+<nProt>941250007841727</nProt>
+<dhRecbto>2025-02-26T08:36:03</dhRecbto>
+</MDFe>
+<emit>
+<CNPJ>11284125000107</CNPJ>
+<IE>9050606004</IE>
+<xNome>DISTRIBUIDORA BOM APETITE LTDA</xNome>
+</emit>
+</detEvento>
+</infEvento>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<Reference URI="#ID6106104125021128412500010755001000200766199332442401">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<DigestValue>UQqpHt9/hMUFsKMRzsT2j2QKjXE=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>BWN+5wSA0Zf7GiD0hOWmyVxQkuyAX50kJWznHHmQm+Y+d9CJQo8goqJZOAyGbZ+F8pdWblh8uZgG26U3hM43hyMzypXDZ9NznJMxncJKbslkyMZLeb8oSI6jwYoNpLN8QrEOY+9RcHn4w1Rvsnd/YNN8MTd4uHgpifIJm+YRqIipZEAywVUlJ7SAKp5AA+oeFdN7n2EGA/wWKAz+fae1ADfW/OccqPhvFMth8/FUzX6+CRkWrIKrbX0cQcqcDxKRiJGy41BegxKK4YK2Tvd6etsxWETFFLVCSg/9HUspKg85NlFDh74PHmHWdvu9hgr/xMLi4Cts8hJHLTkcipIDew==</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>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</X509Certificate>
+</X509Data>
+</KeyInfo>
+</Signature>
+</evento>
+<retEvento versao="1.00">
+<infEvento Id="ID891251885449664">
+<tpAmb>1</tpAmb>
+<verAplic>AN_1.8.4</verAplic>
+<cOrgao>91</cOrgao>
+<cStat>135</cStat>
+<xMotivo>Evento registrado e vinculado a NF-e</xMotivo>
+<chNFe>41250211284125000107550010002007661993324424</chNFe>
+<tpEvento>610610</tpEvento>
+<nSeqEvento>1</nSeqEvento>
+<chMDFe>41250211284125000107580010000056081000018614</chMDFe>
+<dhRegEvento>2025-02-26T08:36:03-03:00</dhRegEvento>
+<nProt>891251885449664</nProt>
+</infEvento>
+</retEvento>
+</eveNFe>
+</NFeLog>
